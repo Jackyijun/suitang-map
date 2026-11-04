@@ -1,0 +1,1401 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>隋及唐初形势图</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+  /* 布局：顶栏 + 时间轴 + 地图/索引双栏；地图为主，索引与年表、对照表为辅 */
+  :root {
+    --ground:#E3E2D9; --ground-deep:#D6D5C9; --paper:#F2F1EA; --paper-2:#EAE9E0;
+    --ink:#1D1E23; --ink-2:#55575E; --ink-3:#83858C; --rule:#C7C5B8; --rule-soft:#D8D6CA;
+    --accent:#2B5F87;
+    --sea:#D5DCDB; --land:#ECEBE3; --coast:#A9AFAE; --border:#ADAA9A;
+    --water:#7F9FB2; --water-fill:#B4C8D2; --range:#9C8F78; --desert:#C9B98F;
+    --c-battle:#A3473A; --c-pass:#3B3B40; --c-city:#55575E; --c-culture:#2F7470; --c-capital:#1D1E23; --c-route:#4A4C86; --c-yanyun:#8E3324;
+    --s-op:.5; --s-op-hi:.66; --hatch:rgba(29,30,35,.32);
+    __UCSS_LIGHT__
+    --shadow: 0 1px 2px rgba(29,30,35,.07), 0 8px 24px -12px rgba(29,30,35,.22);
+    --f-display:"Songti SC","STSong","Source Han Serif SC","Noto Serif CJK SC","SimSun",serif;
+    --f-body:"PingFang SC","Hiragino Sans GB","Noto Sans CJK SC","Microsoft YaHei",-apple-system,system-ui,sans-serif;
+    --f-mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground:#15161A; --ground-deep:#101115; --paper:#1C1E23; --paper-2:#23252B;
+      --ink:#E7E5DC; --ink-2:#A6A79F; --ink-3:#75777D; --rule:#33363D; --rule-soft:#292C32;
+      --accent:#78ADD8;
+      --sea:#111417; --land:#1C1E22; --coast:#3A4046; --border:#454951;
+      --water:#4F7A93; --water-fill:#2A4352; --range:#6E6453; --desert:#5A5038;
+      --c-battle:#E07A68; --c-pass:#C9C7BF; --c-city:#A6A79F; --c-culture:#5CBAB3; --c-capital:#E7E5DC; --c-route:#AEB0EC; --c-yanyun:#F0957B;
+      --s-op:.34; --s-op-hi:.5; --hatch:rgba(231,229,220,.3);
+      __UCSS_DARK__
+      --shadow: 0 1px 2px rgba(0,0,0,.5), 0 10px 28px -14px rgba(0,0,0,.8);
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground:#15161A; --ground-deep:#101115; --paper:#1C1E23; --paper-2:#23252B;
+    --ink:#E7E5DC; --ink-2:#A6A79F; --ink-3:#75777D; --rule:#33363D; --rule-soft:#292C32;
+    --accent:#78ADD8;
+    --sea:#111417; --land:#1C1E22; --coast:#3A4046; --border:#454951;
+    --water:#4F7A93; --water-fill:#2A4352; --range:#6E6453; --desert:#5A5038;
+    --c-battle:#E07A68; --c-pass:#C9C7BF; --c-city:#A6A79F; --c-culture:#5CBAB3; --c-capital:#E7E5DC; --c-route:#AEB0EC; --c-yanyun:#F0957B;
+    --s-op:.34; --s-op-hi:.5; --hatch:rgba(231,229,220,.3);
+    __UCSS_DARK__
+    --shadow: 0 1px 2px rgba(0,0,0,.5), 0 10px 28px -14px rgba(0,0,0,.8);
+    color-scheme: dark;
+  }
+
+  * { box-sizing:border-box; }
+  html, body { height:100%; }
+  body { margin:0; background:var(--ground-deep); color:var(--ink); font-family:var(--f-body); font-size:14px; line-height:1.6; -webkit-font-smoothing:antialiased; }
+  button, input, select { font:inherit; color:inherit; }
+  :focus-visible { outline:2px solid var(--accent); outline-offset:2px; border-radius:2px; }
+
+  .app { height:100%; display:grid; grid-template-rows:auto auto minmax(0,1fr); }
+
+  /* 顶栏 */
+  .masthead { display:flex; align-items:baseline; gap:16px; flex-wrap:wrap; padding-block:11px 10px; padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); background:var(--paper); border-bottom:1px solid var(--rule); }
+  .brand { display:flex; align-items:baseline; gap:12px; }
+  .brand h1 { margin:0; font-family:var(--f-display); font-weight:600; font-size:20px; letter-spacing:.14em; text-wrap:balance; }
+  .brand .src { font-size:11px; letter-spacing:.18em; color:var(--ink-3); border-left:1px solid var(--rule); padding-left:12px; }
+  .masthead .count { font-family:var(--f-mono); font-size:11px; color:var(--ink-3); letter-spacing:.04em; }
+  .tools { margin-left:auto; display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+  .seg { display:flex; border:1px solid var(--rule); border-radius:3px; overflow:hidden; }
+  .seg button { background:transparent; border:0; padding:5px 10px; cursor:pointer; font-size:12px; letter-spacing:.06em; color:var(--ink-2); border-right:1px solid var(--rule-soft); white-space:nowrap; }
+  .seg button:last-child { border-right:0; }
+  .seg button:hover { background:var(--paper-2); color:var(--ink); }
+  .seg button[aria-pressed="true"] { background:var(--ink); color:var(--paper); }
+  .maponly[hidden] { display:none; }
+  .sel { position:relative; display:flex; align-items:center; }
+  .sel select { appearance:none; -webkit-appearance:none; border:1px solid var(--rule); border-radius:3px; background:var(--ground); padding:5px 24px 5px 9px; font-size:12px; letter-spacing:.06em; color:var(--ink); cursor:pointer; }
+  .sel::after { content:""; position:absolute; right:9px; top:50%; width:5px; height:5px; border-right:1.3px solid var(--ink-2); border-bottom:1.3px solid var(--ink-2); transform:translateY(-70%) rotate(45deg); pointer-events:none; }
+  .search { position:relative; }
+  .search input { width:170px; padding:5px 10px 5px 26px; border:1px solid var(--rule); border-radius:3px; background:var(--ground); font-size:12.5px; }
+  .search input::placeholder { color:var(--ink-3); }
+  .search svg { position:absolute; left:8px; top:50%; transform:translateY(-50%); opacity:.5; }
+
+  /* 时间轴 */
+  .timebar { display:grid; grid-template-columns:auto minmax(0,1fr); align-items:stretch; background:var(--paper); border-bottom:1px solid var(--rule); }
+  .timebar[hidden] { display:none; }
+  .play { width:44px; border:0; border-right:1px solid var(--rule-soft); background:none; cursor:pointer; color:var(--ink-2); display:grid; place-items:center; }
+  .play:hover { background:var(--paper-2); color:var(--ink); }
+  .tb-main { min-width:0; display:grid; grid-template-rows:auto auto; }
+  .ticks { display:flex; overflow-x:auto; scrollbar-width:thin; padding:6px 10px 0; position:relative; }
+  .ticks::before { content:""; position:absolute; left:10px; right:10px; top:26px; height:1px; background:var(--rule); }
+  .tick { flex:1 0 62px; background:none; border:0; cursor:pointer; padding:0 2px 5px; display:flex; flex-direction:column; align-items:center; gap:2px; position:relative; color:var(--ink-3); }
+  .tick .dot { width:9px; height:9px; border-radius:50%; background:var(--paper); border:1.5px solid var(--ink-3); z-index:1; }
+  .tick .yr { font-family:var(--f-mono); font-size:10.5px; line-height:14px; letter-spacing:.02em; }
+  .tick .tt { font-size:10.5px; white-space:nowrap; letter-spacing:.03em; }
+  .tick:hover { color:var(--ink); }
+  .tick[aria-pressed="true"] { color:var(--ink); }
+  .tick[aria-pressed="true"] .dot { background:var(--ink); border-color:var(--ink); transform:scale(1.25); }
+  .tick[aria-pressed="true"] .tt { font-weight:600; }
+  .tick.era5 .dot { border-style:dashed; }
+  .caption { padding:3px 16px 8px; font-size:12.5px; color:var(--ink-2); line-height:1.6; border-top:1px solid var(--rule-soft); max-height:7.6em; overflow-y:auto; }
+  .caption b { font-family:var(--f-display); font-size:14px; color:var(--ink); letter-spacing:.08em; margin-right:8px; }
+  .caption .pbs { display:flex; flex-wrap:wrap; align-items:center; gap:3px 6px; margin-top:3px; }
+  .caption .pl { font-size:11px; color:var(--ink-3); letter-spacing:.06em; margin-right:2px; }
+  .caption .pl .mono { margin:0; }
+  .caption .chip { border:1px solid color-mix(in srgb, var(--c-battle) 38%, transparent); background:color-mix(in srgb, var(--c-battle) 7%, transparent); color:var(--ink); font-family:var(--f-display); font-size:12px; line-height:1.55; padding:0 7px; border-radius:2px; cursor:pointer; white-space:nowrap; }
+  .caption .chip:hover, .caption .chip[aria-pressed="true"] { background:color-mix(in srgb, var(--c-battle) 18%, transparent); }
+  .caption .chip i { font-style:normal; font-family:var(--f-mono); font-size:10px; color:var(--ink-3); margin-left:4px; }
+  .caption .none { font-size:11.5px; color:var(--ink-3); }
+  .caption .pl.gap { margin-left:10px; }
+  .caption .y { font-family:var(--f-mono); font-size:11px; color:var(--ink-3); margin-right:8px; }
+
+  /* 主区 */
+  .stage { display:grid; grid-template-columns:minmax(0,1fr) 352px; min-height:0; }
+  .stage[data-view="table"], .stage[data-view="chron"] { grid-template-columns:minmax(0,1fr); }
+  .stage[data-view="table"] .mapwrap, .stage[data-view="table"] .index,
+  .stage[data-view="chron"] .mapwrap, .stage[data-view="chron"] .index { display:none; }
+  .stage:not([data-view="table"]) .tablewrap { display:none; }
+  .stage:not([data-view="chron"]) .chronwrap { display:none; }
+
+  .mapwrap { position:relative; min-width:0; background:var(--sea); overflow:hidden; }
+  #map { display:block; width:100%; height:100%; cursor:grab; touch-action:none; user-select:none; -webkit-user-select:none; }
+  #map.dragging { cursor:grabbing; }
+  .map-text { font-family:var(--f-body); user-select:none; pointer-events:none; }
+  .lbl-site { font-family:var(--f-display); font-weight:600; }
+  .lbl-state { font-family:var(--f-display); font-weight:700; }
+  .lbl-geo { letter-spacing:.2em; }
+  .lbl-riv { font-family:var(--f-display); letter-spacing:.12em; font-style:italic; }
+  .terr { cursor:pointer; }
+  .hit { cursor:pointer; }
+
+  .float { position:absolute; background:color-mix(in srgb, var(--paper) 93%, transparent); border:1px solid var(--rule); border-radius:3px; box-shadow:var(--shadow); backdrop-filter:blur(6px); -webkit-backdrop-filter:blur(6px); }
+  .legend { left:14px; bottom:14px; padding:10px 12px 11px; width:248px; max-height:calc(100% - 80px); overflow-y:auto; }
+  .legend h2 { margin:0 0 6px; font-size:10px; font-weight:500; letter-spacing:.2em; color:var(--ink-3); display:flex; align-items:center; }
+  .legend h2 button { margin-left:auto; background:none; border:0; cursor:pointer; color:var(--ink-3); font-size:11px; padding:0 2px; letter-spacing:.1em; }
+  .legend h2 button:hover { color:var(--ink); }
+  .legend .states { display:grid; grid-template-columns:1fr 1fr; gap:1px 6px; margin-bottom:9px; }
+  .legend .states button { display:flex; align-items:center; gap:5px; background:none; border:0; padding:1px 2px; cursor:pointer; font-size:12px; color:var(--ink); text-align:left; border-radius:2px; font-family:var(--f-display); min-width:0; }
+  .legend .states button span.t { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  .legend .states button:hover { background:var(--paper-2); }
+  .legend .sub { font-size:10px; letter-spacing:.16em; color:var(--ink-3); margin:2px 0 4px; }
+  .sq { width:11px; height:11px; border-radius:2px; flex:none; background:var(--k); opacity:.85; }
+  .sq.tribe { background:repeating-linear-gradient(135deg, var(--k) 0 2px, transparent 2px 4px); outline:1px solid var(--k); outline-offset:-1px; }
+  .legend ul { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:1fr 1fr; gap:0 4px; }
+  .legend li button { display:flex; align-items:center; gap:7px; width:100%; padding:2px 3px; background:none; border:0; cursor:pointer; text-align:left; border-radius:2px; font-size:12px; color:var(--ink); white-space:nowrap; }
+  .legend li button:hover { background:var(--paper-2); }
+  .legend li button[aria-pressed="false"] { color:var(--ink-3); }
+  .legend li button[aria-pressed="false"] svg { opacity:.3; }
+  .legend .foot { margin-top:8px; padding-top:7px; border-top:1px solid var(--rule-soft); font-size:10.5px; line-height:1.55; color:var(--ink-3); }
+  .legend .key { display:flex; gap:10px; flex-wrap:wrap; margin:0 0 8px; font-size:11px; color:var(--ink-2); }
+  .legend .key span { display:inline-flex; align-items:center; gap:5px; }
+
+  .zoomers { right:14px; top:14px; padding:4px; display:grid; gap:3px; }
+  .zoomers button { width:27px; height:27px; display:grid; place-items:center; cursor:pointer; background:none; border:0; border-radius:2px; color:var(--ink-2); font-size:15px; line-height:1; }
+  .zoomers button:hover { background:var(--paper-2); color:var(--ink); }
+  .zoomers button.reset { font-size:10px; letter-spacing:.04em; }
+  .inset { right:14px; bottom:14px; padding:6px 7px 4px; }
+  .inset svg { display:block; }
+  .inset .cap { font-size:9.5px; letter-spacing:.16em; color:var(--ink-3); text-align:center; margin-top:2px; }
+  .scalebar { left:14px; top:14px; padding:6px 10px 5px; }
+  .scalebar .bar { height:4px; border:1px solid var(--ink-2); border-top:0; }
+  .scalebar .txt { font-family:var(--f-mono); font-size:10.5px; color:var(--ink-2); text-align:center; letter-spacing:.04em; }
+
+  .tip { position:absolute; pointer-events:none; opacity:0; transition:opacity .12s; padding:9px 12px 10px; max-width:300px; z-index:5; }
+  .tip[data-on="1"] { opacity:1; }
+  .tip .old { font-family:var(--f-display); font-size:17px; font-weight:600; letter-spacing:.06em; }
+  .tip .arrow { color:var(--ink-3); margin:0 6px; }
+  .tip .new { font-size:13px; }
+  .tip .meta { margin-top:4px; font-size:11.5px; color:var(--ink-2); line-height:1.55; }
+  .tip .note { margin-top:6px; font-size:11.5px; line-height:1.6; color:var(--ink-2); border-top:1px solid var(--rule-soft); padding-top:6px; }
+  .mono { font-family:var(--f-mono); font-size:10.5px; color:var(--ink-3); margin-right:6px; }
+  .tag { display:inline-block; font-size:10.5px; padding:0 5px; border-radius:2px; background:var(--paper-2); color:var(--ink-2); margin-right:4px; letter-spacing:.04em; }
+  .tag.st { background:color-mix(in srgb, var(--k) 34%, transparent); color:var(--ink); }
+
+  /* 索引 */
+  .index { border-left:1px solid var(--rule); background:var(--paper); overflow-y:auto; overscroll-behavior:contain; min-height:0; }
+  .grp { border-bottom:1px solid var(--rule-soft); }
+  .grp > h2 { position:sticky; top:0; z-index:2; margin:0; display:flex; align-items:center; gap:8px; padding:7px 14px; background:var(--paper-2); border-bottom:1px solid var(--rule-soft); font-size:11px; font-weight:600; letter-spacing:.16em; color:var(--ink-2); cursor:pointer; user-select:none; }
+  .grp > h2 .bar { width:3px; height:12px; background:var(--k); border-radius:1px; }
+  .grp > h2 .sub { margin-left:auto; font-family:var(--f-mono); font-size:10px; letter-spacing:.04em; color:var(--ink-3); font-weight:400; }
+  .grp > h2 .chev { font-size:9px; color:var(--ink-3); transition:transform .15s; }
+  .grp[data-closed="1"] > h2 .chev { transform:rotate(-90deg); }
+  .grp[data-closed="1"] ol { display:none; }
+  .grp ol { list-style:none; margin:0; padding:3px 0 5px; }
+  .row { display:grid; grid-template-columns:auto 1fr; gap:1px 10px; align-items:baseline; width:100%; padding:5px 14px; background:none; border:0; cursor:pointer; text-align:left; border-left:2px solid transparent; }
+  .row:hover { background:var(--paper-2); }
+  .row[data-sel="1"] { background:var(--paper-2); border-left-color:var(--k); }
+  .row .o { font-family:var(--f-display); font-size:15.5px; font-weight:600; letter-spacing:.05em; white-space:nowrap; display:flex; align-items:center; gap:6px; }
+  .row .o .sq { width:10px; height:10px; }
+  .row .m { font-size:12px; color:var(--ink-2); min-width:0; }
+  .row .mt { grid-column:1 / -1; font-size:11px; color:var(--ink-2); line-height:1.55; }
+  .row .n { grid-column:1 / -1; font-size:11.5px; color:var(--ink-3); line-height:1.6; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; overflow:hidden; }
+  .row[data-sel="1"] .n { -webkit-line-clamp:unset; display:block; color:var(--ink-2); }
+  .row .chain { grid-column:1 / -1; display:none; font-size:11px; color:var(--ink-2); line-height:1.7; margin-top:2px; }
+  .row[data-sel="1"] .chain { display:block; }
+  .chain .c { white-space:nowrap; }
+  .chain .c i { font-style:normal; font-family:var(--f-mono); font-size:10px; color:var(--ink-3); margin-right:3px; }
+  .chain .c + .c::before { content:"→"; color:var(--ink-3); margin:0 4px; }
+  .row[data-future="1"] .o { color:var(--ink-3); }
+  .empty { padding:24px 16px; color:var(--ink-3); font-size:12.5px; }
+
+  /* 对照表与年表 */
+  .tablewrap, .chronwrap { overflow:auto; background:var(--paper); min-height:0; padding-bottom:40px; }
+  .intro { padding:18px 16px 14px; max-width:72ch; }
+  .intro p { margin:0 0 8px; font-size:13px; color:var(--ink-2); line-height:1.7; }
+  .tscroll { overflow-x:auto; }
+  table { border-collapse:collapse; width:100%; font-size:13px; }
+  thead th { position:sticky; top:0; background:var(--paper-2); text-align:left; padding:8px 14px; font-size:10.5px; font-weight:600; letter-spacing:.16em; color:var(--ink-2); border-bottom:1px solid var(--rule); white-space:nowrap; z-index:1; }
+  tbody td { padding:7px 14px; border-bottom:1px solid var(--rule-soft); vertical-align:top; }
+  tbody tr:hover { background:var(--paper-2); }
+  tbody tr.click { cursor:pointer; }
+  td.o { font-family:var(--f-display); font-size:15px; font-weight:600; letter-spacing:.05em; white-space:nowrap; }
+  td.cat { white-space:nowrap; font-size:11.5px; color:var(--ink-2); }
+  td.cat .dot { display:inline-block; width:7px; height:7px; border-radius:50%; background:var(--k); margin-right:6px; vertical-align:middle; }
+  td.num { font-family:var(--f-mono); font-variant-numeric:tabular-nums; font-size:11.5px; color:var(--ink-3); white-space:nowrap; }
+  td.note { font-size:12px; color:var(--ink-2); line-height:1.6; min-width:22ch; max-width:72ch; }
+  .chron { max-width:920px; padding:0 16px; }
+  .ev { display:grid; grid-template-columns:96px 16px minmax(0,1fr); gap:0 10px; cursor:pointer; }
+  .ev:hover .evb { background:var(--paper-2); }
+  .ev .yr { font-family:var(--f-mono); font-size:12px; color:var(--ink-2); text-align:right; padding-top:9px; line-height:1.35; }
+  .ev .ln { position:relative; }
+  .ev .ln::before { content:""; position:absolute; left:7px; top:0; bottom:0; width:1px; background:var(--rule); }
+  .ev .ln i { position:absolute; left:3px; top:13px; width:9px; height:9px; border-radius:50%; background:var(--k); border:2px solid var(--paper); }
+  .ev .evb { padding:7px 10px 8px; border-radius:3px; }
+  .ev .evb b { font-family:var(--f-display); font-size:15px; letter-spacing:.05em; margin-right:8px; }
+  .ev .evb .k { font-size:10.5px; color:var(--ink-3); letter-spacing:.12em; }
+  .ev .evb p { margin:2px 0 0; font-size:12px; color:var(--ink-2); line-height:1.65; }
+  .ev.snap .evb { background:color-mix(in srgb, var(--ink) 6%, transparent); }
+  .ev.snap .evb b { font-size:16px; }
+
+  @media (max-width: 900px) {
+    .stage { grid-template-columns:minmax(0,1fr); grid-template-rows:58vh minmax(0,1fr); }
+    .stage[data-view="table"], .stage[data-view="chron"] { grid-template-rows:minmax(0,1fr); }
+    .index { border-left:0; border-top:1px solid var(--rule); }
+    .inset, .scalebar { display:none; }
+    .brand h1 { font-size:17px; }
+    .brand .src { display:none; }
+    .masthead { gap:8px; }
+    .tools { margin-left:0; }
+    .search input { width:120px; }
+    .legend { width:216px; left:10px; bottom:10px; }
+    .caption { font-size:12px; padding:3px 12px 7px; }
+    .ev { grid-template-columns:62px 16px minmax(0,1fr); }
+  }
+  @media (prefers-reduced-motion: reduce) { * { transition:none !important; animation:none !important; } }
+</style>
+
+<div class="app">
+  <header class="masthead">
+    <div class="brand">
+      <h1>隋及唐初形势图</h1>
+      <span class="src">581 — 669 · 隋统一至唐初极盛 · 古今地名对照</span>
+    </div>
+    <span class="count" id="count"></span>
+    <div class="tools">
+      <label class="sel maponly" title="视野"><select id="fit" aria-label="视野">
+        <option value="qx" selected>隋末群雄</option><option value="cn">隋唐本部</option><option value="all">全图（极盛）</option><option value="gz">关中·陇右</option><option value="hd">河东·晋阳</option><option value="zy">洛阳·虎牢</option><option value="hb">河北·幽燕</option><option value="jh">江淮·江南</option><option value="jx">巴蜀·荆湘</option><option value="ln">岭南·交州</option><option value="db">辽东·朝鲜</option><option value="mb">漠南·漠北</option><option value="xy">西域</option><option value="zw">葱岭以西</option><option value="tb">吐蕃·吐谷浑</option>
+      </select></label>
+      <div class="seg maponly" role="group" aria-label="着色方式" id="cmode">
+        <button data-cm="zhen" aria-pressed="false" title="唐的都护府、羁縻都督府单独着色">都护</button>
+        <button data-cm="pol" aria-pressed="true" title="按政权分色">政权</button>
+      </div>
+      <label class="search">
+        <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><circle cx="5" cy="5" r="3.6" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M7.8 7.8 11 11" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        <input id="q" type="search" placeholder="检索古名或今名" aria-label="检索古名或今名">
+      </label>
+      <div class="seg" role="group" aria-label="显示方式">
+        <button data-mode="map" aria-pressed="true">地图</button>
+        <button data-mode="chron" aria-pressed="false">年表</button>
+        <button data-mode="table" aria-pressed="false">对照表</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="timebar" id="timebar">
+    <button class="play" id="play" aria-label="播放时间轴" title="播放">
+      <svg id="playicon" width="14" height="14" viewBox="0 0 14 14"><path d="M3 2 12 7 3 12Z" fill="currentColor"/></svg>
+    </button>
+    <div class="tb-main">
+      <div class="ticks" id="ticks" role="group" aria-label="年代"></div>
+      <div class="caption" id="caption"></div>
+    </div>
+  </div>
+
+  <div class="stage" data-view="map" id="stage">
+    <div class="mapwrap" id="mapwrap">
+      <svg id="map" aria-label="隋及唐初形势图"></svg>
+      <div class="float scalebar"><div class="txt" id="scaletxt">—</div><div class="bar" id="scalebarline" style="width:80px"></div></div>
+      <div class="float zoomers">
+        <button id="zin" title="放大" aria-label="放大">＋</button>
+        <button id="zout" title="缩小" aria-label="缩小">－</button>
+        <button id="zreset" class="reset" title="复位" aria-label="复位">复位</button>
+      </div>
+      <div class="float legend" id="legendbox">
+        <h2>图例<button id="legtoggle" aria-expanded="true">收起</button></h2>
+        <div class="body" id="legbody">
+          <div class="sub" id="legsub">本时期政权</div>
+          <div class="states" id="legstates"></div>
+          <div class="key"><span><svg width="14" height="12"><rect x="1" y="1" width="12" height="10" fill="none" stroke="var(--ink)" stroke-width="1.8"/></svg>政权疆界</span><span><svg width="14" height="12"><rect x="1" y="1" width="12" height="10" fill="url(#lgh)" stroke="var(--ink-3)" stroke-width=".8"/><defs><pattern id="lgh" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="4" stroke="var(--hatch)" stroke-width="1.6"/></pattern></defs></svg>羁縻都护·都督府</span></div>
+          <ul id="legend"></ul>
+          <div class="foot">疆域据《隋书》、两《唐书》、《资治通鉴》及谭其骧《中国历史地图集》第五册大意推定，以州郡为单位、沿山川划界，仅为示意。北方外缘参照该图集总章二年图及通行唐极盛图描画：西起咸海北岸，循哈萨克丘陵北缘、额尔齐斯河、阿尔泰山、叶尼塞河中游，绕贝加尔湖北端（骨利干），经石勒喀河、黑龙江至入海口；斜线为羁縻都护、都督府，多为名义统属，草原诸部并无确切界线。战役与事件只显示当前节点所涵盖的时段（上一节点之后至本节点），运河自开凿之年起显示。点击疆域、城邑、战役、山川均可查看说明。</div>
+        </div>
+      </div>
+      <div class="float inset"><svg id="inset" width="140" height="92" aria-label="索引图"></svg><div class="cap">索引</div></div>
+      <div class="float tip" id="tip"></div>
+    </div>
+    <aside class="index" id="index"></aside>
+    <div class="tablewrap" id="tablewrap"></div>
+    <div class="chronwrap" id="chronwrap"></div>
+  </div>
+</div>
+
+<script>
+(() => {
+  "use strict";
+
+  const GEO = __GEO__;
+  const DATA = __DATA__;
+  const UNITS = DATA.units, SEEDS = DATA.seeds, ITEMS = DATA.items, SNAPS = GEO.snaps;
+  for (const sn of SNAPS) for (const g of [sn.z, sn.p]) for (const k in g) if (typeof g[k] === "number") g[k] = GEO.pool[g[k]];
+  // 时间：节点取所标月份之末；条目取所标月份之中（未标月份按年中）
+  const TS = sn => sn.y + (sn.m ?? 12) / 12;
+  const MN = ["", "正", "二", "三", "四", "五", "六", "七", "八", "九", "十", "十一", "十二"];
+  const snapLab = sn => sn.m && sn.m !== 12 ? `${sn.y}·${sn.m}月` : `${sn.y}`;
+  const itT0 = it => it.y + ((it.m || 6.5) - .5) / 12;
+  const itT1 = it => it.y1 != null ? it.y1 + ((it.m1 || 6.5) - .5) / 12 : itT0(it);
+  const UK = Object.fromEntries(UNITS.map((u, i) => [u.k, i]));
+  const soft = u => UNITS[u].kind === "tribe" || UNITS[u].kind === "misc";
+
+  /* ---------------- 工具 ---------------- */
+  const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
+  const uVar = u => `var(--u-${u})`;
+  const K_OF = { capital: "var(--c-capital)", battle: "var(--c-battle)", pass: "var(--c-pass)", event: "var(--c-culture)", pref: "var(--c-city)", range: "var(--range)", river: "var(--water)", canal: "var(--water)", desert: "var(--desert)", people: "var(--ink-3)", route: "var(--c-route)" };
+  // 预处理各节点
+  for (const sn of SNAPS) {
+    sn.units = Object.keys(sn.pol).map(Number);
+    sn.polOf = u => sn.pol[u];
+    sn.labOf = u => sn.lab[u] ?? UNITS[u].n;
+    sn.multi = new Set(Object.keys(sn.p).map(Number));
+    sn.pols = [...new Set(sn.units.map(u => sn.pol[u]))];
+    sn.hset = new Set(sn.h);
+    sn.seedsOf = {};
+    sn.own.forEach((u, s) => { if (u >= 0) (sn.seedsOf[u] ||= []).push(s); });
+    sn.polSeeds = p => sn.units.filter(u => sn.pol[u] === p).flatMap(u => sn.seedsOf[u] || []);
+  }
+  const seedName = (s, Y) => { const S = SEEDS[s]; if (!S.nm) return S.n; let n = S.n; for (const [y, nm] of S.nm) if (Y >= y) n = nm; return n; };
+  const capActive = (it, T) => it.yrs.some(([a, b]) => a <= T && T < b);
+  const yrsText = yrs => yrs.map(([a, b]) => { a = Math.floor(a); if (b >= 9999) return `${a}—`; b = Math.floor(b); return a === b ? `${a}` : `${a}—${b}`; }).join("，");
+
+  /* ---------------- 条目 ---------------- */
+  // 统一用字符串键：u:单位 s:州府 i:条目
+  const keyOf = (t, i) => t + ":" + i;
+  const parseKey = k => { const [t, i] = k.split(":"); return [t, +i]; };
+
+  /* ---------------- 投影（Albers 等积圆锥） ---------------- */
+  const RAD = Math.PI / 180;
+  const p1 = 25 * RAD, p2 = 47 * RAD, p0 = 36 * RAD, l0 = 102 * RAD;
+  const nn = (Math.sin(p1) + Math.sin(p2)) / 2;
+  const CC = Math.cos(p1) ** 2 + 2 * nn * Math.sin(p1);
+  const rho0 = Math.sqrt(CC - 2 * nn * Math.sin(p0)) / nn;
+  const SCL = 1000;
+  function proj(lon, lat) {
+    const r = Math.sqrt(Math.max(CC - 2 * nn * Math.sin(lat * RAD), 1e-9)) / nn;
+    const th = nn * (lon * RAD - l0);
+    return [r * Math.sin(th) * SCL, -(rho0 - r * Math.cos(th)) * SCL];
+  }
+  function decode(flat) { const out = []; let x = 0, y = 0; for (let i = 0; i < flat.length; i += 2) { x += flat[i]; y += flat[i + 1]; out.push(proj(x / 100, y / 100)); } return out; }
+  const P = (pts, close) => "M" + pts.map(p => p[0].toFixed(1) + " " + p[1].toFixed(1)).join("L") + (close ? "Z" : "");
+  const densify = pts => { const o = []; for (let i = 0; i < pts.length - 1; i++) { const [a, b] = pts[i], [c, d] = pts[i + 1]; const n = Math.max(1, Math.ceil(Math.hypot(c - a, d - b) / .2)); for (let j = 0; j < n; j++) o.push([a + (c - a) * j / n, b + (d - b) * j / n]); } o.push(pts[pts.length - 1]); return o; };
+  const lineLL = pts => densify(pts).map(p => proj(p[0], p[1]));
+  const ringsD = rings => rings.map(r => P(decode(r), true)).join(" ");
+  function bboxPath(lo0, lo1, la0, la1) {
+    const pts = [], N = 24;
+    for (let i = 0; i <= N; i++) pts.push([lo0 + (lo1 - lo0) * i / N, la1]);
+    for (let i = 0; i <= N; i++) pts.push([lo1, la1 + (la0 - la1) * i / N]);
+    for (let i = 0; i <= N; i++) pts.push([lo1 + (lo0 - lo1) * i / N, la0]);
+    for (let i = 0; i <= N; i++) pts.push([lo0, la0 + (la1 - la0) * i / N]);
+    return pts.map(p => proj(p[0], p[1]));
+  }
+  function bboxOf(pts) { let x0 = Infinity, x1 = -Infinity, y0 = Infinity, y1 = -Infinity; for (const p of pts) { x0 = Math.min(x0, p[0]); x1 = Math.max(x1, p[0]); y0 = Math.min(y0, p[1]); y1 = Math.max(y1, p[1]); } return [x0, y0, x1, y1]; }
+  const FITS = {
+    qx: [103.5, 121.5, 28.5, 41.5], cn: [97, 126, 18, 44], all: [56, 142, 8, 57], gz: [101.5, 112, 32, 39.5], hd: [109.5, 115.5, 34.3, 40.5],
+    zy: [110, 118.5, 32.5, 37.5], hb: [113, 121.5, 35, 42], jh: [111, 122.5, 27, 34.6], jx: [102, 115, 25, 33.5], ln: [104, 118, 15, 26.6],
+    db: [117, 132, 33, 45], mb: [88, 124, 37, 55], xy: [73, 101, 35, 47], zw: [56, 80, 29, 46], tb: [77, 106, 25, 39]
+  };
+
+  /* ---------------- SVG 图层 ---------------- */
+  const NS = "http://www.w3.org/2000/svg";
+  const el = (n, a = {}) => { const e = document.createElementNS(NS, n); for (const k in a) e.setAttribute(k, a[k]); return e; };
+  const svg = document.getElementById("map");
+  const defs = el("defs");
+  const gGeo = el("g"), gMark = el("g");
+  svg.append(defs, gGeo, gMark);
+  const layer = id => { const g = el("g", { id: "L-" + id }); gGeo.append(g); return g; };
+  const lLand = layer("land"), lDesert = layer("desert"), lTerr = layer("terr"), lHatch = layer("hatch"), lPolB = layer("polb"), lRegion = layer("region"),
+        lWater = layer("water"), lProv = layer("prov"), lBorder = layer("border"), lRange = layer("range"),
+        lRiver = layer("river"), lCanal = layer("canal"), lHit = layer("hit");
+  // 斜线纹样（割据）
+  {
+    var hatchPat = el("pattern", { id: "hatch", width: 7, height: 7, patternUnits: "userSpaceOnUse", patternTransform: "rotate(45)" });
+    const pat = hatchPat;
+    pat.append(el("line", { x1: 0, y1: 0, x2: 0, y2: 7, stroke: "var(--hatch)", "stroke-width": 1.5 }));
+    defs.append(pat);
+    var dotPat = el("pattern", { id: "dots", width: 6, height: 6, patternUnits: "userSpaceOnUse" });
+    const dp = dotPat;
+    dp.append(el("circle", { cx: 1.5, cy: 1.5, r: .9, fill: "var(--desert)" }));
+    defs.append(dp);
+  }
+  // 海陆
+  const landD = GEO.land.map(p => p.map(r => P(decode(r), true)).join(" ")).join(" ");
+  const clip = el("clipPath", { id: "landclip" }); clip.append(el("path", { d: landD, "clip-rule": "evenodd" })); defs.append(clip);
+  lLand.append(el("path", { d: landD, fill: "var(--land)", stroke: "none", "fill-rule": "evenodd" }));
+  lLand.append(el("path", { d: landD, fill: "none", stroke: "var(--coast)", "stroke-width": .8, "vector-effect": "non-scaling-stroke", "stroke-linejoin": "round" }));
+  {
+    const d = [];
+    for (let lo = 55; lo <= 145; lo += 5) { const pts = []; for (let la = 5; la <= 60; la += 1) pts.push(proj(lo, la)); d.push(P(pts, false)); }
+    for (let la = 5; la <= 60; la += 5) { const pts = []; for (let lo = 50; lo <= 150; lo += 1) pts.push(proj(lo, la)); d.push(P(pts, false)); }
+    lLand.append(el("path", { d: d.join(" "), fill: "none", stroke: "var(--border)", "stroke-width": 1, "stroke-dasharray": "1 4", opacity: .4, "vector-effect": "non-scaling-stroke" }));
+  }
+  lTerr.setAttribute("clip-path", "url(#landclip)"); lHatch.setAttribute("clip-path", "url(#landclip)"); lPolB.setAttribute("clip-path", "url(#landclip)"); lRegion.setAttribute("clip-path", "url(#landclip)");
+  // 荒漠
+  const lineItems = {};
+  for (const ds of GEO.deserts) {
+    const d = P(decode(ds.r), true);
+    lDesert.append(el("path", { d, fill: "url(#dots)", stroke: "none", opacity: .8 }));
+    (lineItems[ds.it] ||= []).push({ d, closed: true });
+  }
+  // 今省界、今国界
+  const provLabels = [];
+  for (const p of GEO.prov) {
+    lProv.append(el("path", { d: ringsD(p.r), fill: "none", stroke: "var(--border)", "stroke-width": .7, "stroke-dasharray": "4 3", opacity: .7, "vector-effect": "non-scaling-stroke" }));
+    provLabels.push({ text: p.n, xy: proj(p.c[0], p.c[1]) });
+  }
+  lBorder.append(el("path", { d: GEO.border.map(r => P(decode(r), false)).join(" "), fill: "none", stroke: "var(--ink-3)", "stroke-width": .9, "stroke-dasharray": "7 3 1.5 3", opacity: .55, "vector-effect": "non-scaling-stroke" }));
+  // 山脉
+  for (const it of ITEMS.filter(i => i.c === "range")) {
+    const d = P(lineLL(it.geo), false);
+    lRange.append(el("path", { d, fill: "none", stroke: "var(--range)", "stroke-width": it.major ? 9 : 6, "stroke-linecap": "round", "stroke-linejoin": "round", opacity: .26, "vector-effect": "non-scaling-stroke" }));
+    lRange.append(el("path", { d, fill: "none", stroke: "var(--range)", "stroke-width": 1.2, "stroke-dasharray": "0.5 3.5", "stroke-linecap": "round", opacity: .9, "vector-effect": "non-scaling-stroke" }));
+    (lineItems[it.i] ||= []).push({ d });
+  }
+  // 水系
+  for (const lk of GEO.lakes) {
+    const d = P(decode(lk.r), true);
+    lWater.append(el("path", { d, fill: "var(--water-fill)", stroke: "var(--water)", "stroke-width": .7, "vector-effect": "non-scaling-stroke" }));
+    if (lk.it != null) (lineItems[lk.it] ||= []).push({ d, closed: true });
+  }
+  for (const it of ITEMS.filter(i => i.sub === "marsh")) {
+    const pts = []; for (let a = 0; a < 360; a += 10) pts.push(proj(it.lon + it.rx * Math.cos(a * RAD), it.lat + it.ry * Math.sin(a * RAD)));
+    const d = P(pts, true);
+    lWater.append(el("path", { d, fill: "var(--water-fill)", opacity: .7, stroke: "var(--water)", "stroke-width": .8, "stroke-dasharray": "3 2", "vector-effect": "non-scaling-stroke" }));
+    (lineItems[it.i] ||= []).push({ d, closed: true });
+  }
+  const RSTY = {
+    major: { stroke: "var(--water)", "stroke-width": 1.9, opacity: 1 },
+    minor: { stroke: "var(--water)", "stroke-width": 1.1, opacity: .95 },
+    faint: { stroke: "var(--water)", "stroke-width": .7, opacity: .5 },
+    modern: { stroke: "var(--water)", "stroke-width": 1.1, opacity: .55, "stroke-dasharray": "3 3" }
+  };
+  for (const r of GEO.rivers) {
+    const d = P(decode(r.p), false);
+    lRiver.append(el("path", { d, fill: "none", "stroke-linejoin": "round", "stroke-linecap": "round", "vector-effect": "non-scaling-stroke", ...(RSTY[r.k] || RSTY.minor) }));
+    if (r.it != null) (lineItems[r.it] ||= []).push({ d });
+  }
+  for (const c of GEO.canals) {
+    const d = P(decode(c.p), false);
+    lCanal.append(el("path", { d, fill: "none", stroke: "var(--water)", "stroke-width": 1.5, "stroke-dasharray": "6 2 1.5 2", "vector-effect": "non-scaling-stroke", "data-y0": ITEMS[c.it].y0 }));
+    (lineItems[c.it] ||= []).push({ d });
+  }
+  for (const [i, ds] of Object.entries(lineItems)) {
+    const it = ITEMS[i];
+    for (const { d, closed } of ds)
+      lHit.append(el("path", { d, class: "hit", "data-k": keyOf("i", i), "data-cat": it.c, fill: closed ? "transparent" : "none", stroke: "transparent", "stroke-width": 12, "vector-effect": "non-scaling-stroke", "pointer-events": closed ? "all" : "stroke" }));
+  }
+  for (const it of ITEMS) if (it.anc) it.axy = proj(it.anc[0], it.anc[1]);
+  for (const it of ITEMS) if (it.lon != null) it.xy = proj(it.lon, it.lat);
+  for (const s of SEEDS) s.xy = proj(s.lon, s.lat);
+  if (GEO.route) GEO.route.xy = GEO.route.pts.map(p => proj(p[0], p[1]));
+  // 重要地域（燕云十六州）：范围线、分区分界线、分区注记
+  const REGIONS = (GEO.regions || []).map(r => ({ ...r, item: ITEMS[r.it], k: "i:" + r.it, d: ringsD(r.rings),
+    groups: r.groups.map(g => ({ ...g, xy: g.lab ? proj(g.lab[0], g.lab[1]) : null, d: g.lines.map(l => P(decode(l), false)).join(" ") })) }));
+  const REGION_KEYS = new Set(REGIONS.map(R => R.k));
+  const needsTerr = k => !!k && (k.startsWith("u:") || REGION_KEYS.has(k));
+
+  /* ---------------- 状态 ---------------- */
+  let W = 800, H = 600;
+  const view = { cx: 0, cy: 0, k: 1 };
+  let hovered = null, selected = null, activeFit = "qx", query = "", cmode = "pol";
+  let si = 0;
+  // 每个时间节点涵盖的时段：上一节点之后（不含）至本节点（含）；第一个节点涵盖此前全部
+  const perLo = j => j > 0 ? TS(SNAPS[j - 1]) : -Infinity;
+  const perHi = j => TS(SNAPS[j]);
+  const ymText = sn => sn.m && sn.m !== 12 ? `${sn.y} 年${MN[sn.m]}月` : `${sn.y} 年`;
+  const perText = j => j > 0 ? `${ymText(SNAPS[j - 1])}后—${ymText(SNAPS[j])}` : `${ymText(SNAPS[j])}以前`;
+  const snapOfItem = it => { const t = itT0(it); const j = SNAPS.findIndex(s => TS(s) >= t); return j < 0 ? SNAPS.length - 1 : j; };
+  const inPeriod = (it, j) => itT0(it) <= perHi(j) && itT1(it) > perLo(j);
+  const timed = it => it.c === "battle" || it.c === "event";
+  const LAYERS = [
+    { id: "terr", name: "疆域" }, { id: "capital", name: "都城行在" }, { id: "seat", name: "都护府治所" }, { id: "pref", name: "州郡城邑" },
+    { id: "battle", name: "本期战役" }, { id: "route", name: "秦王征战" }, { id: "pass", name: "关隘" }, { id: "event", name: "本期事件" }, { id: "people", name: "诸族" },
+    { id: "range", name: "山脉" }, { id: "river", name: "水系湖泽" }, { id: "canal", name: "运河" }, { id: "desert", name: "荒漠" },
+    { id: "prov", name: "今省界" }, { id: "border", name: "今国界" }
+  ];
+  const layerOn = Object.fromEntries(LAYERS.map(l => [l.id, !["border"].includes(l.id)]));
+
+  /* ---------------- 疆域 ---------------- */
+  let terrLabels = [];
+  function isOn(k) { return k === selected || k === hovered; }
+  function buildTerr() {
+    lTerr.replaceChildren(); lHatch.replaceChildren(); lPolB.replaceChildren();
+    terrLabels = [];
+    const sn = SNAPS[si];
+    const zhenMode = cmode === "zhen";
+    // 填色
+    const fills = [];
+    for (const u of sn.units) {
+      const p = sn.pol[u];
+      if (!zhenMode && sn.multi.has(p)) continue;
+      if (sn.z[u]) fills.push([u, sn.z[u], zhenMode ? sn.lz[u] : (sn.lz[u])]);
+    }
+    if (!zhenMode) for (const p of sn.multi) fills.push([p, sn.p[p], sn.lp[p]]);
+    for (const [u, rings, lab] of fills) {
+      const k = keyOf("u", u), on = isOn(k);
+      const tribe = soft(u);
+      const isZhen = sn.pol[u] !== undefined && sn.pol[u] !== u;
+      lTerr.append(el("path", {
+        d: ringsD(rings), class: "terr", "data-k": k, "fill-rule": "evenodd", "vector-effect": "non-scaling-stroke", "stroke-linejoin": "round",
+        style: `fill:${uVar(u)};fill-opacity:${on ? "var(--s-op-hi)" : tribe ? "calc(var(--s-op) * .62)" : "var(--s-op)"};stroke:color-mix(in srgb, ${uVar(u)} 60%, var(--ink));stroke-width:${on ? 2.4 : isZhen ? .7 : 1}px;stroke-opacity:${isZhen ? .7 : .9}` + (tribe ? ";stroke-dasharray:5 3" : "")
+      }));
+      if (lab) terrLabels.push({ u, xy: proj(lab[0], lab[1]), area: lab[2], r: lab[3], text: sn.labOf(u), zhen: zhenMode && isZhen, soft: soft(u) });
+    }
+    for (const u of sn.h) if (sn.z[u]) lHatch.append(el("path", { d: ringsD(sn.z[u]), fill: "url(#hatch)", "fill-rule": "evenodd", "pointer-events": "none" }));
+    // 政权疆界（粗线）
+    const outlines = [];
+    for (const p of sn.pols) {
+      if (sn.multi.has(p)) outlines.push([p, sn.p[p]]);
+      else if (sn.z[p]) outlines.push([p, sn.z[p]]);
+    }
+    for (const [p, rings] of outlines) {
+      if (soft(p)) continue;
+      lPolB.append(el("path", { d: ringsD(rings), fill: "none", stroke: "var(--ink)", "stroke-width": zhenMode && sn.multi.has(p) ? 1.9 : 1.1, "stroke-opacity": zhenMode && sn.multi.has(p) ? .85 : .45, "vector-effect": "non-scaling-stroke", "stroke-linejoin": "round", "pointer-events": "none" }));
+    }
+    // 政权名（多藩镇政权在“政权”模式下才标）
+    const show = v => lTerr.setAttribute("display", v);
+    show(layerOn.terr ? "inline" : "none"); lHatch.setAttribute("display", layerOn.terr ? "inline" : "none"); lPolB.setAttribute("display", layerOn.terr ? "inline" : "none");
+    // 燕云十六州等重要地域：只在割让之后的节点显示
+    lRegion.replaceChildren();
+    if (layerOn.region) for (const R of REGIONS) {
+      if (sn.y < R.y0) continue;
+      const on = isOn(R.k);
+      if (on) lRegion.append(el("path", { d: R.d, fill: "var(--c-yanyun)", "fill-opacity": .12, stroke: "none", "fill-rule": "evenodd", "pointer-events": "none" }));
+      lRegion.append(el("path", { d: R.d, fill: "none", stroke: "var(--c-yanyun)", "stroke-width": on ? 3.4 : 2.4, "stroke-dasharray": "10 4", "stroke-linejoin": "round", "vector-effect": "non-scaling-stroke", "pointer-events": "none" }));
+      for (const g of R.groups) if (g.d && sn.y >= g.y0)
+        lRegion.append(el("path", { d: g.d, fill: "none", stroke: "var(--c-yanyun)", "stroke-width": 1.4, "stroke-dasharray": "2 3", "stroke-linecap": "round", opacity: .9, "vector-effect": "non-scaling-stroke", "pointer-events": "none" }));
+      lRegion.append(el("path", { d: R.d, class: "hit", "data-k": R.k, fill: "none", stroke: "transparent", "stroke-width": 12, "vector-effect": "non-scaling-stroke", "pointer-events": "stroke" }));
+    }
+  }
+
+  /* ---------------- 视图 ---------------- */
+  const legBody = document.getElementById("legbody");
+  function fitTo(key, animate) {
+    const b = FITS[key] || FITS.cn;
+    const bb = bboxOf(bboxPath(b[0], b[1], b[2], b[3]));
+    const padL = (!legBody.hidden && W > 820) ? 262 : 0;
+    const k = Math.min((W - padL) / (bb[2] - bb[0]), H / (bb[3] - bb[1])) * 0.95;
+    setView((bb[0] + bb[2]) / 2 - padL / 2 / k, (bb[1] + bb[3]) / 2, k, animate);
+  }
+  const reduce = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const KMIN = 0.25, KMAX = 60;
+  function setView(cx, cy, k, animate) {
+    const target = { cx, cy, k: Math.max(KMIN, Math.min(KMAX, k)) };
+    if (!animate || reduce()) { Object.assign(view, target); render(); return; }
+    const from = { ...view }, t0 = performance.now(), dur = 480;
+    (function step(t) {
+      const u = Math.min(1, (t - t0) / dur), e = u < .5 ? 4 * u * u * u : 1 - Math.pow(-2 * u + 2, 3) / 2;
+      view.cx = from.cx + (target.cx - from.cx) * e; view.cy = from.cy + (target.cy - from.cy) * e;
+      view.k = Math.exp(Math.log(from.k) + (Math.log(target.k) - Math.log(from.k)) * e);
+      render(); if (u < 1) requestAnimationFrame(step);
+    })(t0);
+  }
+  const sx = p => (p[0] - view.cx) * view.k + W / 2;
+  const sy = p => (p[1] - view.cy) * view.k + H / 2;
+  function textW(str, size) { let w = 0; for (const ch of str) w += ch.charCodeAt(0) > 0x2e80 ? size : size * 0.56; return w; }
+  const overlap = (a, b) => a.x < b.x + b.w && b.x < a.x + a.w && a.y < b.y + b.h && b.y < a.y + a.h;
+
+  /* ---------------- 检索 ---------------- */
+  function unitText(u) { const parts = [UNITS[u].k, UNITS[u].n]; for (const sn of SNAPS) if (sn.lab[u]) parts.push(sn.lab[u]); return parts.join(" "); }
+  function seedText(s) { const S = SEEDS[s]; return [S.id, S.n, S.mod, ...(S.nm || []).map(x => x[1])].join(" "); }
+  function itemText(it) { return [it.old, it.mod, it.sides || "", it.cmd || ""].join(" "); }
+  const UTXT = UNITS.map((u, i) => unitText(i)), STXT = SEEDS.map((s, i) => seedText(i)), ITXT = ITEMS.map(itemText);
+  const match = (k) => { if (!query) return true; const [t, i] = parseKey(k); return (t === "u" ? UTXT : t === "s" ? STXT : ITXT)[i].includes(query); };
+
+  /* ---------------- 符号 ---------------- */
+  function drawMarker(g, kind, x, y, on, opt = {}) {
+    if (kind === "capital") {
+      if (opt.act) {
+        if (on) g.append(el("circle", { cx: x, cy: y, r: 12, style: `fill:${uVar(opt.u)}`, opacity: .3 }));
+        g.append(el("rect", { x: x - 6, y: y - 6, width: 12, height: 12, fill: "var(--paper)", stroke: "var(--c-capital)", "stroke-width": 1.5 }));
+        g.append(el("rect", { x: x - 3.4, y: y - 3.4, width: 6.8, height: 6.8, style: `fill:color-mix(in srgb, ${uVar(opt.u)} 70%, var(--ink))` }));
+        return 7;
+      }
+      g.append(el("rect", { x: x - 4, y: y - 4, width: 8, height: 8, fill: "var(--land)", stroke: "var(--ink-3)", "stroke-width": 1.2, "stroke-dasharray": on ? "none" : "2 1.4" }));
+      return 5;
+    }
+    if (kind === "seat") {
+      const r = on ? 5.6 : 4.6;
+      g.append(el("circle", { cx: x, cy: y, r: r + 1.8, fill: "var(--paper)", style: `stroke:color-mix(in srgb, ${uVar(opt.u)} 55%, var(--ink))`, "stroke-width": 1.3 }));
+      g.append(el("circle", { cx: x, cy: y, r: r - 1.6, style: `fill:color-mix(in srgb, ${uVar(opt.u)} 70%, var(--ink))` }));
+      return r + 2.5;
+    }
+    if (kind === "battle") {
+      const s = on ? 6.5 : 5, op = opt.fut ? .38 : 1;
+      if (opt.recent || on) g.append(el("circle", { cx: x, cy: y, r: s + 5, fill: "var(--c-battle)", opacity: on ? .25 : .16 }));
+      g.append(el("circle", { cx: x, cy: y, r: s + 1.8, fill: "var(--paper)", stroke: "var(--c-battle)", "stroke-width": 1.3, opacity: op }));
+      g.append(el("path", { d: `M${x - s * .62} ${y - s * .62}L${x + s * .62} ${y + s * .62}M${x + s * .62} ${y - s * .62}L${x - s * .62} ${y + s * .62}`, stroke: "var(--c-battle)", "stroke-width": 1.9, "stroke-linecap": "round", opacity: op }));
+      return s + 2;
+    }
+    if (kind === "pass") {
+      const d = on ? 6 : 4.4;
+      g.append(el("rect", { x: -d, y: -d, width: d * 2, height: d * 2, transform: `translate(${x} ${y}) rotate(45)`, fill: "var(--c-pass)", stroke: "var(--paper)", "stroke-width": 1.4 }));
+      return d + 1;
+    }
+    if (kind === "event") {
+      const s = on ? 7 : 5.6;
+      g.append(el("path", { d: `M${x} ${y - s}L${x + s * .9} ${y + s * .62}L${x - s * .9} ${y + s * .62}Z`, fill: "var(--c-culture)", stroke: "var(--paper)", "stroke-width": 1.3, opacity: opt.fut ? .4 : 1 }));
+      return s;
+    }
+    // 州府
+    const r = on ? 4.6 : opt.c ? 3 : 2.8;
+    g.append(el("circle", { cx: x, cy: y, r, fill: opt.c ? "var(--land)" : "var(--paper)", stroke: "var(--c-city)", "stroke-width": opt.c ? 1.1 : 1.4 }));
+    return r + 1;
+  }
+
+  /* ---------------- 渲染 ---------------- */
+  const tip = document.getElementById("tip");
+  function render() {
+    gGeo.setAttribute("transform", `translate(${W / 2} ${H / 2}) scale(${view.k}) translate(${-view.cx} ${-view.cy})`);
+    hatchPat.setAttribute("patternTransform", `scale(${(1 / view.k).toFixed(5)}) rotate(45)`);
+    dotPat.setAttribute("patternTransform", `scale(${(1 / view.k).toFixed(5)})`);
+    gMark.replaceChildren();
+    const sn = SNAPS[si], YY = sn.y, TT = TS(sn);
+    const obstacles = [], items = [];
+    const K = view.k;
+    const zoomedIn = K > 6;
+    let nShown = 0;
+    const inView = (x, y) => x > -40 && x < W + 40 && y > -30 && y < H + 30;
+    // 秦王李世民征战路线：屏幕坐标绘制，箭头不随缩放变形
+    if (layerOn.route && GEO.route && TS(SNAPS[si]) <= 650) {
+      const RT = GEO.route, rk = keyOf("i", RT.it), on = isOn(rk), lo = perLo(si), hi = perHi(si);
+      const past = [], cur = [];
+      for (let i = 0; i < RT.pts.length - 1; i++) {
+        const b = RT.pts[i + 1];
+        if (b[2] > hi) break;
+        (b[2] > lo ? cur : past).push([RT.xy[i], RT.xy[i + 1]]);
+      }
+      const seg = list => list.map(([a, b]) => `M${sx(a).toFixed(1)} ${sy(a).toFixed(1)}L${sx(b).toFixed(1)} ${sy(b).toFixed(1)}`).join("");
+      if (past.length) gMark.append(el("path", { d: seg(past), fill: "none", stroke: "var(--c-route)", "stroke-width": on ? 1.8 : 1.2, "stroke-dasharray": "4 3", opacity: on ? .85 : .5, "stroke-linecap": "round", "pointer-events": "none" }));
+      if (cur.length) {
+        gMark.append(el("path", { d: seg(cur), fill: "none", stroke: "var(--land)", "stroke-width": 5, opacity: .75, "stroke-linecap": "round", "stroke-linejoin": "round", "pointer-events": "none" }));
+        gMark.append(el("path", { d: seg(cur), fill: "none", stroke: "var(--c-route)", "stroke-width": on ? 3 : 2.2, "stroke-linecap": "round", "stroke-linejoin": "round", "pointer-events": "none" }));
+        for (const [a, b] of cur) {
+          const x1 = sx(a), y1 = sy(a), x2 = sx(b), y2 = sy(b), L = Math.hypot(x2 - x1, y2 - y1);
+          if (L < 22) continue;
+          const ux = (x2 - x1) / L, uy = (y2 - y1) / L, mx = x1 + (x2 - x1) * .55, my = y1 + (y2 - y1) * .55, s = 5.5;
+          gMark.append(el("path", { d: `M${(mx + ux * s).toFixed(1)} ${(my + uy * s).toFixed(1)}L${(mx - ux * s - uy * s * .8).toFixed(1)} ${(my - uy * s + ux * s * .8).toFixed(1)}L${(mx - ux * s + uy * s * .8).toFixed(1)} ${(my - uy * s - ux * s * .8).toFixed(1)}Z`, fill: "var(--c-route)", "pointer-events": "none" }));
+        }
+      }
+      const all = past.concat(cur);
+      if (all.length) gMark.append(el("path", { d: seg(all), class: "hit", "data-k": rk, fill: "none", stroke: on ? "color-mix(in srgb, var(--c-route) 22%, transparent)" : "transparent", "stroke-width": 10, "stroke-linecap": "round", "pointer-events": "stroke" }));
+    }
+
+    // 都城（同址只画一个）
+    const capAt = new Map();
+    for (const it of ITEMS) if (it.c === "capital") {
+      const key = it.lon + "," + it.lat, act = capActive(it, TT);
+      const begun = it.yrs.filter(([a]) => a <= TT);
+      if (!act && !begun.length) continue;                       // 此后才成为都城的，不画
+      const end = act ? Infinity : Math.max(...begun.map(([a, b]) => b));
+      const prev = capAt.get(key);
+      if (!prev || (act && !prev.act) || (!act && !prev.act && end > prev.end)) capAt.set(key, { it, act, end });
+    }
+    const capSeed = new Set();
+    for (const { it, act } of capAt.values()) if (act && it.at != null) capSeed.add(it.at);
+    const seatSeed = new Map();
+    for (const [u, s] of Object.entries(sn.seat)) if (!capSeed.has(s)) seatSeed.set(s, +u);
+
+    const pts = [];
+    if (layerOn.pref) for (let s = 0; s < SEEDS.length; s++) {
+      const S = SEEDS[s];
+      if (S.t === "r" || capSeed.has(s) || seatSeed.has(s)) continue;
+      const k = keyOf("s", s);
+      if (!match(k)) continue;
+      pts.push({ kind: "pref", k, xy: S.xy, ord: 0, s, c: S.t === "c" });
+    }
+    if (layerOn.seat) for (const [s, u] of seatSeed) {
+      const k = keyOf("s", s);
+      if (!match(k) && !match(keyOf("u", u))) continue;
+      pts.push({ kind: "seat", k, xy: SEEDS[s].xy, ord: 3, s, u });
+    }
+    for (const it of ITEMS) {
+      if (it.lon == null || !["capital", "battle", "pass", "event"].includes(it.c)) continue;
+      if (!layerOn[it.c]) continue;
+      const k = keyOf("i", it.i);
+      if (!match(k)) continue;
+      if (it.c === "capital") {
+        const c = capAt.get(it.lon + "," + it.lat);
+        if (!c || c.it !== it) { if (!isOn(k)) continue; pts.push({ kind: "capital", k, xy: it.xy, ord: 1, it, act: false, u: it.st, fut: true }); continue; }
+        pts.push({ kind: "capital", k, xy: it.xy, ord: c.act ? 6 : 1, it, act: c.act, u: it.st }); continue;
+      }
+      // 战役、事件只画本节点涵盖年份内的；其他时期的仅在悬停或选中时淡显
+      const off = timed(it) && !inPeriod(it, si);
+      if (off && !isOn(k)) continue;
+      pts.push({ kind: it.c, k, xy: it.xy, ord: it.c === "pass" ? 2 : it.c === "event" ? 1.5 : 4, it, fut: off, recent: it.c === "battle" && !off });
+    }
+    pts.sort((a, b) => a.ord - b.ord);
+    const forced = new Set();
+    for (const R of REGIONS) if (YY >= R.y0 && isOn(R.k)) for (const s of R.item.members) forced.add(s);
+    for (const p of pts) {
+      const on = isOn(p.k) || (p.s != null && forced.has(p.s));
+      const x = sx(p.xy), y = sy(p.xy);
+      if (!inView(x, y)) continue;
+      // 按缩放分级显示
+      if (!on && !query) {
+        if (p.kind === "pref" && K < (p.c ? 2.2 : 2.6)) continue;
+        if (p.kind === "seat" && K < 1.05) continue;
+        if (p.kind === "pass" && K < 1.4) continue;
+        if (p.kind === "event" && K < 1.3) continue;
+        if (p.kind === "capital" && !p.act && K < 2.4) continue;
+      }
+      nShown++;
+      const g = el("g", { class: "marker", "data-k": p.k, style: "cursor:pointer" });
+      const r = drawMarker(g, p.kind, x, y, on, { act: p.act, u: p.u, fut: p.fut, recent: p.recent, c: p.c });
+      g.append(el("circle", { cx: x, cy: y, r: 11, fill: "transparent" }));
+      gMark.append(g);
+      obstacles.push({ x: x - r - 1, y: y - r - 1, w: (r + 1) * 2, h: (r + 1) * 2, mk: true });
+      // 注记
+      let text, sub, size, base;
+      if (p.kind === "pref" || p.kind === "seat") { text = seedName(p.s, YY); sub = SEEDS[p.s].mod; }
+      else { text = p.it.old; sub = p.it.mod; }
+      if (p.kind === "pref") { if (!on && K < (p.c ? 3.4 : 3.8)) continue; size = on ? 13.5 : 11.5; base = p.c ? 66 : 70; }
+      else if (p.kind === "seat") { if (!on && K < 1.9) continue; size = on ? 14 : 12.5; base = 30; }
+      else if (p.kind === "capital") { if (!on && !p.act && K < 3.4) continue; size = on ? 14.5 : p.act ? 14 : 12; base = p.act ? 10 : 68; }
+      else if (p.kind === "battle") { size = on ? 14 : 12.5; base = 25; }
+      else if (p.kind === "pass") { if (!on && K < 2.6) continue; size = on ? 13.5 : 11.5; base = 55; }
+      else { if (!on && K < 2.2) continue; size = on ? 13.5 : 11.5; base = 62; }
+      const twoLine = on || zoomedIn;
+      items.push({ kind: "site", p, x, y, r, size, twoLine, on, text, sub,
+        w: Math.max(textW(text, size), twoLine ? textW(sub, 10.5) : 0), h: twoLine ? size + 13 : size + 2,
+        pri: (on ? -1000 : 0) + base });
+    }
+
+    // 疆域名
+    if (layerOn.terr) {
+      for (const L of terrLabels) {
+        const x = sx(L.xy), y = sy(L.xy);
+        if (x < 0 || x > W || y < 0 || y > H) continue;
+        const k = keyOf("u", L.u), on = isOn(k);
+        const wpx = Math.sqrt(L.area) * 17.45 * K, hpx = L.r * 17.45 * K * 2;
+        const n = [...L.text].length;
+        let size = Math.min(wpx * 0.8 / Math.max(2, n * (L.zhen ? 1 : 1.35)), hpx * 0.72, L.zhen ? 22 : L.soft ? 21 : 34);
+        if (size < 10) { if (on || (L.r > 0.12 && K > 2.2 && size > 7)) size = 10; else continue; }
+        const ls = !L.zhen && n <= 3 ? size * .32 : 0;
+        items.push({ kind: "state", L, x, y, size, text: L.text, ls, zhen: L.zhen, w: textW(L.text, size) + ls * n, h: size, pri: (on ? -900 : 0) - Math.min(size, 40) });
+      }
+    }
+    // 线要素注记
+    for (const it of ITEMS) {
+      if (!it.axy || !["range", "river", "canal", "desert"].includes(it.c)) continue;
+      if (it.c === "canal" && it.y0 > YY) continue;
+      const lid = it.c === "river" ? "river" : it.c;
+      if (!layerOn[lid] || !match(keyOf("i", it.i))) continue;
+      const x = sx(it.axy), y = sy(it.axy);
+      if (x < 10 || x > W - 10 || y < 10 || y > H - 10) continue;
+      const on = isOn(keyOf("i", it.i));
+      if (!on) {
+        if (it.c === "river" && it.sub === "lake" && K < 2) continue;
+        if (it.c === "river" && it.sub === "marsh" && K < 2.6) continue;
+        if (it.c === "river" && it.sub === "river" && !it.major && K < 2.6) continue;
+        if (it.c === "range" && !it.major && K < 2.2) continue;
+        if (it.c === "canal" && K < 1.8) continue;
+      }
+      const size = on ? 13.5 : it.c === "range" ? 11.5 : it.major ? 13 : 11.5;
+      items.push({ kind: it.c, it, x, y, size, text: it.old, on, w: textW(it.old, size) * (it.c === "range" ? 1.25 : 1.12) + 2, h: size + 2,
+        pri: (on ? -950 : 0) + (it.c === "range" ? 80 : it.major ? 45 : 85) });
+    }
+    // 诸族
+    if (layerOn.people) for (const it of ITEMS) {
+      if (it.c !== "people" || !(it.y0 <= TT && TT < it.y1) || !match(keyOf("i", it.i))) continue;
+      const x = sx(it.xy), y = sy(it.xy);
+      if (x < 10 || x > W - 10 || y < 10 || y > H - 10) continue;
+      if (K < 1.3 && !isOn(keyOf("i", it.i))) continue;
+      items.push({ kind: "people", it, x, y, size: 12, text: it.old, on: isOn(keyOf("i", it.i)), w: textW(it.old, 12) * 1.45, h: 14, pri: 92 });
+    }
+    // 重要地域名称与分区
+    if (layerOn.region) for (const R of REGIONS) {
+      if (YY < R.y0) continue;
+      const on = isOn(R.k), L = R.item.lab, x = sx(R.item.axy), y = sy(R.item.axy);
+      if (x > 0 && x < W && y > 0 && y < H) {
+        const size = Math.max(13, Math.min(Math.sqrt(L[2]) * 17.45 * K * .16, 26)) + (on ? 1 : 0), n = [...R.item.old].length;
+        items.push({ kind: "region", R, on, x, y, size, text: R.item.old, ls: size * .25, w: textW(R.item.old, size) + size * .25 * n, h: size, pri: on ? -990 : -60 });
+      }
+      if (K >= 1.9 || on) for (const g of R.groups) {
+        if (!g.xy || YY < g.y0) continue;
+        const gx = sx(g.xy), gy = sy(g.xy);
+        if (gx < 0 || gx > W || gy < 0 || gy > H) continue;
+        items.push({ kind: "regsub", x: gx, y: gy, size: 13, text: g.n, w: textW(g.n, 13) * 1.1 + 2, h: 15, pri: on ? -900 : -40 });
+      }
+    }
+    // 今省名
+    if (layerOn.prov && K > 3.6) for (const p of provLabels) {
+      const x = sx(p.xy), y = sy(p.xy);
+      if (x < 20 || x > W - 20 || y < 16 || y > H - 16) continue;
+      items.push({ kind: "prov", x, y, size: 11, text: p.text, w: textW(p.text, 11) * 1.4, h: 12, pri: 120 });
+    }
+
+    items.sort((a, b) => a.pri - b.pri);
+    const placed = obstacles.slice();
+    const txt = (a, s) => { const t = el("text", a); t.textContent = s; gMark.append(t); return t; };
+    const halo = { stroke: "var(--land)", "stroke-width": 3.2, "paint-order": "stroke", "stroke-linejoin": "round" };
+    for (const it of items) {
+      let cands;
+      if (it.kind === "site") cands = [[it.r + 5, 0, "start"], [-it.r - 5, 0, "end"], [0, -it.r - 6, "middle"], [0, it.r + it.h - 1, "middle"], [it.r + 4, -it.h * .7, "start"], [-it.r - 4, -it.h * .7, "end"], [it.r + 4, it.h * .8, "start"], [-it.r - 4, it.h * .8, "end"]];
+      else if (it.kind === "state" || it.kind === "region") cands = [[0, 0, "middle"], [0, -it.size * .9, "middle"], [0, it.size * .9, "middle"], [-it.size * 1.2, 0, "middle"], [it.size * 1.2, 0, "middle"]];
+      else if (it.kind === "regsub") cands = [[0, 0, "middle"], [0, -16, "middle"], [0, 16, "middle"], [0, -30, "middle"], [0, 30, "middle"], [-48, 0, "middle"], [48, 0, "middle"], [-40, -22, "middle"], [40, -22, "middle"], [-40, 22, "middle"], [40, 22, "middle"]];
+      else cands = [[0, 0, "middle"], [0, -14, "middle"], [0, 14, "middle"], [-30, 0, "middle"], [30, 0, "middle"]];
+      let put = null;
+      for (const [dx, dy, anchor] of cands) {
+        const bx = anchor === "start" ? it.x + dx : anchor === "end" ? it.x + dx - it.w : it.x + dx - it.w / 2;
+        const by = it.y + dy - (it.kind === "site" ? it.size * .78 : it.size * .5);
+        const box = { x: bx - 1, y: by - 1, w: it.w + 2, h: it.h + 2 };
+        if (bx < 2 || bx + it.w > W - 2 || by < 2 || by + it.h > H - 2) continue;
+        if (it.kind === "regsub" && placed.some(q => !q.mk && overlap(box, q))) continue;   // 分区注记可压在小点上，但不压文字
+        if (it.kind !== "state" && it.kind !== "region" && it.kind !== "regsub" && placed.some(q => overlap(box, q))) continue;
+        if ((it.kind === "state" || it.kind === "region") && placed.some(q => q.state && overlap(box, q))) continue;
+        put = { dx, dy, anchor, box }; break;
+      }
+      if (!put) continue;
+      if (it.kind === "state" || it.kind === "region") put.box.state = true;
+      placed.push(put.box);
+      const X = it.x + put.dx, YP = it.y + put.dy;
+      if (it.kind === "site") {
+        const p = it.p;
+        const col = p.kind === "battle" ? "var(--c-battle)" : p.kind === "event" ? "var(--c-culture)" : (p.kind === "capital" && !p.act) || p.kind === "pref" ? "var(--ink-2)" : "var(--ink)";
+        const fut = p.fut;
+        txt({ class: "map-text lbl-site", x: X, y: YP, "text-anchor": put.anchor, "font-size": it.size, fill: col, opacity: fut ? .5 : 1, ...halo, "font-weight": p.kind === "pref" ? 500 : 600 }, it.text);
+        if (it.twoLine && it.sub) txt({ class: "map-text", x: X, y: YP + 12.5, "text-anchor": put.anchor, "font-size": 10.5, fill: "var(--ink-2)", ...halo, "stroke-width": 3 }, it.sub);
+      } else if (it.kind === "state") {
+        const u = it.L.u;
+        txt({ class: "map-text lbl-state", x: X, y: YP + it.size * .36, "text-anchor": "middle", "font-size": it.size, "letter-spacing": it.ls + "px",
+          style: `fill:color-mix(in srgb, ${uVar(u)} ${it.zhen ? 38 : 45}%, var(--ink))`, opacity: it.zhen ? .85 : .92, stroke: "var(--land)", "stroke-width": 3, "stroke-opacity": .55, "paint-order": "stroke", "stroke-linejoin": "round", "font-weight": it.zhen ? 600 : 700 }, it.text);
+      } else if (it.kind === "river" || it.kind === "canal") {
+        txt({ class: "map-text lbl-riv", x: X, y: YP + 4, "text-anchor": "middle", "font-size": it.size, fill: "var(--water)", ...halo, "font-weight": it.on ? 700 : 500 }, it.text);
+      } else if (it.kind === "range") {
+        txt({ class: "map-text lbl-geo", x: X, y: YP + 4, "text-anchor": "middle", "font-size": it.size, fill: "color-mix(in srgb, var(--range) 70%, var(--ink))", ...halo, "font-weight": it.on ? 700 : 500 }, it.text);
+      } else if (it.kind === "desert") {
+        txt({ class: "map-text lbl-geo", x: X, y: YP + 4, "text-anchor": "middle", "font-size": it.size, fill: "color-mix(in srgb, var(--desert) 55%, var(--ink))", ...halo, "font-style": "italic" }, it.text);
+      } else if (it.kind === "region") {
+        txt({ class: "map-text lbl-state", x: X, y: YP + it.size * .36, "text-anchor": "middle", "font-size": it.size, "letter-spacing": it.ls + "px", fill: "var(--c-yanyun)", stroke: "var(--land)", "stroke-width": 3.6, "stroke-opacity": .85, "paint-order": "stroke", "stroke-linejoin": "round", "font-weight": 700 }, it.text);
+      } else if (it.kind === "regsub") {
+        txt({ class: "map-text lbl-geo", x: X, y: YP + 4, "text-anchor": "middle", "font-size": it.size, fill: "color-mix(in srgb, var(--c-yanyun) 82%, var(--ink))", ...halo, "font-weight": 600 }, it.text);
+      } else if (it.kind === "people") {
+        txt({ class: "map-text lbl-geo", x: X, y: YP + 4, "text-anchor": "middle", "font-size": it.size, fill: "var(--ink-3)", "font-style": "italic", ...halo, "font-weight": it.on ? 700 : 400 }, it.text);
+      } else if (it.kind === "prov") {
+        txt({ class: "map-text lbl-geo", x: X, y: YP + 4, "text-anchor": "middle", "font-size": it.size, fill: "var(--ink-3)", opacity: .75, ...halo }, it.text);
+      }
+    }
+    // 线要素高亮
+    for (const n of lHit.children) {
+      const on = isOn(n.dataset.k);
+      n.setAttribute("stroke", on ? "color-mix(in srgb, var(--accent) 45%, transparent)" : "transparent");
+      n.setAttribute("stroke-width", on ? 6 : 12);
+      const c = n.dataset.cat;
+      const fut = c === "canal" && ITEMS[parseKey(n.dataset.k)[1]].y0 > YY;
+      n.setAttribute("display", layerOn[c === "river" ? "river" : c] && !fut ? "inline" : "none");
+    }
+    lRange.setAttribute("display", layerOn.range ? "inline" : "none");
+    lRiver.setAttribute("display", layerOn.river ? "inline" : "none");
+    lWater.setAttribute("display", layerOn.river ? "inline" : "none");
+    lCanal.setAttribute("display", layerOn.canal ? "inline" : "none");
+    for (const c of lCanal.children) c.setAttribute("display", +c.dataset.y0 > YY ? "none" : "inline");
+    lDesert.setAttribute("display", layerOn.desert ? "inline" : "none");
+    lProv.setAttribute("display", layerOn.prov ? "inline" : "none");
+    lBorder.setAttribute("display", layerOn.border ? "inline" : "none");
+    drawInsetRect(); drawScale();
+    const np = sn.pols.filter(p => !soft(p)).length;
+    const nz = sn.units.filter(u => sn.pol[u] !== u).length;
+    document.getElementById("count").textContent = `${snapLab(sn)} · ${np} 个政权${nz ? " · " + nz + " 个都护府" : ""} · 视野内 ${nShown} 处`;
+  }
+
+  /* ---------------- 比例尺 ---------------- */
+  function inv(px, py) {
+    const x = (px - W / 2) / view.k + view.cx, y = (py - H / 2) / view.k + view.cy;
+    const X = x / SCL, Yv = -y / SCL;
+    const r = Math.sqrt(X * X + (rho0 - Yv) * (rho0 - Yv)), th = Math.atan2(X, rho0 - Yv);
+    return [(l0 + th / nn) / RAD, Math.asin(Math.max(-1, Math.min(1, (CC - r * r * nn * nn) / (2 * nn)))) / RAD];
+  }
+  function hav(a, b) { const R = 6371, dLa = (b[1] - a[1]) * RAD, dLo = (b[0] - a[0]) * RAD; const s = Math.sin(dLa / 2) ** 2 + Math.cos(a[1] * RAD) * Math.cos(b[1] * RAD) * Math.sin(dLo / 2) ** 2; return 2 * R * Math.asin(Math.sqrt(s)); }
+  function drawScale() {
+    const km = hav(inv(W / 2, H / 2), inv(W / 2 + 100, H / 2)) / 100;
+    let best = 10, px = 10 / km;
+    for (const t of [10, 20, 25, 50, 100, 200, 250, 500, 1000, 2000]) { if (t / km <= 130) { best = t; px = t / km; } }
+    document.getElementById("scalebarline").style.width = px.toFixed(0) + "px";
+    document.getElementById("scaletxt").textContent = best + " km";
+  }
+
+  /* ---------------- 索引图 ---------------- */
+  const insetSvg = document.getElementById("inset");
+  let insetFit;
+  {
+    const IW = 140, IH = 92, bb = bboxOf(bboxPath(56, 142, 8, 57));
+    const k = Math.min(IW / (bb[2] - bb[0]), IH / (bb[3] - bb[1])) * .98;
+    insetFit = { k, cx: (bb[0] + bb[2]) / 2, cy: (bb[1] + bb[3]) / 2, IW, IH };
+    const g = el("g", { transform: `translate(${IW / 2} ${IH / 2}) scale(${k}) translate(${-insetFit.cx} ${-insetFit.cy})` });
+    g.append(el("path", { d: landD, fill: "var(--paper-2)", stroke: "var(--rule)", "stroke-width": .6, "vector-effect": "non-scaling-stroke" }));
+    insetSvg.append(g);
+    insetSvg.append(el("rect", { id: "insetrect", fill: "none", stroke: "var(--c-battle)", "stroke-width": 1.2, rx: 1 }));
+  }
+  function drawInsetRect() {
+    const { k, cx, cy, IW, IH } = insetFit;
+    const f = p => [(p[0] - cx) * k + IW / 2, (p[1] - cy) * k + IH / 2];
+    const a = f([view.cx - W / 2 / view.k, view.cy - H / 2 / view.k]), b = f([view.cx + W / 2 / view.k, view.cy + H / 2 / view.k]);
+    const r = document.getElementById("insetrect");
+    const x0 = Math.max(0, a[0]), y0 = Math.max(0, a[1]);
+    r.setAttribute("x", x0); r.setAttribute("y", y0);
+    r.setAttribute("width", Math.max(2, Math.min(IW, b[0]) - x0)); r.setAttribute("height", Math.max(2, Math.min(IH, b[1]) - y0));
+  }
+
+  /* ---------------- 说明文字 ---------------- */
+  const KIND_TXT = { state: "政权", zhen: "都护·都督府", tribe: "部族", misc: "未定" };
+  function unitKindAt(u, sn) { if (!sn.pol.hasOwnProperty(u)) return UNITS[u].kind; return sn.pol[u] !== u ? "zhen" : UNITS[u].kind; }
+  function presentIn(u) { return SNAPS.map((sn, j) => (sn.pol.hasOwnProperty(u) || sn.pols.includes(u)) ? j : -1).filter(j => j >= 0); }
+  function unitSeeds(u, sn) { return (sn.multi.has(u) ? sn.polSeeds(u) : (sn.seedsOf[u] || [])).filter(s => SEEDS[s].t !== "r"); }
+  function seatName(u, sn) {
+    const capIt = ITEMS.find(it => it.c === "capital" && it.st === u && capActive(it, TS(sn)));
+    if (capIt) return capIt.old;
+    const s = sn.seat[u]; return s != null ? seedName(s, sn.y) : null;
+  }
+  function chainHTML(s) {
+    const out = []; let last = null;
+    for (const sn of SNAPS) {
+      const u = sn.own[s];
+      let t = "—";
+      if (u >= 0) { const p = sn.pol[u]; t = UNITS[u].n + (p !== u ? "（" + UNITS[p].n + "）" : ""); }
+      if (t !== last) out.push(`<span class="c"><i>${snapLab(sn)}</i>${esc(t)}</span>`);
+      last = t;
+    }
+    return out.join("");
+  }
+  function namesHTML(S) { return S.nm ? S.nm.map(([y, n]) => `${esc(n)}${y > 0 ? "（" + y + "）" : ""}`).join(" → ") : ""; }
+  function info(k, mode) {
+    // mode: "tip" | "row"
+    const [t, i] = parseKey(k), sn = SNAPS[si], YY = sn.y;
+    if (t === "u") {
+      let list = "";
+      const u = i, U = UNITS[u], kind = unitKindAt(u, sn), here = sn.pol.hasOwnProperty(u) || sn.pols.includes(u);
+      const name = here ? sn.labOf(u) : U.n;
+      const tags = [`<span class="tag st" style="--k:${uVar(u)}">${KIND_TXT[kind]}</span>`];
+      let meta = "";
+      if (here) {
+        const p = sn.pol[u];
+        if (p !== undefined && p !== u) tags.push(`<span class="tag">属 ${esc(sn.labOf(p))}</span>`);
+        if (sn.hset.has(u)) tags.push(`<span class="tag">割据</span>`);
+        const seat = seatName(u, sn);
+        const ss = unitSeeds(u, sn);
+        meta = `<span class="mono">${snapLab(sn)}</span>${tags.join("")}` + (seat ? `治所 ${esc(seat)}` : "") + (ss.length ? ` · 领 ${ss.length} 州（处）` : "") +
+          (mode === "tip" && ss.length ? `<br>` + ss.slice(0, 10).map(s => esc(seedName(s, YY))).join("、") + (ss.length > 10 ? "……" : "") : "");
+        if (mode === "row" && ss.length) list = ss.map(s => esc(seedName(s, YY))).join("、");
+      } else {
+        const pr = presentIn(u).map(j => SNAPS[j].y);
+        meta = tags.join("") + (pr.length ? `见于 ${pr[0]}${pr.length > 1 ? "—" + pr[pr.length - 1] : ""} 年的节点` : "");
+      }
+      let note = U.note || "";
+      if (mode === "tip") note = note.split("\n")[0];
+      return { old: name, mod: name !== U.n ? U.n : "", meta, note, k: uVar(u), chain: list ? `<span class="mono">领州</span>${list}` : "" };
+    }
+    if (t === "s") {
+      const S = SEEDS[i], u = sn.own[i];
+      let meta = `<span class="mono">${snapLab(sn)} 属</span>`;
+      if (u >= 0) { const p = sn.pol[u]; meta += `<span class="tag st" style="--k:${uVar(u)}">${esc(sn.labOf(u))}</span>` + (p !== u ? `<span class="tag">${esc(sn.labOf(p))}</span>` : ""); }
+      else meta += `<span class="tag">无属</span>`;
+      const seatOf = Object.entries(sn.seat).filter(([uu, s]) => s === i).map(([uu]) => sn.labOf(+uu));
+      if (seatOf.length) meta += `<br>${esc(seatOf.join("、"))}治所`;
+      const nm = namesHTML(S);
+      if (nm) meta += `<br><span class="mono">沿革</span>${nm}`;
+      return { old: seedName(i, YY), mod: S.mod, meta, note: "", chain: chainHTML(i), k: u >= 0 ? uVar(u) : "var(--ink-3)" };
+    }
+    const it = ITEMS[i];
+    let meta = "";
+    if (it.c === "capital") meta = `<span class="tag st" style="--k:${uVar(it.st)}">${esc(UNITS[it.st].n)}</span><span class="mono">${yrsText(it.yrs)}</span>` + (capActive(it, TS(sn)) ? "时为都城" : "");
+    else if (it.c === "route") { const RT = GEO.route, lo = perLo(si), hi = perHi(si); const pl = RT.pts.filter(p => p[2] > lo && p[2] <= hi).map(p => p[3]); meta = `<span class="mono">本期</span>` + (pl.length ? esc(pl.join(" → ")) : "无行军"); }
+    else if (it.c === "canal") meta = it.y0 > 0 ? `<span class="mono">${it.y0} 年开凿</span>` + (it.y0 > YY ? "（本期尚未开凿）" : "") : `<span class="mono">秦代开凿</span>`;
+    else if (it.c === "battle") meta = `<span class="mono">${esc(it.yt)}</span>${esc(it.sides)}` + (it.cmd ? `<br><span class="mono">主将</span>${esc(it.cmd)}` : "");
+    else if (it.c === "event") meta = `<span class="mono">${esc(it.yt)}</span>`;
+    if (timed(it) && !inPeriod(it, si)) meta += `<br><span class="mono">不在本期</span>见 ${snapLab(SNAPS[snapOfItem(it)])} 节点（${perText(snapOfItem(it))}）`;
+    else if (it.c === "people") meta = `<span class="mono">约 ${it.y0}—${it.y1 >= 670 ? "" : it.y1}</span>`;
+    if (it.c === "region") {
+      const list = it.members.map(s => `${esc(seedName(s, YY))}<span class="mono">（${esc(SEEDS[s].mod)}）</span>`).join("、");
+      meta = `<span class="tag st" style="--k:var(--c-yanyun)">${it.y0} 年割予契丹</span>${it.members.length} 州` +
+        (YY < it.y0 ? `<br><span class="mono">不在本期</span>${it.y0} 年节点起显示` : "");
+      return { old: it.old, mod: it.mod, meta, note: mode === "tip" ? it.note.split("\n")[0] : it.note, k: K_OF.region, chain: mode === "row" ? list : "" };
+    }
+    return { old: it.old, mod: it.mod, meta, note: it.note || "", k: K_OF[it.c] };
+  }
+  function showTip(k, e) {
+    const rect = document.getElementById("mapwrap").getBoundingClientRect();
+    const f = info(k, "tip");
+    tip.innerHTML = `<div><span class="old">${esc(f.old)}</span>` + (f.mod ? `<span class="arrow">→</span><span class="new">${esc(f.mod)}</span>` : "") + `</div>` +
+      (f.meta ? `<div class="meta">${f.meta}</div>` : "") + (f.note ? `<div class="note">${esc(f.note)}</div>` : "");
+    tip.dataset.on = "1";
+    const tw = tip.offsetWidth, th = tip.offsetHeight;
+    let x = e.clientX - rect.left + 16, y = e.clientY - rect.top + 14;
+    if (x + tw > rect.width - 8) x = e.clientX - rect.left - tw - 16;
+    if (y + th > rect.height - 8) y = e.clientY - rect.top - th - 14;
+    tip.style.left = Math.max(8, x) + "px"; tip.style.top = Math.max(8, y) + "px";
+  }
+
+  /* ---------------- 交互 ---------------- */
+  const stage = document.getElementById("stage");
+  function resize() {
+    const box = document.getElementById("mapwrap").getBoundingClientRect();
+    W = Math.max(300, box.width); H = Math.max(240, box.height);
+    svg.setAttribute("viewBox", `0 0 ${W} ${H}`);
+    fitTo(activeFit, false);
+  }
+  new ResizeObserver(() => { if (stage.dataset.view === "map") resize(); }).observe(document.getElementById("mapwrap"));
+
+  const ptrs = new Map();
+  let drag = null, pinch = null, downKey = null;
+  const keyFrom = t => { const n = t && t.closest && t.closest("[data-k]"); return n ? n.dataset.k : null; };
+  svg.addEventListener("pointerdown", e => {
+    ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    downKey = keyFrom(e.target);
+    svg.setPointerCapture(e.pointerId);
+    if (ptrs.size === 1) { drag = { x: e.clientX, y: e.clientY, cx: view.cx, cy: view.cy, moved: false }; svg.classList.add("dragging"); }
+    else if (ptrs.size === 2) {
+      const [a, b] = [...ptrs.values()];
+      pinch = { d: Math.hypot(a.x - b.x, a.y - b.y), k: view.k, mx: (a.x + b.x) / 2, my: (a.y + b.y) / 2, cx: view.cx, cy: view.cy };
+      drag = null;
+    }
+  });
+  let hoverTerr = false;
+  svg.addEventListener("pointermove", e => {
+    if (ptrs.has(e.pointerId)) ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pinch && ptrs.size === 2) {
+      const [a, b] = [...ptrs.values()], rect = svg.getBoundingClientRect();
+      const k = Math.max(KMIN, Math.min(KMAX, pinch.k * Math.hypot(a.x - b.x, a.y - b.y) / pinch.d));
+      const mx = pinch.mx - rect.left, my = pinch.my - rect.top;
+      const wx = (mx - W / 2) / pinch.k + pinch.cx, wy = (my - H / 2) / pinch.k + pinch.cy;
+      const nx = (a.x + b.x) / 2 - rect.left, ny = (a.y + b.y) / 2 - rect.top;
+      view.k = k; view.cx = wx - (nx - W / 2) / k; view.cy = wy - (ny - H / 2) / k;
+      render(); return;
+    }
+    if (drag) {
+      const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+      if (Math.abs(dx) + Math.abs(dy) > 4) drag.moved = true;
+      if (drag.moved) { view.cx = drag.cx - dx / view.k; view.cy = drag.cy - dy / view.k; tip.dataset.on = "0"; render(); }
+      return;
+    }
+    if (e.pointerType !== "mouse") return;
+    const k = keyFrom(document.elementFromPoint(e.clientX, e.clientY));
+    if (k !== hovered) {
+      const wasU = needsTerr(hovered);
+      hovered = k;
+      if (wasU || needsTerr(k)) buildTerr();
+      render();
+    }
+    if (k != null) showTip(k, e); else tip.dataset.on = "0";
+  });
+  const endPtr = e => {
+    ptrs.delete(e.pointerId);
+    if (ptrs.size < 2) pinch = null;
+    if (ptrs.size === 0) { svg.classList.remove("dragging"); drag = null; }
+  };
+  svg.addEventListener("pointerup", e => {
+    if (drag && !drag.moved && ptrs.size === 1) {
+      if (downKey != null) select(downKey, true, e); else { selected = null; buildTerr(); render(); markRows(); tip.dataset.on = "0"; }
+    }
+    endPtr(e);
+  });
+  svg.addEventListener("pointercancel", endPtr);
+  svg.addEventListener("pointerleave", e => { if (e.pointerType === "mouse" && !drag) { const h = hovered; hovered = null; tip.dataset.on = "0"; if (needsTerr(h)) buildTerr(); render(); } });
+  svg.addEventListener("wheel", e => {
+    e.preventDefault();
+    const rect = svg.getBoundingClientRect(), mx = e.clientX - rect.left, my = e.clientY - rect.top;
+    const bx = (mx - W / 2) / view.k + view.cx, by = (my - H / 2) / view.k + view.cy;
+    const k = Math.max(KMIN, Math.min(KMAX, view.k * Math.exp(-e.deltaY * 0.0018)));
+    view.k = k; view.cx = bx - (mx - W / 2) / k; view.cy = by - (my - H / 2) / k;
+    render();
+  }, { passive: false });
+
+  function focusPoint(k) {
+    const [t, i] = parseKey(k), sn = SNAPS[si];
+    if (t === "s") return SEEDS[i].xy;
+    if (t === "u") {
+      const lab = sn.lz[i] || sn.lp[i];
+      if (lab) return proj(lab[0], lab[1]);
+      return null;
+    }
+    const it = ITEMS[i];
+    return it.xy || it.axy || null;
+  }
+  function select(k, fromMap, ev) {
+    selected = k;
+    const [t, i] = parseKey(k);
+    if (t === "u") {
+      const sn = SNAPS[si];
+      if (!(sn.pol.hasOwnProperty(i) || sn.pols.includes(i))) {
+        const pr = presentIn(i);
+        if (pr.length) { let best = pr[0]; for (const j of pr) if (Math.abs(j - si) < Math.abs(best - si)) best = j; setSnap(best, false); buildIndex(); }
+      }
+    }
+    if (t === "i") {
+      const it = ITEMS[i];
+      if (it.c === "capital" && !capActive(it, TS(SNAPS[si]))) { const j = SNAPS.findIndex(sn => capActive(it, TS(sn))); if (j >= 0) { setSnap(j, false); buildIndex(); } }
+      if (timed(it) && !inPeriod(it, si)) { setSnap(snapOfItem(it), false); buildIndex(); }
+      if (it.c === "canal" && it.y0 > SNAPS[si].y) { const j = SNAPS.findIndex(sn => sn.y >= it.y0); if (j >= 0) { setSnap(j, false); buildIndex(); } }
+    }
+    buildTerr();
+    if (!fromMap) {
+      const p = focusPoint(k);
+      if (p) {
+        const zk = t === "u" ? Math.max(view.k, 1.4) : (ITEMS[i] && ["range", "river", "canal", "desert", "route"].includes(ITEMS[i].c)) ? Math.max(view.k, 2.4) : Math.max(view.k, 5);
+        setView(p[0], p[1], zk, true);
+      } else render();
+    } else {
+      render();
+      if (ev && ev.pointerType !== "mouse") showTip(k, ev);
+    }
+    markRows();
+    const row = document.querySelector(`.row[data-k="${k}"]`);
+    if (row) {
+      const grp = row.closest(".grp"); if (grp && grp.dataset.closed === "1") grp.dataset.closed = "0";
+      row.scrollIntoView({ block: "nearest", behavior: reduce() ? "auto" : "smooth" });
+    }
+  }
+  function markRows() {
+    document.querySelectorAll(".row").forEach(r => r.dataset.sel = r.dataset.k === selected ? "1" : "0");
+    document.querySelectorAll(".caption .chip").forEach(c => c.setAttribute("aria-pressed", c.dataset.k === selected ? "true" : "false"));
+  }
+
+  /* ---------------- 时间轴 ---------------- */
+  const ticks = document.getElementById("ticks");
+  SNAPS.forEach((s, j) => {
+    const b = document.createElement("button");
+    b.className = "tick" + (s.y < 618 ? " era5" : ""); b.dataset.j = j; b.setAttribute("aria-pressed", "false");
+    b.title = `${s.y} 年 · ${s.era} · ${s.t}`;
+    b.innerHTML = `<span class="yr">${s.y}</span><span class="dot"></span><span class="tt">${esc(s.era)}</span>`;
+    b.addEventListener("click", () => { stopPlay(); setSnap(j, true); });
+    ticks.append(b);
+  });
+  function setSnap(j, rebuild = true) {
+    si = j;
+    ticks.querySelectorAll(".tick").forEach(b => b.setAttribute("aria-pressed", +b.dataset.j === j ? "true" : "false"));
+    const s = SNAPS[j];
+    const bs = ITEMS.filter(it => it.c === "battle" && inPeriod(it, j)).sort((a, b) => itT0(a) - itT0(b));
+    document.getElementById("caption").innerHTML = `<span class="y">${s.y} · ${esc(s.era)}</span><b>${esc(s.t)}</b>${esc(s.d)}` +
+      `<div class="pbs"><span class="pl">本期战役 <span class="mono">${perText(j)}</span></span>` +
+      (bs.length ? bs.map(it => `<button class="chip" data-k="${keyOf("i", it.i)}" aria-pressed="${selected === keyOf("i", it.i)}">${esc(it.old)}<i>${it.y}</i></button>`).join("")
+                 : `<span class="none">无</span>`) + `</div>`;
+    const tk = ticks.querySelector(`[data-j="${j}"]`);
+    if (tk && ticks.scrollWidth > ticks.clientWidth) ticks.scrollTo({ left: tk.offsetLeft - ticks.clientWidth / 2 + tk.offsetWidth / 2, behavior: reduce() ? "auto" : "smooth" });
+    buildLegendStates();
+    if (rebuild) { buildTerr(); render(); buildIndex(); }
+  }
+  document.getElementById("caption").addEventListener("click", e => {
+    const b = e.target.closest(".chip"); if (!b) return;
+    stopPlay(); if (stage.dataset.view !== "map") setMode("map"); select(b.dataset.k, false);
+  });
+  let playT = null;
+  const playBtn = document.getElementById("play");
+  function stopPlay() { if (playT) { clearInterval(playT); playT = null; document.getElementById("playicon").innerHTML = '<path d="M3 2 12 7 3 12Z" fill="currentColor"/>'; playBtn.title = "播放"; } }
+  playBtn.addEventListener("click", () => {
+    if (playT) { stopPlay(); return; }
+    if (si === SNAPS.length - 1) setSnap(0);
+    document.getElementById("playicon").innerHTML = '<rect x="3" y="2" width="3" height="10" fill="currentColor"/><rect x="8" y="2" width="3" height="10" fill="currentColor"/>';
+    playBtn.title = "暂停";
+    playT = setInterval(() => { if (si >= SNAPS.length - 1) { stopPlay(); return; } setSnap(si + 1); }, 2400);
+  });
+
+  /* ---------------- 图例 ---------------- */
+  const legStates = document.getElementById("legstates");
+  function polOrder(sn) {
+    // 按州数降序
+    return sn.pols.slice().sort((a, b) => unitSeeds(b, sn).length - unitSeeds(a, sn).length);
+  }
+  function buildLegendStates() {
+    legStates.replaceChildren();
+    const sn = SNAPS[si];
+    for (const p of polOrder(sn)) {
+      const b = document.createElement("button");
+      const tribe = soft(p);
+      b.innerHTML = `<span class="sq${tribe ? " tribe" : ""}" style="--k:${uVar(p)}"></span><span class="t">${esc(sn.labOf(p))}</span>`;
+      b.title = sn.labOf(p);
+      b.addEventListener("click", () => select(keyOf("u", p), false));
+      b.addEventListener("mouseenter", () => { hovered = keyOf("u", p); buildTerr(); render(); });
+      b.addEventListener("mouseleave", () => { hovered = null; buildTerr(); render(); });
+      legStates.append(b);
+    }
+  }
+  const SYM = {
+    terr: '<rect x="1" y="2" width="12" height="10" rx="1.5" fill="var(--u-0)" opacity=".7"/>',
+    capital: '<rect x="2" y="2" width="10" height="10" fill="var(--paper)" stroke="var(--c-capital)" stroke-width="1.4"/><rect x="4.6" y="4.6" width="4.8" height="4.8" fill="var(--c-capital)"/>',
+    seat: '<circle cx="7" cy="7" r="5.2" fill="var(--paper)" stroke="var(--ink-2)" stroke-width="1.2"/><circle cx="7" cy="7" r="2.4" fill="var(--ink-2)"/>',
+    pref: '<circle cx="7" cy="7" r="3.4" fill="var(--paper)" stroke="var(--c-city)" stroke-width="1.4"/>',
+    route: '<path d="M1.5 11 L6 6 L12.5 3.5" stroke="var(--c-route)" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="M12.8 3.4 L8.6 3.2 L10.6 6.6Z" fill="var(--c-route)"/>',
+    battle: '<circle cx="7" cy="7" r="5.6" fill="var(--paper)" stroke="var(--c-battle)" stroke-width="1.2"/><path d="M4.6 4.6 9.4 9.4M9.4 4.6 4.6 9.4" stroke="var(--c-battle)" stroke-width="1.7" stroke-linecap="round"/>',
+    pass: '<rect x="3.5" y="3.5" width="7" height="7" transform="rotate(45 7 7)" fill="var(--c-pass)"/>',
+    event: '<path d="M7 1.8 12 10.6H2Z" fill="var(--c-culture)"/>',
+    people: '<text x="7" y="11" text-anchor="middle" font-size="10" font-style="italic" fill="var(--ink-3)">族</text>',
+    range: '<path d="M1 9 C4 5, 9 5, 13 8" stroke="var(--range)" stroke-width="5" stroke-linecap="round" fill="none" opacity=".45"/>',
+    river: '<path d="M1 9 C4 4, 8 11, 13 5" stroke="var(--water)" stroke-width="1.8" fill="none"/>',
+    canal: '<path d="M1 7H13" stroke="var(--water)" stroke-width="1.5" stroke-dasharray="4 1.5 1 1.5"/>',
+    desert: '<g fill="var(--desert)"><circle cx="3" cy="4" r="1"/><circle cx="7" cy="4" r="1"/><circle cx="11" cy="4" r="1"/><circle cx="5" cy="8" r="1"/><circle cx="9" cy="8" r="1"/><circle cx="3" cy="12" r="1"/><circle cx="7" cy="12" r="1"/><circle cx="11" cy="12" r="1"/></g>',
+    prov: '<path d="M1 7H13" stroke="var(--border)" stroke-width="1.2" stroke-dasharray="3 2"/>',
+    border: '<path d="M1 7H13" stroke="var(--ink-3)" stroke-width="1.2" stroke-dasharray="4 2 1 2"/>'
+  };
+  const legend = document.getElementById("legend");
+  for (const L of LAYERS) {
+    const li = document.createElement("li");
+    li.innerHTML = `<button aria-pressed="${layerOn[L.id]}" data-l="${L.id}"><svg width="14" height="14" viewBox="0 0 14 14">${SYM[L.id]}</svg><span>${L.name}</span></button>`;
+    legend.append(li);
+  }
+  legend.addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    const id = b.dataset.l; layerOn[id] = !layerOn[id];
+    b.setAttribute("aria-pressed", layerOn[id] ? "true" : "false");
+    if (id === "terr" || id === "region") buildTerr();
+    render();
+  });
+  const legT = document.getElementById("legtoggle");
+  function setLeg(open) { legBody.hidden = !open; legT.textContent = open ? "收起" : "展开"; legT.setAttribute("aria-expanded", open); }
+  legT.addEventListener("click", () => setLeg(legBody.hidden));
+  if (matchMedia("(max-width: 900px)").matches) setLeg(false);
+
+  /* ---------------- 索引 ---------------- */
+  const index = document.getElementById("index");
+  const closedGroups = new Set(["pref", "people", "other", "range"]);
+  function rowEl(k, kcol, o, m, mt, n, chain, fut, sw) {
+    const li = document.createElement("li");
+    const b = document.createElement("button");
+    b.className = "row"; b.dataset.k = k; b.dataset.sel = selected === k ? "1" : "0";
+    b.style.setProperty("--k", kcol);
+    if (fut) b.dataset.future = "1";
+    b.innerHTML = `<span class="o">${sw || ""}${esc(o)}</span><span class="m">${esc(m || "")}</span>` + (mt ? `<span class="mt">${mt}</span>` : "") +
+      (n ? `<span class="n">${esc(n).replace(/\n/g, "<br>")}</span>` : "") + (chain ? `<span class="chain">${chain}</span>` : "");
+    b.addEventListener("click", () => { if (stage.dataset.view !== "map") setMode("map"); select(k, false); });
+    b.addEventListener("mouseenter", () => { hovered = k; if (needsTerr(k)) buildTerr(); render(); });
+    b.addEventListener("mouseleave", () => { hovered = null; if (needsTerr(k)) buildTerr(); render(); });
+    li.append(b); return li;
+  }
+  function group(id, name, sub, kcol, rows) {
+    if (!rows.length) return 0;
+    const sec = document.createElement("section");
+    sec.className = "grp"; sec.style.setProperty("--k", kcol);
+    sec.dataset.closed = closedGroups.has(id) && !query ? "1" : "0";
+    sec.innerHTML = `<h2><span class="chev">▼</span><span class="bar"></span>${name}<span class="sub">${rows.length}${sub ? " · " + sub : ""}</span></h2>`;
+    sec.querySelector("h2").addEventListener("click", () => {
+      const cl = sec.dataset.closed === "1"; sec.dataset.closed = cl ? "0" : "1";
+      if (cl) closedGroups.delete(id); else closedGroups.add(id);
+    });
+    const ol = document.createElement("ol"); rows.forEach(r => ol.append(r)); sec.append(ol); index.append(sec);
+    return rows.length;
+  }
+  function buildIndex() {
+    index.replaceChildren();
+    const sn = SNAPS[si], YY = sn.y;
+    let total = 0;
+    const urow = u => { const k = keyOf("u", u), f = info(k, "row"); const tribe = soft(u); return rowEl(k, uVar(u), f.old, f.mod, f.meta, f.note, f.chain, false, `<span class="sq${tribe ? " tribe" : ""}" style="--k:${uVar(u)}"></span>`); };
+    // 政权
+    total += group("pol", "政权", snapLab(sn), "var(--ink-2)", polOrder(sn).filter(p => match(keyOf("u", p))).map(urow));
+    // 都护府、都督府
+    const zh = sn.units.filter(u => sn.pol[u] !== u && match(keyOf("u", u)));
+    zh.sort((a, b) => sn.pol[a] - sn.pol[b] || unitSeeds(b, sn).length - unitSeeds(a, sn).length);
+    total += group("zhen", "都护·都督府", snapLab(sn), "var(--ink-2)", zh.map(urow));
+    // 都城
+    const caps = ITEMS.filter(it => it.c === "capital" && match(keyOf("i", it.i)));
+    const TT = TS(sn);
+    caps.sort((a, b) => (capActive(b, TT) - capActive(a, TT)) || a.yrs[0][0] - b.yrs[0][0]);
+    total += group("capital", "都城 · 行在", `本期 ${caps.filter(c => capActive(c, TT)).length}`, "var(--c-capital)", caps.map(it => { const k = keyOf("i", it.i), f = info(k, "row"); return rowEl(k, uVar(it.st), f.old, f.mod, f.meta, f.note, null, !capActive(it, TT)); }));
+    const simple = (c, id, name, sub, sortY) => {
+      let list = ITEMS.filter(it => it.c === c && match(keyOf("i", it.i)));
+      if (sortY) list.sort((a, b) => a.y - b.y);
+      total += group(id, name, sub, K_OF[c], list.map(it => { const k = keyOf("i", it.i), f = info(k, "row"); return rowEl(k, K_OF[c], f.old, f.mod, f.meta, f.note, null, sortY && it.y > YY); }));
+    };
+    const periodic = (c, id, name) => {
+      const list = ITEMS.filter(it => it.c === c && match(keyOf("i", it.i))).sort((a, b) => itT0(a) - itT0(b));
+      const cur = list.filter(it => inPeriod(it, si)), rest = list.filter(it => !inPeriod(it, si));
+      total += group(id, name, `本期 ${cur.length} · 共 ${list.length}`, K_OF[c], [...cur, ...rest].map(it => { const k = keyOf("i", it.i), f = info(k, "row"); return rowEl(k, K_OF[c], f.old, f.mod, f.meta, f.note, null, !inPeriod(it, si)); }));
+    };
+    periodic("battle", "battle", "战役");
+    simple("route", "route", "秦王征战", "617—649");
+    simple("pass", "pass", "关隘", "");
+    periodic("event", "event", "事件 · 文化");
+    // 州府
+    const prefs = SEEDS.map((S, s) => s).filter(s => SEEDS[s].t !== "r" && match(keyOf("s", s)));
+    total += group("pref", "州郡 · 城邑", "古名 → 今地", "var(--c-city)", prefs.map(s => { const k = keyOf("s", s), f = info(k, "row"); return rowEl(k, f.k, f.old, f.mod, f.meta, "", f.chain, false); }));
+    simple("range", "range", "山脉", "");
+    let wl = ITEMS.filter(it => (it.c === "river" || it.c === "canal" || it.c === "desert") && match(keyOf("i", it.i)));
+    total += group("river", "水系 · 湖泽 · 运河 · 荒漠", "古名 → 今名", "var(--water)", wl.map(it => { const k = keyOf("i", it.i), f = info(k, "row"); return rowEl(k, K_OF[it.c], f.old, f.mod, it.c === "canal" ? f.meta : "", f.note, null, it.c === "canal" && it.y0 > YY); }));
+    simple("people", "people", "周边诸族", "");
+    // 其他时期
+    const here = new Set([...sn.units, ...sn.pols]);
+    const others = UNITS.map((u, i) => i).filter(u => !here.has(u) && presentIn(u).length && match(keyOf("u", u)));
+    total += group("other", "其他时期的政权", "点击跳转", "var(--ink-3)", others.map(urow));
+    if (!total) { const d = document.createElement("div"); d.className = "empty"; d.textContent = "没有匹配的条目。"; index.append(d); }
+  }
+
+  /* ---------------- 对照表 ---------------- */
+  const CATNAME = { capital: "都城", battle: "战役", pass: "关隘", event: "事件", range: "山脉", river: "水系", canal: "运河", desert: "荒漠", people: "诸族" };
+  function buildTable() {
+    const wrap = document.getElementById("tablewrap");
+    wrap.replaceChildren();
+    const intro = document.createElement("div"); intro.className = "intro";
+    intro.innerHTML = `<p>图中全部州郡、城邑与地物，一名一行。州郡的“名称沿革”记开皇州名、大业郡名与唐初州名；“归属沿革”取自地图上各时间节点，连续相同的归属合并显示。经纬度取今日遗址或所在城市，可在任意地图应用中定位；点击任一行回到地图并定位。</p>`;
+    wrap.append(intro);
+    const sc = document.createElement("div"); sc.className = "tscroll";
+    const t = document.createElement("table");
+    t.innerHTML = `<thead><tr><th>古名</th><th>今地 / 今名</th><th>类别</th><th>年代 / 名称沿革</th><th>经纬度</th><th>归属沿革 / 按语</th></tr></thead>`;
+    const tb = document.createElement("tbody");
+    const addRow = (k, o, m, cat, kcol, when, ll, note, html) => {
+      const tr = document.createElement("tr"); tr.className = "click";
+      tr.innerHTML = `<td class="o">${esc(o)}</td><td>${esc(m || "")}</td><td class="cat" style="--k:${kcol}"><span class="dot"></span>${esc(cat)}</td>` +
+        `<td class="num">${when}</td><td class="num">${ll ? ll[0].toFixed(2) + "°E&nbsp; " + ll[1].toFixed(2) + "°N" : ""}</td><td class="note">${html || esc(note || "—")}</td>`;
+      tr.addEventListener("click", () => { setMode("map"); requestAnimationFrame(() => select(k, false)); });
+      tb.append(tr);
+    };
+    SEEDS.forEach((S, s) => {
+      if (S.t === "r" || !match(keyOf("s", s))) return;
+      addRow(keyOf("s", s), S.n, S.mod, S.t === "c" ? "城邑" : "州府", "var(--c-city)", S.nm ? namesHTML(S) : "", [S.lon, S.lat], "", `<span class="chain" style="display:block">${chainHTML(s)}</span>`);
+    });
+    for (const it of ITEMS) {
+      if (!CATNAME[it.c] || !match(keyOf("i", it.i))) continue;
+      const ll = it.lon != null ? [it.lon, it.lat] : it.anc;
+      const when = it.c === "capital" ? yrsText(it.yrs) : it.c === "canal" ? (it.y0 > 0 ? `${it.y0}` : "秦") : it.yt ? esc(it.yt) : it.c === "people" ? `${it.y0}—${it.y1 >= 670 ? "" : it.y1}` : "";
+      addRow(keyOf("i", it.i), it.old, it.mod, CATNAME[it.c] + (it.c === "capital" ? "·" + UNITS[it.st].n : ""), it.c === "capital" ? uVar(it.st) : K_OF[it.c], when, ll, it.c === "battle" ? `${it.sides}。${it.note}` : it.note);
+    }
+    t.append(tb); sc.append(t); wrap.append(sc);
+  }
+
+  /* ---------------- 年表 ---------------- */
+  function buildChron() {
+    const wrap = document.getElementById("chronwrap");
+    wrap.replaceChildren();
+    const intro = document.createElement("div"); intro.className = "intro";
+    intro.innerHTML = `<p>把战役、事件、运河开凿、都城迁移与地图上的全部时间节点排成一条线，隋末唐初的几年按月排列。灰底为地图节点；点击任一事件，地图会跳到该事件所在时段的节点并定位。</p>`;
+    wrap.append(intro);
+    const ev = [];
+    for (const it of ITEMS) {
+      const k = keyOf("i", it.i);
+      if (!match(k)) continue;
+      if (it.c === "battle") ev.push({ y: itT0(it), yt: it.yt, t: it.old, kd: "战役", p: `${it.sides}。${it.note}`, col: "var(--c-battle)", k });
+      if (it.c === "event") ev.push({ y: itT0(it), yt: it.yt, t: it.old, kd: "事件 · 文化", p: it.note, col: "var(--c-culture)", k });
+      if (it.c === "canal" && it.y0 > 0) ev.push({ y: it.y0 + .5, yt: String(it.y0), t: `开凿${it.old}`, kd: "运河", p: it.note, col: "var(--water)", k });
+      if (it.c === "capital") for (const [a] of it.yrs) if (a > 581 && a <= 669) ev.push({ y: a, yt: String(Math.floor(a)), t: `${UNITS[it.st].n} · ${it.old}`, kd: "都城", p: it.note, col: uVar(it.st), k });
+    }
+    if (!query) for (const s of SNAPS) ev.push({ y: TS(s) - 1e-4, yt: ymText(s), t: s.t, kd: `地图节点 · ${s.era}`, p: s.d, col: "var(--ink)", snap: true });
+    ev.sort((a, b) => a.y - b.y);
+    const box = document.createElement("div"); box.className = "chron";
+    for (const e of ev) {
+      const d = document.createElement("div");
+      d.className = "ev" + (e.snap ? " snap" : ""); d.style.setProperty("--k", e.col);
+      d.innerHTML = `<div class="yr">${esc(e.yt)}</div><div class="ln"><i></i></div><div class="evb"><b>${esc(e.t)}</b><span class="k">${esc(e.kd)}</span><p>${esc(e.p)}</p></div>`;
+      d.addEventListener("click", () => {
+        let j = SNAPS.findIndex(s => TS(s) >= e.y - 1e-3); if (j < 0) j = SNAPS.length - 1;
+        setMode("map"); setSnap(j);
+        if (e.k) requestAnimationFrame(() => select(e.k, false));
+      });
+      box.append(d);
+    }
+    wrap.append(box);
+  }
+
+  /* ---------------- 控件 ---------------- */
+  document.getElementById("fit").addEventListener("change", e => { activeFit = e.target.value; fitTo(activeFit, true); });
+  document.getElementById("cmode").addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    cmode = b.dataset.cm;
+    document.querySelectorAll("#cmode button").forEach(x => x.setAttribute("aria-pressed", x === b ? "true" : "false"));
+    buildTerr(); render();
+  });
+  document.getElementById("zin").addEventListener("click", () => setView(view.cx, view.cy, view.k * 1.6, true));
+  document.getElementById("zout").addEventListener("click", () => setView(view.cx, view.cy, view.k / 1.6, true));
+  document.getElementById("zreset").addEventListener("click", () => { selected = null; buildTerr(); fitTo(activeFit, true); markRows(); });
+  document.getElementById("q").addEventListener("input", e => { query = e.target.value.trim(); render(); buildIndex(); buildTable(); buildChron(); });
+  function setMode(m) {
+    document.querySelectorAll("[data-mode]").forEach(x => x.setAttribute("aria-pressed", x.dataset.mode === m ? "true" : "false"));
+    stage.dataset.view = m;
+    document.querySelectorAll(".maponly").forEach(x => x.hidden = (m !== "map"));
+    document.getElementById("timebar").hidden = m !== "map";
+    if (m === "map") requestAnimationFrame(() => { const keep = { ...view }; resize(); if (keep.k !== 1) { Object.assign(view, keep); render(); } });
+  }
+  document.querySelectorAll("[data-mode]").forEach(b => b.addEventListener("click", () => setMode(b.dataset.mode)));
+  document.addEventListener("keydown", e => {
+    if (e.target.tagName === "INPUT" || e.target.tagName === "SELECT") return;
+    if (e.key === "ArrowRight" && si < SNAPS.length - 1) { stopPlay(); setSnap(si + 1); }
+    if (e.key === "ArrowLeft" && si > 0) { stopPlay(); setSnap(si - 1); }
+    if (e.key === "Escape") { selected = null; buildTerr(); render(); markRows(); tip.dataset.on = "0"; }
+  });
+
+  /* ---------------- 启动 ---------------- */
+  setSnap(DATA.first || 0, false);
+  buildTerr();
+  buildIndex(); buildTable(); buildChron();
+  resize();
+})();
+</script>
+
+</body></html>
