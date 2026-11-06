@@ -6,11 +6,9 @@
 
 用浏览器打开 `docs/index.html` 即可，离线可用。
 
-## 发布到 GitHub Pages
+## 线上地址
 
-1. 把整个目录推到 GitHub 仓库 `suitang-map`。
-2. 仓库 Settings → Pages → Build and deployment：Source 选 Deploy from a branch，Branch 选 `main`，目录选 `/docs`，保存。
-3. 一两分钟后在 `https://<用户名>.github.io/suitang-map/` 打开。`docs/.nojekyll` 已备好，不需要别的配置。
+https://jackyijun.github.io/suitang-map/
 
 ## 本地构建
 
@@ -26,6 +24,8 @@ python run.py --preview 669   # 另出该年疆域草图 build/preview-669.png
 ```
 
 同一份输入重建，`docs/index.html` 逐字节相同（随机种子固定）。
+
+构建完成后，把 `docs/index.html` 一起提交并推送到 `main`，线上网页会自动更新。
 
 ## 目录结构
 
