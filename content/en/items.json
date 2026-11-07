@@ -1,0 +1,2126 @@
+{
+ "capital:大兴城（长安）": {
+  "old": "Daxing City (Chang'an)",
+  "mod": "Xi'an, Shaanxi",
+  "note": "The early Sui court stayed for a time in the old Han city of Chang'an; in 582 Yuwen Kai was ordered to build a new capital to its southeast, which the court moved into in the 3rd month of 583 and named Daxing City. It had three walled layers (palace city, imperial city and outer city), with 108 wards in the outer city, and was the largest city in the world at the time."
+ },
+ "capital:长安": {
+  "old": "Chang'an",
+  "mod": "Xi'an, Shaanxi",
+  "note": "Li Yuan took Daxing City in the 11th month of 617; the next year he accepted the abdication, founded the Tang and renamed the city Chang'an. The Taiji Palace was the main palace, and the Xuanwu Gate incident of 626 took place at its north gate; construction of the Daming Palace began in 634."
+ },
+ "capital:东都（洛阳）": {
+  "old": "Eastern Capital (Luoyang)",
+  "mod": "Luoyang, Henan",
+  "note": "Emperor Yang of Sui ordered Yang Su and Yuwen Kai to build it in the 3rd month of 605, with two million laborers conscripted every month. It was completed in the 1st month of the following year and called the Eastern Metropolis (Dongjing), and was renamed the Eastern Capital in 609. The city straddled the Luo River and held the Hanjia and Huiluo granaries. In the 5th month of 618 Yang Tong, Prince of Yue, took the throne here (the Huangtai emperor); he was deposed by Wang Shichong in the 4th month of 619."
+ },
+ "capital:洛阳": {
+  "old": "Luoyang",
+  "mod": "Luoyang, Henan",
+  "note": "In the 4th month of 619 Wang Shichong deposed the Huangtai emperor and proclaimed himself emperor at Luoyang, naming his state Zheng. Besieged by Li Shimin from the 7th month of 620, he came out and surrendered in the 5th month of 621."
+ },
+ "capital:东都": {
+  "old": "Eastern Capital",
+  "mod": "Luoyang, Henan",
+  "note": "After Wang Shichong was crushed in 621, Li Shimin ordered the Qianyang Hall burned and the Duan Gate tower pulled down, along with other \"extravagant\" palace buildings. In 657 Emperor Gaozong made the Luoyang Palace the Eastern Capital and thereafter often resided at Luoyang; under Wu Zetian it was renamed the Divine Capital (Shendu)."
+ },
+ "capital:江都（行在）": {
+  "old": "Jiangdu (temporary capital)",
+  "mod": "Yangzhou, Jiangsu",
+  "note": "Emperor Yang of Sui went down to Jiangdu three times: in 605, 610 and 616. After the third journey south, in the 7th month of 616, he never returned north. In the 3rd month of 618, with the Xiaoguo guards longing to go home, Yuwen Huaji and others staged a mutiny, and Emperor Yang was strangled in the Jiangdu Palace."
+ },
+ "capital:江都": {
+  "old": "Jiangdu",
+  "mod": "Yangzhou, Jiangsu",
+  "note": "Li Zitong took Jiangdu in the 9th month of 619 and proclaimed himself emperor, naming his state Wu; the following year he was defeated by Du Fuwei's general Fu Gongshi and crossed south over the Yangtze."
+ },
+ "capital:建康": {
+  "old": "Jiankang",
+  "mod": "Nanjing, Jiangsu",
+  "note": "An ancient capital of the Six Dynasties. Sui troops broke in during the 1st month of 589; the Last Ruler of Chen and Zhang Lihua hid in a well at the Jingyang Hall and were captured. Emperor Wen of Sui ordered the city and palaces of Jiankang to be \"leveled and plowed for farmland\", and set up Jiangzhou at Shitou City instead."
+ },
+ "capital:丹阳（江宁）": {
+  "old": "Danyang (Jiangning)",
+  "mod": "Nanjing, Jiangsu",
+  "note": "In 620 Du Fuwei's general Fu Gongshi defeated Li Zitong, and Du Fuwei moved his base from Liyang to Danyang, which became the seat of the Tang Southeast Branch Department."
+ },
+ "capital:丹阳": {
+  "old": "Danyang",
+  "mod": "Nanjing, Jiangsu",
+  "note": "In the 8th month of 623 Fu Gongshi proclaimed himself emperor at Danyang, the old Chen capital, naming his state Song; Li Xiaogong took Danyang in the 3rd month of 624."
+ },
+ "capital:江陵@后梁": {
+  "old": "Jiangling",
+  "mod": "Jingzhou, Hubei",
+  "note": "Capital of the Later Liang (Western Liang); three generations of the Xiao family held it as vassals of the Northern Zhou and the Sui until the state was abolished in 587."
+ },
+ "capital:江陵@萧梁": {
+  "old": "Jiangling",
+  "mod": "Jingzhou, Hubei",
+  "note": "After proclaiming himself emperor in the 4th month of 618, Xiao Xian moved his capital from Baling to Jiangling and rebuilt the ancestral temples of the Later Liang. In the 10th month of 621 Li Xiaogong and Li Jing arrived beneath its walls, and Xiao Xian came out and surrendered."
+ },
+ "capital:巴陵": {
+  "old": "Baling",
+  "mod": "Yueyang, Hunan",
+  "note": "Xiao Xian rose in arms at Baling in the 10th month of 617, styled himself Prince of Liang and made it his first capital."
+ },
+ "capital:晋阳": {
+  "old": "Jinyang",
+  "mod": "Jinyuan District, Taiyuan, Shanxi",
+  "note": "Seat of the Sui Taiyuan Commandery and site of the Jinyang Palace of Emperor Yang of Sui. Li Yuan rose in arms here in the 5th month of 617, set up the Grand General's Headquarters in the 6th month, and in the 7th month left Li Yuanji to hold the city and led his army south."
+ },
+ "capital:马邑": {
+  "old": "Mayi",
+  "mod": "Shuozhou, Shanxi",
+  "note": "Shanyang, seat of Mayi Commandery. In the 2nd month of 617 Liu Wuzhou killed the governor Wang Rengong here and rose in arms; he took the title Dingyang Qaghan and made it his capital."
+ },
+ "capital:朔方（统万城）": {
+  "old": "Shuofang (Tongwan City)",
+  "mod": "Baichengzi, Jingbian, Shaanxi",
+  "note": "Tongwan City, built by Helian Bobo in the Sixteen Kingdoms period, was the seat of Shuofang Commandery under the Sui. Liang Shidu held it for eleven years; the city fell in the 4th month of 628."
+ },
+ "capital:榆林": {
+  "old": "Yulin",
+  "mod": "Shi'erliancheng, Jungar Banner, Inner Mongolia",
+  "note": "Seat of the Sui Yulin Commandery; in 617 Guo Zihe held it and styled himself Prince of Yongle."
+ },
+ "capital:金城@秦": {
+  "old": "Jincheng",
+  "mod": "Lanzhou, Gansu",
+  "note": "In the 4th month of 617 Xue Ju rose in arms at Jincheng and styled himself Hegemon-King of Western Qin."
+ },
+ "capital:天水": {
+  "old": "Tianshui",
+  "mod": "Tianshui, Gansu",
+  "note": "In the 7th month of 617 Xue Ju proclaimed himself emperor and moved his capital to Tianshui (Qinzhou); Qin fell in the 11th month of 618."
+ },
+ "capital:武威": {
+  "old": "Wuwei",
+  "mod": "Wuwei, Gansu",
+  "note": "In the 7th month of 617 Li Gui seized Wuwei and styled himself Prince of Great Liang (Hexi); he proclaimed himself emperor in 618, and in the 5th month of 619 he was seized by An Xiuren and his brother."
+ },
+ "capital:洛口（兴洛仓）": {
+  "old": "Luokou (Xingluo Granary)",
+  "mod": "northeast of Gongyi, Henan",
+  "note": "In Daye 2 the Sui set up the Xingluo Granary (Luokou Granary) southeast of Gong County; its walled compound was over 20 li around and held 3,000 storage pits. After seizing it by surprise in the 2nd month of 617, Li Mi opened it to hand out grain and took the title Duke of Wei on the spot; from then on Luokou and Jinyong City were his bases."
+ },
+ "capital:乐寿": {
+  "old": "Leshou",
+  "mod": "Xian County, Hebei",
+  "note": "Dou Jiande styled himself Prince of Changle at Leshou in the 1st month of 617 and Prince of Xia in the winter of 618, with his capital here both times."
+ },
+ "capital:洺州@夏": {
+  "old": "Mingzhou",
+  "mod": "Guangfu, Yongnian, Hebei",
+  "note": "In 619 Dou Jiande moved his capital to Mingzhou (Yongnian County, Wu'an Commandery)."
+ },
+ "capital:洺州@汉东": {
+  "old": "Mingzhou",
+  "mod": "Guangfu, Yongnian, Hebei",
+  "note": "In the 1st month of 622 Liu Heita styled himself Prince of Handong at Mingzhou. After the Battle of the Ming River in the 3rd month he abandoned the city and fled north; he took Mingzhou again in the 10th month, and in the 1st month of 623, defeated, he was beheaded here."
+ },
+ "capital:魏县": {
+  "old": "Wei County",
+  "mod": "old town of Wei County, Hebei",
+  "note": "Defeated at Tongshan in the 7th month of 618, Yuwen Huaji fell back to hold Wei County, poisoned Yang Hao, Prince of Qin, and proclaimed himself emperor, naming his state Xu; the next year he moved to Liaocheng, where he was captured by Dou Jiande."
+ },
+ "capital:豫章": {
+  "old": "Yuzhang",
+  "mod": "Nanchang, Jiangxi",
+  "note": "In the 12th month of 616 Lin Shihong proclaimed himself emperor at Yuzhang, naming his state Chu, with the reign title Taiping."
+ },
+ "capital:历阳": {
+  "old": "Liyang",
+  "mod": "He County, Anhui",
+  "note": "In 617 Du Fuwei seized Liyang, styled himself area commander and made Fu Gongshi his chief administrator."
+ },
+ "capital:海陵": {
+  "old": "Hailing",
+  "mod": "Taizhou, Jiangsu",
+  "note": "Li Zitong held Hailing and styled himself Prince of Chu; in the 9th month of 619 he went south and took Jiangdu."
+ },
+ "capital:余杭": {
+  "old": "Yuhang",
+  "mod": "Hangzhou, Zhejiang",
+  "note": "After losing Jiangdu in 620, Li Zitong crossed over to the east, destroyed Shen Faxing and made Yuhang his capital; he was captured in the 11th month of 621."
+ },
+ "capital:毗陵": {
+  "old": "Piling",
+  "mod": "Changzhou, Jiangsu",
+  "note": "After rising in arms in 618, Shen Faxing took Piling as his capital and styled himself Prince of Liang."
+ },
+ "capital:渔阳": {
+  "old": "Yuyang",
+  "mod": "Jizhou, Tianjin",
+  "note": "In the 12th month of 618 Gao Kaidao took Beiping and Yuyang, and styled himself Prince of Yan at Yuyang."
+ },
+ "capital:怀戎": {
+  "old": "Huairong",
+  "mod": "old town of Huailai, Hebei",
+  "note": "After rebelling again, Gao Kaidao made Huairong his capital and allied with the Turks to the north; in 624, after a mutiny, he hanged himself."
+ },
+ "capital:兖州": {
+  "old": "Yanzhou",
+  "mod": "Yanzhou, Shandong",
+  "note": "Xiaqiu, seat of the Sui Lu Commandery. Xu Yuanlang held it; in the 8th month of 621 he rose in support of Liu Heita and styled himself Prince of Lu."
+ },
+ "capital:歙州": {
+  "old": "Shezhou",
+  "mod": "She County, Anhui",
+  "note": "Wang Hua held Xin'an Commandery (Shezhou) and styled himself Prince of Wu, keeping his territory safe for over ten years; he surrendered to Tang in the 9th month of 621."
+ },
+ "capital:周桥（曹州）": {
+  "old": "Zhouqiao (Caozhou)",
+  "mod": "southwest of Dingtao, Shandong",
+  "note": "Meng Haigong held Zhouqiao City in Jiyin Commandery and styled himself Prince of Songyi; he was absorbed by Dou Jiande in the 2nd month of 621."
+ },
+ "capital:于都斤山（突厥牙帐）": {
+  "old": "Ötüken (Turkic royal camp)",
+  "mod": "eastern Khangai Mountains, Mongolia",
+  "note": "The sacred mountain (in Chinese, Yudujin or Yudujun Mountain) where the Turkic qaghans kept their royal camp; the Turkic inscriptions call it the \"Ötüken forest\". Around the Sui–Tang transition Illig Qaghan usually stayed south of the Gobi, around Dingxiang."
+ },
+ "capital:郁督军山（薛延陀牙帐）": {
+  "old": "Ötüken (Xueyantuo royal camp)",
+  "mod": "eastern Khangai Mountains, Mongolia",
+  "note": "After Yinan of the Xueyantuo proclaimed himself qaghan he set up his royal camp at Ötüken; the Xueyantuo were destroyed by Tang and the Huihe (Uyghurs) in 646."
+ },
+ "capital:千泉": {
+  "old": "Mingbulak",
+  "mod": "around Merke, Kazakhstan",
+  "note": "Summer royal camp of the Western Turkic qaghans; Xuanzang wrote that the place had \"a thousand springs and pools\". The winter camps were at Suyab, the Yulduz Valley and elsewhere."
+ },
+ "capital:伏俟城": {
+  "old": "Fuqi City",
+  "mod": "Shinaihai, Gonghe, Qinghai",
+  "note": "Capital of the Tuyuhun, 15 li west of Qinghai Lake: a square town with earthen walls, whose ruins survive today."
+ },
+ "capital:雅隆（琼结）": {
+  "old": "Yarlung (Chongye)",
+  "mod": "Shannan, Tibet",
+  "note": "Homeland of the Pugyal; the Chingwa Taktse Palace in the Yarlung Valley was the seat of the early tsenpos."
+ },
+ "capital:逻些": {
+  "old": "Rasa",
+  "mod": "Lhasa, Tibet",
+  "note": "In the 630s Songtsen Gampo moved his capital to Rasa and built the Red Hill Palace (forerunner of the Potala Palace). Princess Wencheng brought a statue of the Buddha Shakyamuni and built the Ramoche Temple; Princess Bhrikuti built the Jokhang."
+ },
+ "capital:高昌城": {
+  "old": "Gaochang City",
+  "mod": "Gaochang ruins, Turpan, Xinjiang",
+  "note": "Capital of the Qu family's Gaochang. In 630 (or 628) Xuanzang lectured on the sutras here for over a month, and Qu Wentai became his sworn brother."
+ },
+ "capital:平壤（长安城）": {
+  "old": "Pyongyang (Jangan Fortress)",
+  "mod": "Pyongyang, North Korea",
+  "note": "In 586 Goguryeo moved into the newly built Jangan Fortress (Pyongyang), the ultimate target of the repeated Sui and Tang expeditions. It was stormed in the 9th month of 668 by Li Ji, Xue Rengui and Silla troops."
+ },
+ "capital:泗沘": {
+  "old": "Sabi",
+  "mod": "Buyeo, South Chungcheong, South Korea",
+  "note": "Baekje moved its capital to Sabi in 538. In the 7th month of 660 the city was stormed by Su Dingfang, and King Uija came out of Ungjin to surrender."
+ },
+ "capital:周留城": {
+  "old": "Juryu Fortress",
+  "mod": "South Chungcheong, South Korea",
+  "note": "Stronghold of the Baekje restoration army; in 662 Buyeo Pung returned from Wa and was enthroned here. It fell in the 9th month of 663, after the Battle of Baekgang. Its location is disputed."
+ },
+ "capital:金城@新罗": {
+  "old": "Geumseong",
+  "mod": "Gyeongju, North Gyeongsang, South Korea",
+  "note": "The royal capital of Silla, today's Gyeongju. The Cheomseongdae observatory and the nine-story pagoda of Hwangnyong Temple were built under Queen Seondeok."
+ },
+ "capital:飞鸟": {
+  "old": "Asuka",
+  "mod": "Asuka, Nara, Japan",
+  "note": "The political center of Wa from the reign of Empress Suiko on. After the Taika Reform of 645 the court moved for a time to Naniwa, and in 667 to Ōmi-Ōtsu."
+ },
+ "capital:典冲（林邑都）": {
+  "old": "Simhapura (Linyi capital)",
+  "mod": "Trà Kiệu, Đà Nẵng, Vietnam",
+  "note": "Capital of Linyi; its Sanskrit name was Simhapura (\"Lion City\"). Liu Fang stormed it in 605 and withdrew, carrying off its eighteen golden figures and over 1,300 Buddhist scriptures."
+ },
+ "capital:曲女城": {
+  "old": "Kanyakubja",
+  "mod": "Kannauj, India",
+  "note": "Capital of Harsha. In 642 he convened a great debate here with Xuanzang as the chief debater; for eighteen days no one could refute him."
+ },
+ "capital:穹窿银城": {
+  "old": "Khyunglung Ngulkhar",
+  "mod": "Gar, Ngari, Tibet",
+  "note": "Capital of Yangtong (Zhangzhung), which was destroyed by Tibet around 644."
+ },
+ "battle:白道之战": {
+  "old": "Battle of Baidao",
+  "mod": "north of Hohhot, Inner Mongolia",
+  "yt": "4th month, 583",
+  "sides": "Sui defeated the Turks",
+  "cmd": "Yang Shuang and Li Chong vs. Ishbara Qaghan",
+  "note": "Yang Shuang, the Sui Prince of Wei, led an army out of Shuozhou, and Li Chong with 5,000 elite cavalry fell on Ishbara at Baidao and routed him; Ishbara fled wounded. From then on the Turks fell into internal strife and split apart."
+ },
+ "battle:平陈之战": {
+  "old": "Conquest of Chen",
+  "mod": "Nanjing, Jiangsu",
+  "yt": "1st month, 589",
+  "sides": "Sui defeated Chen",
+  "cmd": "Yang Guang (commander-in-chief), Heruo Bi and Han Qinhu vs. Chen Shubao and Xiao Mohe",
+  "note": "Heruo Bi crossed the Yangtze from Guangling and crushed Xiao Mohe below Mount Zhong; Han Qinhu crossed at Caishi by night with 500 men and was the first to enter by the Zhuque Gate, and the Last Ruler of Chen was captured. From the launch of the campaign to the fall of Chen took less than three months."
+ },
+ "battle:灵州之战": {
+  "old": "Battle of Lingzhou",
+  "mod": "north of Lingwu, Ningxia",
+  "yt": "4th month, 599",
+  "sides": "Sui defeated the Turks",
+  "cmd": "Yang Su vs. Tardu Qaghan",
+  "note": "Yang Su abandoned the old method of mixing chariots, cavalry and infantry in square formations behind abatis, and had all his units form up as cavalry and take the offensive. He crushed Tardu Qaghan, and the Turks \"went off wailing\"."
+ },
+ "battle:刘方平交州": {
+  "old": "Liu Fang takes Jiaozhou",
+  "mod": "Hanoi, Vietnam",
+  "yt": "602",
+  "sides": "Sui defeated the Lý of Jiaozhou",
+  "cmd": "Liu Fang vs. Lý Phật Tử",
+  "note": "Liu Fang, prefect of Guazhou, was appointed expedition commander for the Jiaozhou route. When he advanced to Dulong Pass, Lý Phật Tử asked to surrender and was sent to Chang'an."
+ },
+ "battle:刘方破林邑": {
+  "old": "Liu Fang defeats Linyi",
+  "mod": "Đà Nẵng, Vietnam",
+  "yt": "4th month, 605",
+  "sides": "Sui defeated Linyi",
+  "cmd": "Liu Fang vs. Sambhuvarman",
+  "note": "Linyi met him with great elephants. Liu Fang dug small pits covered with grass so that the elephants fell in, then shot them with crossbows, and the elephants turned and trampled Linyi's own ranks; he went on to take its capital, Simhapura. On the march back many Sui soldiers caught disease, and Liu Fang died of illness."
+ },
+ "battle:覆袁川之战": {
+  "old": "Battle of Fuyuan Valley",
+  "mod": "northwest of Qinghai Lake",
+  "yt": "5th month, 609",
+  "sides": "Sui defeated the Tuyuhun",
+  "cmd": "Emperor Yang of Sui and Yuwen Shu vs. Fuyun Qaghan",
+  "note": "Emperor Yang campaigned in person and surrounded Fuyun on all sides at Fuyuan Valley; Fuyun escaped with a few dozen horsemen into the lands of the Tanguts. Sui gained his territory, 4,000 li from east to west and 2,000 li from north to south, and set up four commanderies there."
+ },
+ "battle:萨水之战": {
+  "old": "Battle of the Salsu River",
+  "mod": "Chongchon River, North Korea",
+  "yt": "7th month, 612",
+  "sides": "Goguryeo defeated Sui",
+  "cmd": "Eulji Mundeok vs. Yuwen Shu and Yu Zhongwen",
+  "note": "Yuwen Shu's 305,000 men crossed the Yalu River and drove straight for Pyongyang. Eulji Mundeok feigned surrender to lure them deep inside, then, once the Sui army had run out of food and was retreating, struck as it was halfway across the Salsu River. The Sui army collapsed: \"when they got back to Yodong Fortress, only 2,700 men were left\"."
+ },
+ "battle:卑奢城之战": {
+  "old": "Battle of Bisa Fortress",
+  "mod": "Dahei Mountain, Jinzhou, Dalian, Liaoning",
+  "yt": "7th month, 614",
+  "sides": "Sui defeated Goguryeo",
+  "cmd": "Lai Hu'er vs. Goguryeo",
+  "note": "In the third Goguryeo campaign Lai Hu'er took the navy across the sea and stormed Bisa Fortress. As he was about to advance on Pyongyang, the Goguryeo king Go Won sent envoys to sue for surrender, and Emperor Yang withdrew."
+ },
+ "battle:董杜原之战": {
+  "old": "Battle of Dongdu Plain",
+  "mod": "Wenxiang, Lingbao, Henan",
+  "yt": "8th month, 613",
+  "sides": "Sui defeated Yang Xuangan",
+  "cmd": "Yuwen Shu and Qutu Tong vs. Yang Xuangan",
+  "note": "Yang Xuangan rose in arms at Liyang in the 6th month and besieged the Eastern Capital without success. Heading west for Guanzhong, he was overtaken on the way, defeated at Dongdu Plain in Wenxiang, and killed himself; Li Mi became a fugitive."
+ },
+ "battle:雁门之围": {
+  "old": "Siege of Yanmen",
+  "mod": "Dai County, Shanxi",
+  "yt": "8th–9th month, 615",
+  "sides": "Siege lifted for Sui (the Turks withdrew)",
+  "cmd": "Emperor Yang of Sui (Li Shimin volunteered with Yun Dingxing's army) vs. Shibi Qaghan",
+  "note": "On a northern tour Emperor Yang was surrounded in the seat of Yanmen Commandery by several hundred thousand Turkic horsemen, and 39 of its 41 towns fell. The 16-year-old Li Shimin proposed setting out many banners and drums and keeping gongs and drums sounding day and night as a ruse; together with Princess Yicheng's false report of an alarm on the northern frontier, this led Shibi to lift the siege and leave."
+ },
+ "battle:大海寺之战": {
+  "old": "Battle of Dahai Monastery",
+  "mod": "Xingyang, Henan",
+  "yt": "10th month, 616",
+  "sides": "Wagang defeated Sui",
+  "cmd": "Zhai Rang and Li Mi vs. Zhang Xutuo",
+  "note": "Li Mi laid an ambush in the woods north of Dahai Monastery and lured the noted general Zhang Xutuo, Sui vice-governor of Xingyang, into pursuit. Surrounded on all sides, Zhang Xutuo was killed in battle. The Sui forces in Henan lost heart, and the Wagang army's strength and prestige soared."
+ },
+ "battle:七里井之战": {
+  "old": "Battle of Qilijing",
+  "mod": "Hejian, Hebei",
+  "yt": "7th month, 617",
+  "sides": "Dou Jiande defeated Sui",
+  "cmd": "Dou Jiande vs. Xue Shixiong",
+  "note": "Xue Shixiong, Sui custodian of Zhuo Commandery, led 30,000 men south to relieve the Eastern Capital. Under cover of a thick fog Dou Jiande raided his camp by night with 280 men ready to die; the Sui army was routed, and many commanderies and counties of Hebei went over to Dou Jiande."
+ },
+ "battle:霍邑之战": {
+  "old": "Battle of Huoyi",
+  "mod": "Huozhou, Shanxi",
+  "yt": "8th month, 617",
+  "sides": "Tang defeated Sui",
+  "cmd": "Li Yuan, Li Jiancheng and Li Shimin vs. Song Laosheng",
+  "note": "Li Yuan's army was held up by rain at Guhu Fort and its food was nearly gone; at one point Li Yuan meant to march back to Taiyuan, and gave up the idea only when Li Shimin wailed outside his tent at night and pleaded with him. In the 8th month Li Jiancheng and Li Shimin lured Song Laosheng out of the city; Li Shimin led the cavalry charging from the southern plain and cut his line in two, Song Laosheng was beheaded, and Huoyi fell."
+ },
+ "battle:攻克长安": {
+  "old": "Capture of Chang'an",
+  "mod": "Xi'an, Shaanxi",
+  "yt": "11th month, 617",
+  "sides": "Tang defeated Sui",
+  "cmd": "Li Yuan, Li Jiancheng and Li Shimin vs. Yin Shishi and Wei Wensheng",
+  "note": "In the 9th month Li Yuan crossed west at Longmen, and in the 10th month he besieged Daxing City. His 200,000 men \"each kept to their own ramparts\", under the agreed order \"do not violate the seven ancestral temples of Sui or the Prince of Dai and the imperial clan\". In the 11th month the officer Lei Yongji was first onto the walls and the city fell; Yang You, Prince of Dai, was enthroned as emperor, and the era name was changed to Yining."
+ },
+ "battle:扶风之战": {
+  "old": "Battle of Fufeng",
+  "mod": "Fufeng, Shaanxi",
+  "yt": "12th month, 617",
+  "sides": "Tang defeated Qin",
+  "cmd": "Li Shimin vs. Xue Rengao",
+  "note": "Xue Ju sent his son Xue Rengao with 100,000 men to besiege Fufeng. Li Shimin routed him and pursued as far as Longdi before turning back, and the western edge of Guanzhong was made secure."
+ },
+ "battle:童山之战": {
+  "old": "Battle of Tongshan",
+  "mod": "southwest of Xun County, Henan",
+  "yt": "7th month, 618",
+  "sides": "Wei defeated Yuwen Huaji",
+  "cmd": "Li Mi vs. Yuwen Huaji",
+  "note": "Yuwen Huaji led the Xiaoguo guards north to contend for the Eastern Capital. Li Mi, who had accepted the Huangtai emperor's offer of amnesty, fought a bitter battle with him below Tongshan. Li Mi was hit by a stray arrow and fell from his horse, and his officer Qin Shubao fought desperately to protect him; in the end Yuwen Huaji was defeated, but Li Mi's best troops were almost all lost."
+ },
+ "battle:浅水原之战（一）": {
+  "old": "First Battle of Qianshuiyuan",
+  "mod": "northeast of Changwu, Shaanxi",
+  "yt": "7th month, 618",
+  "sides": "Qin defeated Tang",
+  "cmd": "Xue Ju vs. Liu Wenjing and Yin Kaishan (Li Shimin ill)",
+  "note": "Li Shimin, bedridden with malaria, ordered his generals to hold fast and not give battle, but Liu Wenjing and Yin Kaishan, underestimating the enemy, left their camp and were taken by surprise by Xue Ju. All eight Tang commanders were defeated, five or six in ten of the men died, and Li Shimin withdrew to Chang'an."
+ },
+ "battle:浅水原之战（二）": {
+  "old": "Second Battle of Qianshuiyuan",
+  "mod": "northeast of Changwu, Shaanxi",
+  "yt": "11th month, 618",
+  "sides": "Tang defeated Qin",
+  "cmd": "Li Shimin vs. Xue Rengao and Zong Luohou",
+  "note": "Xue Ju died of illness in the 8th month and Xue Rengao succeeded him. Li Shimin dug deep trenches and built high ramparts for over 60 days, waiting until the Qin army ran out of food and its officers and men lost heart. He first used Liang Shi as bait to draw Zong Luohou into attacking, then personally led elite cavalry out behind Zong's lines to strike from both sides, and crushed him. With only 2,000 horsemen Li Shimin pursued relentlessly to the walls of Zhezhi City; Xue Rengao came out and surrendered, and Longyou was pacified."
+ },
+ "battle:邙山之战": {
+  "old": "Battle of Mount Mang",
+  "mod": "Mount Mang north of Yanshi, Henan",
+  "yt": "9th month, 618",
+  "sides": "Wang Shichong defeated Wei",
+  "cmd": "Wang Shichong vs. Li Mi",
+  "note": "After Tongshan Li Mi's army was exhausted. Wang Shichong picked over 20,000 elite troops (with over 2,000 horses) for a surprise attack, set an ambush on Mount Mang, and paraded a bound man who looked like Li Mi in front of the lines. The Wei army collapsed; Li Mi fled west and submitted to Tang, and most of his followers went over to Wang Shichong."
+ },
+ "battle:聊城之战": {
+  "old": "Battle of Liaocheng",
+  "mod": "Liaocheng, Shandong",
+  "yt": "intercalary 2nd month, 619",
+  "sides": "Xia defeated Xu",
+  "cmd": "Dou Jiande vs. Yuwen Huaji",
+  "note": "Claiming to punish the rebels on behalf of Sui, Dou Jiande attacked Yuwen Huaji at Liaocheng. The city fell, and Yuwen Huaji was captured and beheaded. Dou Jiande paid his respects to Empress Xiao, mourned Emperor Yang in plain white clothes, and took possession of the Imperial Seal of the Realm."
+ },
+ "battle:度索原之战": {
+  "old": "Battle of Dusuo Plain",
+  "mod": "south of Jiexiu, Shanxi",
+  "yt": "9th month, 619",
+  "sides": "Dingyang defeated Tang",
+  "cmd": "Song Jingang vs. Pei Ji",
+  "note": "Pei Ji camped the Tang army on Dusuo Plain. Song Jingang cut off the camp's drinking water, and as the army was moving camp it was attacked and routed entirely. Pei Ji fled back to Jinzhou in a day and a night, and the prefectures of Hedong fell one after another."
+ },
+ "battle:柏壁之战": {
+  "old": "Battle of Baibi",
+  "mod": "southwest of Xinjiang County, Shanxi",
+  "yt": "11th month, 619 – 4th month, 620",
+  "sides": "Tang defeated Dingyang",
+  "cmd": "Li Shimin vs. Song Jingang",
+  "note": "Li Shimin crossed the Yellow River on the thick ice at Longmen and camped at Baibi facing Song Jingang. He kept behind his walls and refused battle, sending troops to raid Song's supply lines and to collect grain and fodder from the people. After five months of standoff, in the 4th month of the following year Song Jingang ran out of food and withdrew north."
+ },
+ "battle:美良川之战": {
+  "old": "Battle of Meiliangchuan",
+  "mod": "north of Xia County, Shanxi",
+  "yt": "12th month, 619",
+  "sides": "Tang defeated Dingyang",
+  "cmd": "Yin Kaishan and Qin Shubao vs. Yuchi Jingde and Xun Xiang",
+  "note": "Yuchi Jingde and Xun Xiang were returning from a raid on Xia County when the Tang generals Yin Kaishan and Qin Shubao ambushed them at Meiliangchuan, taking over 2,000 heads."
+ },
+ "battle:雀鼠谷之战": {
+  "old": "Battle of Queshu Valley",
+  "mod": "Lingshi, Shanxi",
+  "yt": "4th month, 620",
+  "sides": "Tang defeated Dingyang",
+  "cmd": "Li Shimin vs. Song Jingang",
+  "note": "As Song Jingang withdrew north, Li Shimin personally led his cavalry in relentless pursuit, covering over 200 li in a day and a night. At Queshu Valley he fought eight battles in one day and won them all, killing or capturing tens of thousands. Li Shimin went two days without food and three days without taking off his armor, and shared a single sheep with his soldiers."
+ },
+ "battle:介休之战": {
+  "old": "Battle of Jiexiu",
+  "mod": "Jiexiu, Shanxi",
+  "yt": "4th month, 620",
+  "sides": "Tang defeated Dingyang",
+  "cmd": "Li Shimin vs. Song Jingang and Yuchi Jingde",
+  "note": "Song Jingang gathered his remaining 20,000 men and drew up with his back to the city. Li Shimin had Li Ji engage him while he himself led elite cavalry to charge the rear of Song's line, and Song Jingang was badly beaten and fled north. Yuchi Jingde and Xun Xiang surrendered Jiexiu and Yong'an; Li Shimin at once put Yuchi Jingde back in command of his old troops, 8,000 men, and from then on Yuchi was one of his most trusted and formidable generals."
+ },
+ "battle:洛阳之围": {
+  "old": "Siege of Luoyang",
+  "mod": "Luoyang, Henan",
+  "yt": "7th month, 620 – 5th month, 621",
+  "sides": "Tang defeated Zheng",
+  "cmd": "Li Shimin vs. Wang Shichong",
+  "note": "Li Shimin led his army east and first cleared the approaches to Luoyang, fighting Wang Shichong several times at Mount Mang and Cijian; Yuchi Jingde rode alone to rescue his lord and speared Shan Xiongxin from his horse. From the 2nd month of 621 the city was surrounded on all sides and ran short of food: \"a bolt of silk was worth three sheng of millet\"."
+ },
+ "battle:虎牢之战": {
+  "old": "Battle of Hulao",
+  "mod": "Sishui, Xingyang, Henan",
+  "yt": "5th month, 621",
+  "sides": "Tang defeated Xia",
+  "cmd": "Li Shimin vs. Dou Jiande",
+  "note": "Dou Jiande led over 100,000 men west to relieve Luoyang, but was held at Hulao for more than a month by Li Shimin's 3,500 horsemen. On the 2nd day of the 5th month Dou Jiande drew up a battle line stretching 20 li east of the Si River and offered battle. Li Shimin waited until Dou's soldiers, hungry and tired, were sitting on the ground and jostling to drink, then in the afternoon led Shi Danai, Cheng Zhijie, Qin Shubao and others, banners furled, to break through to the rear of Dou's lines. The Xia army collapsed, and Dou Jiande, struck by a lance, fell from his horse and was captured."
+ },
+ "battle:江陵之战": {
+  "old": "Battle of Jiangling",
+  "mod": "Jingzhou, Hubei",
+  "yt": "9th–10th month, 621",
+  "sides": "Tang defeated Liang (Xiao Xian)",
+  "cmd": "Li Xiaogong and Li Jing vs. Xiao Xian",
+  "note": "Li Jing proposed taking advantage of the Yangtze's autumn flood to sail downstream, since \"in war, speed is everything\". The Tang army took Jingmen and Yidu in succession, crushed Wen Shihong at the mouth of the Qing River, and besieged Jiangling. Li Jing had the captured boats cast adrift on the river so that relief forces would suspect Jiangling had already fallen; with no relief arriving, Xiao Xian opened the gates and surrendered."
+ },
+ "battle:洺水之战": {
+  "old": "Battle of the Ming River",
+  "mod": "Ming River between Quzhou and Feixiang, Hebei",
+  "yt": "3rd month, 622",
+  "sides": "Tang defeated Handong",
+  "cmd": "Li Shimin, Li Ji and Luo Yi vs. Liu Heita",
+  "note": "Li Shimin and Liu Heita faced each other across the Ming River for over 60 days, while Li Shimin secretly built a dam upstream to hold back the water. When his food ran out, Liu Heita led 20,000 infantry and cavalry south across the river to fight a decisive battle. Li Shimin personally led elite cavalry to break his left wing, then breached the dam; the water rushed down, the Handong army lost over 10,000 beheaded and several thousand drowned, and Liu Heita fled north to the Turks with a few hundred horsemen."
+ },
+ "battle:下博之战": {
+  "old": "Battle of Xiabo",
+  "mod": "southeast of Shenzhou, Hebei",
+  "yt": "10th month, 622",
+  "sides": "Handong defeated Tang",
+  "cmd": "Liu Heita vs. Li Daoxuan",
+  "note": "Liu Heita brought Turkic troops back into Hebei. Li Daoxuan, Prince of Huaiyang, only 19 years old, advanced rashly at Xiabo and was defeated and killed; Li Yuanji, Prince of Qi, was afraid of the enemy and dared not advance, and Hebei was lost again."
+ },
+ "battle:馆陶之战": {
+  "old": "Battle of Guantao",
+  "mod": "Guantao, Hebei",
+  "yt": "12th month, 622 – 1st month, 623",
+  "sides": "Tang defeated Handong",
+  "cmd": "Li Jiancheng vs. Liu Heita",
+  "note": "The crown prince Li Jiancheng followed Wei Zheng's plan of releasing captives and reassuring Hebei, and Liu Heita's followers lost heart and drifted away. In the 12th month Li Jiancheng pursued him to Guantao; Liu Heita crossed the Yongji Canal and fled north, and in the 1st month of 623 at Raoyang his officer Zhuge Dewei seized him and handed him over to the Tang army. He was beheaded at Mingzhou."
+ },
+ "battle:博望山之战": {
+  "old": "Battle of Mount Bowang",
+  "mod": "Bowang, Dangtu, Anhui",
+  "yt": "3rd month, 624",
+  "sides": "Tang defeated Song",
+  "cmd": "Li Xiaogong, Li Jing and Li Ji vs. Feng Huiliang and Chen Zhengtong",
+  "note": "Fu Gongshi sent Feng Huiliang and Chen Zhengtong to hold the two mountains of Bowang and Qinglin, with iron chains stretched across the Yangtze. Li Jing used his old and weak troops to lure the enemy out, then struck with his best troops, crushing them. Following up the victory he took Danyang, and Fu Gongshi fled east and was captured."
+ },
+ "battle:豳州对峙": {
+  "old": "Standoff at Binzhou",
+  "mod": "Binzhou, Shaanxi",
+  "yt": "8th month, 624",
+  "sides": "Tang turned back the Eastern Turks (truce without battle)",
+  "cmd": "Li Shimin vs. Illig and Tuli Qaghans",
+  "note": "The two qaghans Illig and Tuli invaded with the full strength of their realm and reached Wulong Slope in Binzhou. It had been raining for a long time. Li Shimin rode up to their lines with a hundred horsemen and rebuked Illig for breaking his word, while secretly working to turn Tuli against him. Illig asked for peace without fighting, and from then on Tuli and Li Shimin were sworn brothers."
+ },
+ "battle:朔方之战": {
+  "old": "Battle of Shuofang",
+  "mod": "Baichengzi, Jingbian, Shaanxi",
+  "yt": "4th month, 628",
+  "sides": "Tang defeated Liang",
+  "cmd": "Chai Shao and Xue Wanjun vs. Liang Shidu",
+  "note": "Taking advantage of turmoil among the Eastern Turks, the Tang army advanced and besieged Shuofang and drove off a Turkic relief force. When the city ran out of food, Liang Luoren killed Liang Shidu and surrendered."
+ },
+ "battle:定襄之战": {
+  "old": "Battle of Dingxiang",
+  "mod": "around Horinger, Inner Mongolia",
+  "yt": "1st month, 630",
+  "sides": "Tang defeated the Eastern Turks",
+  "cmd": "Li Jing vs. Illig Qaghan",
+  "note": "Li Jing set out from Mayi with 3,000 picked cavalry, advanced through snow by night to Eyang Pass, and fell on Dingxiang by surprise. Illig, greatly alarmed and thinking Tang had come in full force, fell back to Qikou. Empress Xiao of Sui and Emperor Yang's grandson Yang Zhengdao were brought back."
+ },
+ "battle:阴山之战": {
+  "old": "Battle of the Yin Mountains",
+  "mod": "northern foot of the Yin Mountains, Inner Mongolia",
+  "yt": "2nd month, 630",
+  "sides": "Tang defeated the Eastern Turks",
+  "cmd": "Li Jing and Li Ji vs. Illig Qaghan",
+  "note": "Illig sent envoys to offer his submission, and Taizong sent Tang Jian to reassure him. Judging that Illig \"would certainly not be on guard\", Li Jing took 10,000 cavalry with 20 days' rations and, under cover of a thick fog, struck straight at the royal camp, taking over 10,000 heads and capturing more than 100,000 men and women. Illig fled west and in the 3rd month was captured by the deputy expedition commander Zhang Baoxiang; the Eastern Turkic Qaghanate came to an end."
+ },
+ "battle:李靖破吐谷浑": {
+  "old": "Li Jing defeats the Tuyuhun",
+  "mod": "eastern Qaidam Basin, Qinghai",
+  "yt": "4th–5th month, 635",
+  "sides": "Tang defeated the Tuyuhun",
+  "cmd": "Li Jing, Hou Junji and Li Daozong vs. Fuyun Qaghan",
+  "note": "The Tuyuhun burned all the wild grass so that the Tang horses would have nothing to eat. Li Jing split his forces into two columns; on the southern route Hou Junji and Li Daozong marched over 2,000 li through uninhabited land, \"the men chewing ice and the horses eating snow\", pursuing as far as Baihai and Xingxiu Valley. Fuyun was killed by his own followers in the great desert."
+ },
+ "battle:松州之战": {
+  "old": "Battle of Songzhou",
+  "mod": "Songpan, Sichuan",
+  "yt": "8th–9th month, 638",
+  "sides": "Tang defeated Tibet",
+  "cmd": "Niu Jinda vs. the Tibetan army",
+  "note": "Using his failed marriage request as a pretext, Songtsen Gampo attacked Songzhou with 200,000 men. The Tang vanguard commander Niu Jinda raided his camp by night and took over 1,000 heads; the Tibetans withdrew, apologized, and asked again for a marriage."
+ },
+ "battle:高昌之战": {
+  "old": "Conquest of Gaochang",
+  "mod": "Turpan, Xinjiang",
+  "yt": "8th month, 640",
+  "sides": "Tang defeated Gaochang (city fell)",
+  "cmd": "Hou Junji and Xue Wanjun vs. Qu Zhisheng",
+  "note": "Qu Wentai believed no Tang army could cross the desert to reach him; when he heard it had reached the edge of the desert, he died of fear and worry. Hou Junji attacked the city with giant catapults and battering rams, Qu Zhisheng came out and surrendered, 22 towns were taken, and Tang set up Xizhou."
+ },
+ "battle:诺真水之战": {
+  "old": "Battle of the Nuozhen River",
+  "mod": "Darhan Muminggan Banner, Inner Mongolia",
+  "yt": "12th month, 641",
+  "sides": "Tang defeated the Xueyantuo",
+  "cmd": "Li Ji vs. Dadu Shad",
+  "note": "Taking advantage of the moment when Taizong was about to go east for the feng sacrifice at Mount Tai, the Xueyantuo struck south against Li Simo with 200,000 men. Li Ji pursued with infantry and cavalry as far as the Nuozhen River; the Xueyantuo were beaten fighting on foot, 3,000 were beheaded, and Dadu Shad fled."
+ },
+ "battle:焉耆之战": {
+  "old": "Battle of Karasahr",
+  "mod": "Yanqi, Xinjiang",
+  "yt": "9th month, 644",
+  "sides": "Tang defeated Karasahr",
+  "cmd": "Guo Xiaoke vs. Long Tuqizhi",
+  "note": "Karasahr attached itself to the Western Turks and turned against Tang. Guo Xiaoke, protector-general of Anxi, led 3,000 horsemen across the lake waters by night in a surprise attack and captured Long Tuqizhi, king of Karasahr."
+ },
+ "battle:辽东城之战": {
+  "old": "Siege of Yodong Fortress",
+  "mod": "Liaoyang, Liaoning",
+  "yt": "5th month, 645",
+  "sides": "Tang defeated Goguryeo",
+  "cmd": "Emperor Taizong of Tang and Li Ji vs. Goguryeo",
+  "note": "Taizong campaigned in person. Li Ji set out from Liucheng, feinting toward Huaiyuan Garrison, then marched north in secret, crossed the Liao River and first took Gaemo Fortress. After crossing the Liao marshes, Taizong besieged Yodong Fortress; using a south wind he set fire to the towers on the walls, and the city fell."
+ },
+ "battle:驻跸山之战": {
+  "old": "Battle of Mount Zhubi",
+  "mod": "southeast of Haicheng, Liaoning",
+  "yt": "6th month, 645",
+  "sides": "Tang defeated Goguryeo",
+  "cmd": "Emperor Taizong of Tang, Li Ji, Zhangsun Wuji and Xue Rengui vs. Go Yeon-su and Go Hye-jin",
+  "note": "A Goguryeo relief army of 150,000 came to save Ansi Fortress. Taizong directed the deployment himself: Li Ji drew up to the west and Zhangsun Wuji lay in ambush to the north, while Xue Rengui, dressed in white, won distinction charging the enemy line. Go Yeon-su and others surrendered with over 36,000 men, and Taizong named the hill where he had camped Mount Zhubi."
+ },
+ "battle:安市城之战": {
+  "old": "Siege of Ansi Fortress",
+  "mod": "Yingchengzi, Haicheng, Liaoning",
+  "yt": "6th–9th month, 645",
+  "sides": "Goguryeo held (Tang withdrew)",
+  "cmd": "Emperor Taizong of Tang, Li Ji and Li Daozong vs. the commander of Ansi",
+  "note": "The Tang army built an earthen mound and attacked the city for over 60 days, but the mound collapsed and was seized by the defenders. In the 9th month, with Liaodong turning cold, the grass withered and the water frozen, Taizong withdrew, sighing, \"If Wei Zheng were alive, he would not have let me make this expedition.\""
+ },
+ "battle:郁督军山之战": {
+  "old": "Battle of Ötüken",
+  "mod": "eastern Khangai Mountains, Mongolia",
+  "yt": "6th month, 646",
+  "sides": "Tang defeated the Xueyantuo",
+  "cmd": "Li Ji vs. Duomozhi",
+  "note": "Duomi Qaghan of the Xueyantuo was killed by the Huihe (Uyghurs), and the remnants of his people set up Duomozhi. When the Tang army under Li Ji reached Ötüken, over 50,000 of them surrendered, and the Xueyantuo were finished."
+ },
+ "battle:龟兹之战": {
+  "old": "Conquest of Kucha",
+  "mod": "Kuqa, Xinjiang",
+  "yt": "10th month, 648 – 1st month, 649",
+  "sides": "Tang defeated Kucha",
+  "cmd": "Ashina She'er and Guo Xiaoke vs. Bai Helibushibi",
+  "note": "As commander-in-chief of the Kunqiu route expedition, Ashina She'er led troops from 13 Tiele tribes. He first forced Karasahr to submit, then crushed the king of Kucha at Duohe City, took his capital, and captured the king and his minister Nali; Guo Xiaoke was killed fighting inside the city."
+ },
+ "battle:金山之战": {
+  "old": "Battle of the Altai",
+  "mod": "around Khovd, Mongolia",
+  "yt": "9th month, 650",
+  "sides": "Tang defeated Chebi Qaghan",
+  "cmd": "Gao Kan vs. Chebi Qaghan",
+  "note": "Chebi Qaghan, of the remnant Eastern Turks, held the Altai Mountains and refused to come to court. Gao Kan led troops of the Huihe (Uyghurs) and Pugu against him, pursued him to the Altai Mountains and captured him. Later (663–664) Tang governed the Turks and the Tiele through two protectorates, Chanyu and Hanhai respectively."
+ },
+ "battle:曳咥河之战": {
+  "old": "Battle of the Irtysh",
+  "mod": "Irtysh River, Altay, Xinjiang",
+  "yt": "12th month, 657",
+  "sides": "Tang defeated the Western Turks",
+  "cmd": "Su Dingfang, Ren Yaxiang and Xiao Siye vs. Ashina Helu",
+  "note": "With troops of the Huihe (Uyghurs) and of the Yanran Protectorate, over 10,000 men in all, Su Dingfang met Helu's 100,000 troops of the Ten Tribes west of the Irtysh. The Tang infantry held a plain with their spears pointing outward while the cavalry formed up on the northern plain; the enemy charged three times without moving them, and the Tang then counterattacked and routed Helu. Su Dingfang pursued through heavy snow, and Helu fled to Chach, where he was captured."
+ },
+ "battle:黄山伐之战": {
+  "old": "Battle of Hwangsanbeol",
+  "mod": "Yeonsan, Nonsan, South Korea",
+  "yt": "7th month, 660",
+  "sides": "Silla defeated Baekje",
+  "cmd": "Kim Yu-sin vs. Gyebaek",
+  "note": "The Baekje general Gyebaek held the plain of Hwangsan with 5,000 men sworn to die and won four battles out of four. The young Silla hwarang Gwanchang charged the Baekje lines alone and was killed; this roused the Silla troops, and Gyebaek died in battle."
+ },
+ "battle:泗沘之战": {
+  "old": "Fall of Sabi",
+  "mod": "Buyeo, South Chungcheong, South Korea",
+  "yt": "7th month, 660",
+  "sides": "Tang and Silla defeated Baekje (city fell)",
+  "cmd": "Su Dingfang and Kim Yu-sin vs. King Uija",
+  "note": "Su Dingfang took 130,000 land and naval troops across the sea from Chengshan and landed at the mouth of the Ungjin River, then surrounded Sabi together with the Silla army. King Uija fled to Ungjin and later came out and surrendered with the crown prince Buyeo Yung, and Baekje fell."
+ },
+ "battle:蛇水之战": {
+  "old": "Battle of the Sasu River",
+  "mod": "around Pyongyang, North Korea",
+  "yt": "2nd month, 662",
+  "sides": "Goguryeo defeated Tang",
+  "cmd": "Yeon Gaesomun vs. Pang Xiaotai",
+  "note": "The Tang army besieged Pyongyang for half a year. Pang Xiaotai, commander for the Okjeo route, camped on the Sasu River with troops from Lingnan; surrounded and attacked by Yeon Gaesomun, his whole army was wiped out, and Pang Xiaotai and his 13 sons were all killed in battle. Su Dingfang lifted the siege and withdrew because of heavy snow."
+ },
+ "battle:天山之战": {
+  "old": "Battle of Tianshan",
+  "mod": "Khangai Mountains, Mongolia",
+  "yt": "3rd month, 662",
+  "sides": "Tang defeated the Tiele",
+  "cmd": "Zheng Rentai and Xue Rengui vs. the Nine Tiele Tribes",
+  "note": "The Nine Tiele Tribes came to fight with over 100,000 men and sent out a few dozen of their bravest men to issue a challenge. Xue Rengui shot three arrows and killed three of them, and the rest dismounted and surrendered: \"The general settled Tianshan with three arrows; the soldiers sing long songs as they march back through the Han passes.\" But Zheng Rentai advanced rashly and ran into heavy snow, and very many of his soldiers died of cold and hunger."
+ },
+ "battle:白江口之战": {
+  "old": "Battle of Baekgang",
+  "mod": "mouth of the Geum River, South Korea",
+  "yt": "8th month, 663",
+  "sides": "Tang defeated Wa and Baekje",
+  "cmd": "Liu Rengui, Du Shuang and Buyeo Yung vs. the Wa relief force and Buyeo Pung",
+  "note": "The Tang fleet of 170 ships drew up at the mouth of the Baek River. The Wa relief force rushed to attack, and the Tang struck them from both flanks: \"four engagements, four victories; 400 of their boats burned; smoke and flames filled the sky, and the sea ran red\". Buyeo Pung fled to Goguryeo, and Juryu Fortress fell in the 9th month. This was the first large-scale naval battle between China and Japan."
+ },
+ "battle:新城之战": {
+  "old": "Battle of Sinseong",
+  "mod": "Gao'er Mountain, Fushun, Liaoning",
+  "yt": "9th month, 667",
+  "sides": "Tang defeated Goguryeo",
+  "cmd": "Li Ji vs. Goguryeo",
+  "note": "Seeing Sinseong as the key point on Goguryeo's western border, Li Ji attacked it hard and took it, and all 16 towns around it surrendered. Xue Rengui and Pang Tongshan then drove off Yeon Namgeon's relief army."
+ },
+ "battle:扶余城之战": {
+  "old": "Battle of Buyeo Fortress",
+  "mod": "around Siping, Jilin",
+  "yt": "2nd month, 668",
+  "sides": "Tang defeated Goguryeo",
+  "cmd": "Xue Rengui vs. Goguryeo",
+  "note": "Xue Rengui attacked Buyeo Fortress with 3,000 men and took it after hard fighting, and over 40 towns in the Buyeo valley surrendered at the news."
+ },
+ "battle:平壤之战": {
+  "old": "Fall of Pyongyang",
+  "mod": "Pyongyang, North Korea",
+  "yt": "9th month, 668",
+  "sides": "Tang and Silla defeated Goguryeo (city fell)",
+  "cmd": "Li Ji, Xue Rengui and Kim In-mun vs. Yeon Namgeon",
+  "note": "Tang and Silla forces besieged Pyongyang for over a month. King Bojang and Yeon Namsan came out and surrendered, but Yeon Namgeon shut the gates and held out until his general, the monk Sinseong, opened the gates from inside. The city fell, and Goguryeo came to an end. Tang set up the Andong Protectorate on its lands, with nine area commands and 42 prefectures."
+ },
+ "pass:潼关": {
+  "old": "Tong Pass",
+  "mod": "Gangkou, Tongguan, Shaanxi",
+  "note": "The eastern gateway of Guanzhong. In 617 Qutu Tong held Tong Pass against Li Yuan; defeated, he fled east and was captured. Li Jiancheng then garrisoned the pass, and all of Guanzhong fell into Tang hands."
+ },
+ "pass:蒲津关": {
+  "old": "Pujin Pass",
+  "mod": "Puzhou, Yongji, Shanxi",
+  "note": "The Pujin crossing of the Yellow River, linking Guanzhong with Hedong. In the late Sui Yao Junsu held Hedong City for the Sui to the last, until he was killed by his own men in the 12th month of 618; his officer Wang Xingben surrendered to Tang only in 620."
+ },
+ "pass:武关": {
+  "old": "Wu Pass",
+  "mod": "Wuguan, Danfeng, Shaanxi",
+  "note": "The southeastern gateway of Chang'an, leading via Shangzhou to Nanyang and Xiangyang."
+ },
+ "pass:大散关": {
+  "old": "Dasan Pass",
+  "mod": "south of Baoji, Shaanxi",
+  "note": "The northern entrance to the Qinling Mountains, commanding the Chencang Road into Hanzhong and Shu."
+ },
+ "pass:陇关": {
+  "old": "Long Pass",
+  "mod": "west of Long County, Shaanxi",
+  "note": "Also called Dazhen Pass; the main route over the Long Mountains and the boundary between Guanzhong and Longyou."
+ },
+ "pass:萧关": {
+  "old": "Xiao Pass",
+  "mod": "southeast of Guyuan, Ningxia",
+  "note": "The northwestern gateway of Guanzhong, east of Yuanzhou, commanding the main road along the upper Jing River to Longyou and Hexi."
+ },
+ "pass:剑门关": {
+  "old": "Jianmen Pass",
+  "mod": "Jiange, Sichuan",
+  "note": "A natural stronghold on the Jinniu Road: \"one man holding the pass can stop ten thousand\". In 618 Ba and Shu came over to Tang through proclamations sent along this road."
+ },
+ "pass:瞿塘关": {
+  "old": "Qutang Pass",
+  "mod": "Baidicheng, Fengjie, Chongqing",
+  "note": "The western entrance to the Three Gorges of the Yangtze, where Kuizhou (Baidicheng) stood. In the 9th month of 621 Li Xiaogong and Li Jing led the Ba and Shu fleet downriver from here to destroy Xiao Xian."
+ },
+ "pass:虎牢关": {
+  "old": "Hulao Pass",
+  "mod": "Sishui, Xingyang, Henan",
+  "note": "The eastern gateway of Luoyang, also called Sishui Pass or Chenggao, with the Yellow River to the north and Mount Song to the south. In 621 Li Shimin held it to stop Dou Jiande from marching west to the rescue, and captured him in a single battle."
+ },
+ "pass:天井关": {
+  "old": "Tianjing Pass",
+  "mod": "south of Jincheng, Shanxi",
+  "note": "A pass on the Taihang Defile, linking Zezhou with Henei."
+ },
+ "pass:井陉口": {
+  "old": "Jingxing Pass",
+  "mod": "Jingxing, Hebei",
+  "note": "Also called Tumen Pass; one of the Eight Defiles of the Taihang, linking Bingzhou in Hedong with Hengzhou in Hebei."
+ },
+ "pass:飞狐口": {
+  "old": "Feihu Pass",
+  "mod": "north of Laiyuan, Hebei",
+  "note": "One of the Eight Defiles of the Taihang; the passage from Daibei to Yizhou and Dingzhou."
+ },
+ "pass:雁门关": {
+  "old": "Yanmen Pass",
+  "mod": "Dai County, Shanxi",
+  "note": "Called Xijing Pass under the Tang; the northern shield of Hedong. In 615 the Turkic Shibi Qaghan came south through here and besieged Emperor Yang of Sui in the seat of Yanmen Commandery."
+ },
+ "pass:居庸关": {
+  "old": "Juyong Pass",
+  "mod": "Changping, Beijing",
+  "note": "The Jundu Defile of the Eight Defiles of the Taihang; the northern gate of Youzhou."
+ },
+ "pass:古北口": {
+  "old": "Gubeikou",
+  "mod": "Miyun, Beijing",
+  "note": "The main route from Youzhou northeast to the Xi and the Khitan."
+ },
+ "pass:渝关": {
+  "old": "Yu Pass",
+  "mod": "east of Funing, Hebei",
+  "note": "Also written Linyu Pass; at the western end of the Liaoxi corridor. Yang Liang, Prince of Han, in 598 and the Sui armies attacking Goguryeo from 612 on all went out through this pass."
+ },
+ "pass:大庾岭": {
+  "old": "Dayu Pass",
+  "mod": "Dayu, Jiangxi – Nanxiong, Guangdong",
+  "note": "One of the Five Ridges and the most important route between Lingnan and the Central Plains; here a land route linked the waterways of the Bei River and the Gan River."
+ },
+ "pass:玉门关": {
+  "old": "Yumen Pass",
+  "mod": "east of Guazhou, Gansu",
+  "note": "The Sui–Tang Yumen Pass lay east of Jinchang City in Guazhou. In 629 (or 627) Xuanzang, traveling west, slipped out past it in secret, then went north across the Moheyan Desert to Yiwu."
+ },
+ "pass:阳关": {
+  "old": "Yang Pass",
+  "mod": "southwest of Dunhuang, Gansu",
+  "note": "The pass southwest of Shazhou leading out onto the southern route through the Western Regions."
+ },
+ "pass:铁门关": {
+  "old": "Tiemen Pass",
+  "mod": "north of Korla, Xinjiang",
+  "note": "A gorge pass on the road from Karasahr to Kucha."
+ },
+ "pass:白道": {
+  "old": "Baidao",
+  "mod": "north of Hohhot, Inner Mongolia",
+  "note": "A north–south thoroughfare across the Yin Mountains, with the Baidao Plain to its north. The Sui defeat of the Turks in 583, Li Jing's raid on Illig in 630 and Li Ji's pursuit of the Xueyantuo in 641 all went this way."
+ },
+ "pass:铁门": {
+  "old": "Iron Gate",
+  "mod": "Boysun Pass, Uzbekistan",
+  "note": "A gorge pass between Transoxiana and Tokharistan, its rock walls on both sides the color of iron; Xuanzang called it the \"Iron Gate\". It was the pass on the southern border of the Western Turks under Tong Yabghu."
+ },
+ "pass:柳城（怀远镇）": {
+  "old": "Liucheng (Huaiyuan Garrison)",
+  "mod": "around Beizhen, Liaoning",
+  "note": "One of the assembly points for the Sui and Tang campaigns east against Goguryeo; in 645 Li Ji set out from Liucheng, feinting toward Huaiyuan Garrison, then marched north in secret toward Yongdao and crossed the Liao River."
+ },
+ "event:杨坚代周": {
+  "old": "Yang Jian supplants the Zhou",
+  "mod": "Xi'an, Shaanxi (Han Chang'an city)",
+  "yt": "2nd month, 581",
+  "note": "Emperor Jing of Northern Zhou was a child, and Yang Jian, an imperial in-law, controlled the government as chancellor. After putting down the risings on three fronts led by Yuchi Jiong and others, he accepted the abdication and proclaimed himself emperor. He named his dynasty Sui (taking the character for Sui from his title \"Duke of Sui\" and dropping its \"walk\" radical), with the era name Kaihuang."
+ },
+ "event:营建大兴城": {
+  "old": "Building of Daxing City",
+  "mod": "Xi'an, Shaanxi",
+  "yt": "6th month, 582 – 3rd month, 583",
+  "note": "Planned by Yuwen Kai, the palace city and the imperial city were built in nine months, and the court moved in in the 3rd month of 583. The city was square and laid out like a chessboard, with an Eastern and a Western Market. It was the forerunner of Tang Chang'an."
+ },
+ "event:开皇律": {
+  "old": "Kaihuang Code",
+  "mod": "Xi'an, Shaanxi",
+  "yt": "581–583",
+  "note": "A new code was issued in 581 and in 583 revised and pruned into 12 sections and 500 articles. It abolished cruel punishments such as exposing severed heads and dismemberment by chariots, and fixed the Five Punishments: beating with the light stick, beating with the heavy stick, penal servitude, exile and death. It became the model for the Tang Code."
+ },
+ "event:突厥东西分立": {
+  "old": "The Turks split east and west",
+  "mod": "around Dzungaria, Xinjiang (west of the Altai)",
+  "yt": "583",
+  "note": "Following Zhangsun Sheng's policy of \"befriending the distant and attacking the near, dividing the strong and uniting the weak\", Sui set Ishbara, Apa, Tardu and the other qaghans against one another. In 583 Apa fled west to Tardu, and from then on the Turks were divided into eastern and western halves."
+ },
+ "event:废后梁": {
+  "old": "Abolition of Later Liang",
+  "mod": "Jingzhou, Hubei",
+  "yt": "9th month, 587",
+  "note": "Sui summoned the Later Liang ruler Xiao Cong to court; his uncle Xiao Yan and others took over 100,000 soldiers and civilians of Jiangling with them and defected to Chen. Sui abolished Later Liang and made Jiangling into Jingzhou."
+ },
+ "event:冼夫人归隋": {
+  "old": "Lady Xian submits to Sui",
+  "mod": "around Gaozhou, Guangdong",
+  "yt": "589–590",
+  "note": "On hearing that Chen had fallen, Lady Xian, leader of the Li people of Lingnan, led her followers to welcome the Sui envoy Wei Guang, and the prefectures of Lingnan submitted to Sui. The next year she also put down Wang Zhongxuan's rising, and she was enfeoffed as Lady of Qiao."
+ },
+ "event:营建仁寿宫": {
+  "old": "Building of the Renshou Palace",
+  "mod": "Linyou, Shaanxi",
+  "yt": "593–595",
+  "note": "Built under Yang Su's supervision at the cost of tens of thousands of laborers' lives, it was completed in 595. Emperor Wen often stayed here in his later years and died of illness in its Dabao Hall in the 7th month of 604. The Tang renamed it the Jiucheng Palace, and Wei Zheng wrote the Inscription on the Sweet Spring of the Jiucheng Palace (Jiuchenggong liquan ming)."
+ },
+ "event:史万岁南征": {
+  "old": "Shi Wansui's southern campaign",
+  "mod": "around Qujing, Yunnan",
+  "yt": "597",
+  "note": "Shi Wansui led an army into Nanzhong, crossed the Xi'er River and passed Lake Dian, reaching the \"more than 80 tribes of Nanzhong\", and Cuan Wan submitted. Sui set up the Nanning Zhou Area Command there, but the region soon rebelled again."
+ },
+ "event:开皇辽东之役": {
+  "old": "Kaihuang Liaodong campaign",
+  "mod": "east of Chaoyang, Liaoning",
+  "yt": "6th–9th month, 598",
+  "note": "Go Won, king of Goguryeo, led over 10,000 Mohe horsemen in a raid on Liaoxi. Emperor Wen ordered Yang Liang, Prince of Han, and Gao Jiong to lead 300,000 men out through Linyu Pass, while Zhou Luohou took the fleet by sea from Donglai. The land army met rain and disease and the fleet met storms; eight or nine in ten died, and the expedition returned."
+ },
+ "event:启民南投·筑大利城": {
+  "old": "Qimin comes south to submit · Dali City built",
+  "mod": "Horinger, Inner Mongolia",
+  "yt": "10th month, 599",
+  "note": "Tuli Qaghan of the Eastern Turks, who had married the Sui Princess Anyi, was crushed by Dulan Qaghan and fled south to Sui. Sui invested him as Yili Zhendou Qimin Qaghan and built Dali City in Shuozhou to house his people."
+ },
+ "event:赵州桥建成": {
+  "old": "Zhaozhou Bridge completed",
+  "mod": "Zhao County, Hebei",
+  "yt": "between 595 and 605",
+  "note": "A single-span open-spandrel stone arch bridge (the Anji Bridge), designed and built by the craftsman Li Chun, crossing the Xiao River. The main arch spans about 37 meters, with two small arches opened in each spandrel. It is the oldest surviving open-spandrel stone arch bridge."
+ },
+ "event:仁寿宫变": {
+  "old": "Renshou Palace incident",
+  "mod": "Linyou, Shaanxi",
+  "yt": "7th month, 604",
+  "note": "Emperor Wen fell gravely ill at the Renshou Palace. The crown prince Yang Guang plotted in secret with Yang Su; Emperor Wen died and Yang Guang took the throne, and the deposed crown prince Yang Yong was strangled. Historians have raised many doubts about the details of the palace incident."
+ },
+ "event:营建东都": {
+  "old": "Building of the Eastern Capital",
+  "mod": "Luoyang, Henan",
+  "yt": "3rd month, 605 – 1st month, 606",
+  "note": "Emperor Yang ordered Yang Su and Yuwen Kai to build the Eastern Capital. Two million laborers worked on it every month, and the residents within the outer walls of Luoyang, along with tens of thousands of households of rich merchants from across the realm, were moved in to populate it. The Hanjia Granary was also built inside the city, and great granaries such as Huiluo and Luokou outside it."
+ },
+ "event:炀帝北巡·修长城": {
+  "old": "Emperor Yang tours the north · Great Wall repaired",
+  "mod": "Jungar Banner, Inner Mongolia",
+  "yt": "607",
+  "note": "On his northern tour Emperor Yang reached Yulin, where Yuwen Kai built a \"Wind-Viewing Mobile Hall\" that could hold several hundred people, and Qimin Qaghan cleared the grass with his own hands to open a road to welcome him. That year over a million able-bodied men were called up to repair the Great Wall, from Yulin in the west to the Zi River in the east, and \"five or six in ten died\"."
+ },
+ "event:裴矩经营西域·置伊吾郡": {
+  "old": "Pei Ju manages the Western Regions · Yiwu Commandery founded",
+  "mod": "Hami, Xinjiang",
+  "yt": "608–610",
+  "note": "Pei Ju, Vice Director of the Chancellery, ran the border markets at Zhangye and wrote the Illustrated Record of the Western Regions (Xiyu tuji), covering 44 states of the Western Regions and three routes. In 608 Xue Shixiong led an army to Yiwu and built New Yiwu City east of the old Han city of Yiwu; Yiwu Commandery was set up in 610."
+ },
+ "event:炀帝西巡·大斗拔谷": {
+  "old": "Emperor Yang tours the west · Dadouba Valley",
+  "mod": "Biandukou, Minle, Gansu",
+  "yt": "6th month, 609",
+  "note": "Emperor Yang crossed the Qilian Mountains from Xiping by way of Dadouba Valley to Zhangye. The mountain road was narrow and dangerous, and in wind and snow more than half of the soldiers froze to death. In the 6th month at Zhangye he received the rulers and envoys of 27 states of the Western Regions, including Qu Boya, King of Gaochang, and the Tudun Shad of Yiwu, an event people today compare to a \"World's Fair of All Nations\"."
+ },
+ "event:陈稜击流求": {
+  "old": "Chen Leng attacks Liuqiu",
+  "mod": "Taiwan",
+  "yt": "1st month, 610",
+  "note": "Zhu Kuan went as envoy to Liuqiu twice, in 607 and 608. In 610 Chen Leng and Zhang Zhenzhou took over 10,000 troops from Dongyang across the sea to attack it, and came back with several thousand captives. Whether Liuqiu refers to present-day Taiwan or the Ryukyus is disputed among scholars."
+ },
+ "event:王薄起义": {
+  "old": "Wang Bo's rising",
+  "mod": "Changbai Mountain between Zhangqiu and Zouping, Shandong",
+  "yt": "611",
+  "note": "Wang Bo called himself the \"Man Who Knows the World\", wrote the song \"Do Not Go to Liaodong to Die in Vain\", and gathered followers on Changbai Mountain, raising the curtain on the popular risings of the late Sui. In the same year Dou Jiande and Sun Anzu rose at Gaoji Marsh."
+ },
+ "event:杨玄感黎阳起兵": {
+  "old": "Yang Xuangan rises at Liyang",
+  "mod": "Xun County, Henan",
+  "yt": "6th month, 613",
+  "note": "Yang Xuangan, Minister of Rites, was overseeing grain transport for the army at Liyang when he seized the chance of Emperor Yang's second Goguryeo campaign to rise in arms. With Li Mi as his chief strategist he besieged the Eastern Capital. This was the first open rebellion from within the Sui ruling elite."
+ },
+ "event:炀帝幸江都": {
+  "old": "Emperor Yang goes to Jiangdu",
+  "mod": "Yangzhou, Jiangsu",
+  "yt": "7th month, 616",
+  "note": "Ignoring his ministers' objections, Emperor Yang went south to Jiangdu for the third time, leaving Yang Tong, Prince of Yue, to hold the Eastern Capital and Yang You, Prince of Dai, to hold Daxing. He never returned north."
+ },
+ "event:李密取兴洛仓": {
+  "old": "Li Mi takes the Xingluo Granary",
+  "mod": "Gongyi, Henan",
+  "yt": "2nd month, 617",
+  "note": "Li Mi took the Xingluo Granary by surprise with 7,000 picked troops and opened it, letting the people take grain freely; his following swelled to several hundred thousand. Zhai Rang made Li Mi leader, and Li Mi styled himself Duke of Wei and changed the era name to Yongping. His proclamation denounced Emperor Yang: \"Use up all the bamboo of the southern hills, and his crimes still could not all be written down\"."
+ },
+ "event:晋阳起兵": {
+  "old": "Rising at Jinyang",
+  "mod": "Jinyuan District, Taiyuan, Shanxi",
+  "yt": "5th month, 617",
+  "note": "Li Shimin had long plotted with Liu Wenjing, magistrate of Jinyang, and Pei Ji, superintendent of the Jinyang Palace, and urged Li Yuan to rise. In the 5th month, on the charge of \"plotting to bring in the Turks\", Li Yuan executed the deputy custodians Wang Wei and Gao Junya and rose in arms. In the 6th month he sent Liu Wenjing to Shibi Qaghan to declare himself a subject and borrow horses, and in the 7th month he swore an oath before his army and marched south under the banner of \"honoring Sui\", sending proclamations to the commanderies and counties."
+ },
+ "event:西渡龙门·取永丰仓": {
+  "old": "Crossing at Longmen · Yongfeng Granary taken",
+  "mod": "Hejin, Shanxi – Hancheng, Shaanxi",
+  "yt": "9th month, 617",
+  "note": "Unable to take Hedong City, Li Yuan accepted Li Shimin's proposal to leave troops besieging it, while the main army crossed the Yellow River at Longmen into Guanzhong. Li Jiancheng held the Yongfeng Granary and guarded Tong Pass, Li Shimin campaigned north of the Wei, and Princess Pingyang's \"Women's Army\" (niangzi jun) and the local strongmen of Guanzhong flocked to join them."
+ },
+ "event:江都之变": {
+  "old": "Jiangdu coup",
+  "mod": "Yangzhou, Jiangsu",
+  "yt": "3rd month, 618",
+  "note": "Emperor Yang wanted to move the capital to Danyang, while the Xiaoguo guards from Guanzhong who had followed him longed to go home. Sima Dekan, Yuwen Huaji and others staged a mutiny, and Emperor Yang was strangled in the Jiangdu Palace, aged 50."
+ },
+ "event:李渊受禅": {
+  "old": "Li Yuan accepts the abdication",
+  "mod": "Xi'an, Shaanxi",
+  "yt": "5th month, 618",
+  "note": "Emperor Gong, Yang You, abdicated, and Li Yuan took the imperial throne in the Taiji Hall. He named the dynasty Tang and changed the era name to Wude, made Li Jiancheng crown prince, and enfeoffed Li Shimin as Prince of Qin and Li Yuanji as Prince of Qi."
+ },
+ "event:李密降唐被杀": {
+  "old": "Li Mi submits to Tang and is killed",
+  "mod": "Xiong'er Mountains, Lushi, Henan",
+  "yt": "12th month, 618",
+  "note": "After his defeat at Mount Mang, Li Mi entered Guanzhong with 20,000 men and submitted to Tang. Made Chief Minister of the Court of Imperial Entertainments, he was frustrated and unfulfilled. At the end of the year he went east on the pretext of rallying his old followers and rebelled against Tang, but was killed in an ambush laid by the Tang general Sheng Yanshi in the Xiong'er Mountains, aged 37."
+ },
+ "event:王世充称帝": {
+  "old": "Wang Shichong proclaims himself emperor",
+  "mod": "Luoyang, Henan",
+  "yt": "4th month, 619",
+  "note": "Wang Shichong forced the Huangtai emperor, Yang Tong, to abdicate and took the throne himself, naming his state Zheng and changing the era name to Kaiming. Soon afterwards he had Yang Tong killed (the poison did not finish him, and he was strangled with silk); with that the last emperor of Sui was dead and his state destroyed."
+ },
+ "event:安修仁执李轨": {
+  "old": "An Xiuren seizes Li Gui",
+  "mod": "Wuwei, Gansu",
+  "yt": "5th month, 619",
+  "note": "Tang sent An Xinggui into Liang, where he and his younger brother An Xiuren (both Sogdians of Liangzhou) rallied the Hu peoples to rise. They besieged Li Gui at Wuwei, seized him and sent him to Chang'an, and the five commanderies of Hexi came over to Tang."
+ },
+ "event:杜伏威降唐": {
+  "old": "Du Fuwei submits to Tang",
+  "mod": "He County, Anhui",
+  "yt": "9th month, 619",
+  "note": "Du Fuwei sent envoys to submit to Tang and was appointed Director of the Southeast Branch Department and Grand Pacification Commissioner of Huainan, and enfeoffed as Prince of Chu; he was later raised to Prince of Wu and granted the imperial surname Li. Jianghuai thus nominally came within Tang territory."
+ },
+ "event:少林寺僧助战": {
+  "old": "Shaolin monks join the fight",
+  "mod": "Shaolin Monastery, Dengfeng, Henan",
+  "yt": "4th month, 621",
+  "note": "While Li Shimin was besieging Luoyang, 13 monks of the Shaolin Monastery, including Zhicao and Tanzong, captured Wang Shichong's nephew Wang Renze and handed the city of Huanyuan Zhou over to Tang. Li Shimin sent them a letter of commendation. This is the historical basis of the story of the \"Thirteen Staff-Wielding Monks Who Saved the Prince of Tang\"."
+ },
+ "event:刘黑闼漳南起兵": {
+  "old": "Liu Heita rises at Zhangnan",
+  "mod": "southeast of Gucheng, Hebei",
+  "yt": "7th month, 621",
+  "note": "After Dou Jiande's death his former officers Fan Yuan, Gao Yaxian and others, unwilling to go over to Tang, made Liu Heita their leader and rose at Zhangnan to avenge Dou Jiande. Within half a year they had recovered all the former territory of Xia."
+ },
+ "event:铸开元通宝": {
+  "old": "Kaiyuan tongbao coin cast",
+  "mod": "Xi'an, Shaanxi",
+  "yt": "7th month, 621",
+  "note": "The Sui wuzhu coin was abolished and the \"Kaiyuan tongbao\" was cast, its inscription written by Ouyang Xun; ten coins weighed one liang. It began the tongbao coinage system, with the wen as the unit and \"bao\" in the coin's name, which remained in use until the end of the Qing."
+ },
+ "event:天策上将·文学馆": {
+  "old": "Supreme Commander of Heaven's Strategy · Academy of Literature",
+  "mod": "Xi'an, Shaanxi",
+  "yt": "10th month, 621",
+  "note": "After pacifying Luoyang Li Shimin was given the additional title Supreme Commander of Heaven's Strategy and opened the Office of Heaven's Strategy. He also set up the Academy of Literature, recruiting the \"Eighteen Scholars\", including Du Ruhui, Fang Xuanling, Yu Shinan and Kong Yingda."
+ },
+ "event:辅公祏丹阳起兵": {
+  "old": "Fu Gongshi rises at Danyang",
+  "mod": "Nanjing, Jiangsu",
+  "yt": "8th month, 623",
+  "note": "Falsely claiming a letter from Du Fuwei, Fu Gongshi rose against Tang and proclaimed himself emperor of a state called Song. Tang sent Li Xiaogong as commander-in-chief, with Li Jing as his deputy, to attack him along four routes."
+ },
+ "event:武德律令·均田": {
+  "old": "Wude Code · equal-field system",
+  "mod": "Xi'an, Shaanxi",
+  "yt": "4th month, 624",
+  "note": "The Wude Code and Statutes were promulgated, together with the equal-field system and the zu-yong-diao taxes (grain, labor and cloth): each adult man received one qing of land and each year paid 2 shi of grain, 2 zhang of silk and 3 liang of silk floss and owed 20 days of labor service; those not called up paid yong instead."
+ },
+ "event:玄武门之变": {
+  "old": "Xuanwu Gate incident",
+  "mod": "north gate of the Taiji Palace, Xi'an, Shaanxi",
+  "yt": "6th month, 626",
+  "note": "On the 4th day of the 6th month Li Shimin, Prince of Qin, laid an ambush at the Xuanwu Gate with Zhangsun Wuji, Yuchi Jingde and others. Li Jiancheng and Li Yuanji ran into it on their way to court; Li Shimin shot Li Jiancheng dead with his own hand, and Yuchi Jingde shot Li Yuanji. Three days later Li Shimin was made crown prince, and in the 8th month he took the throne."
+ },
+ "event:渭水之盟": {
+  "old": "Covenant on the Wei",
+  "mod": "Bian Bridge over the Wei, Xianyang, Shaanxi",
+  "yt": "8th month, 626",
+  "note": "Illig and Tuli came with over 100,000 horsemen to the north end of the Bian Bridge over the Wei. Taizong rode out with Gao Shilian, Fang Xuanling and others, six horsemen in all, to the bank of the Wei and spoke with Illig across the water; then the main army came up behind him, and Illig asked for peace. On the 30th day of the 8th month they sacrificed a white horse and swore a covenant on the Bian Bridge, and the Turks withdrew. Taizong regarded it as \"the humiliation of the Wei River\" and resolved to wipe it out."
+ },
+ "event:分天下为十道": {
+  "old": "The realm divided into ten circuits",
+  "mod": "Xi'an, Shaanxi",
+  "yt": "627",
+  "note": "In Zhenguan 1 prefectures and counties were merged or abolished, and the realm was divided along the natural lines of mountains and rivers into ten circuits—Guannei, Henan, Hedong, Hebei, Shannan, Longyou, Huainan, Jiangnan, Jiannan and Lingnan—as supervisory regions."
+ },
+ "event:玄奘西行": {
+  "old": "Xuanzang's journey west",
+  "mod": "Guazhou, Gansu",
+  "yt": "629 (or 627)",
+  "note": "Xuanzang left Chang'an without permission to travel west in search of the Buddhist teachings. At Guazhou he slipped secretly past Yumen Pass, and crossing the Moheyan Desert alone he almost died of thirst over four nights and five days. He reached Yiwu and Gaochang, passed through the lands of the Western Turks and the Sogdian states (Zhaowu) into India, and studied under Silabhadra at Nalanda Monastery. He returned to Chang'an in the 1st month of 645."
+ },
+ "event:尊号天可汗": {
+  "old": "Title of Heavenly Qaghan",
+  "mod": "Xi'an, Shaanxi",
+  "yt": "4th month, 630",
+  "note": "After the fall of the Eastern Turkic Qaghanate, the rulers of the northwestern peoples came to the court and asked Taizong to take the honorific title \"Heavenly Qaghan\". Taizong said, \"I am the Son of Heaven of the Great Tang; shall I also stoop to the business of a qaghan?\" The officials and the peoples of the four quarters all cried \"Ten thousand years!\" From then on, sealed edicts to the northwestern peoples all used the title \"Heavenly Qaghan\"."
+ },
+ "event:置安西都护府": {
+  "old": "Anxi Protectorate founded",
+  "mod": "Jiaohe ruins, Turpan, Xinjiang",
+  "yt": "9th month, 640",
+  "note": "After the conquest of Gaochang the Anxi Protectorate was set up at Jiaohe City, with Qiao Shiwang as protector-general and troops left to garrison it. It was the first protectorate Tang set up in the Western Regions."
+ },
+ "event:文成公主入藏": {
+  "old": "Princess Wencheng goes to Tibet",
+  "mod": "Lhasa, Tibet",
+  "yt": "1st month, 641",
+  "note": "Taizong married Princess Wencheng, a woman of the imperial clan, to the Tibetan tsenpo Songtsen Gampo, with Li Daozong, Prince of Jiangxia, as her escort. Songtsen Gampo came in person to Baihai (today's Ngoring Lake and Gyaring Lake) to meet her. She brought with her classics and histories, medicines, craftsmen and vegetable seeds."
+ },
+ "event:凌烟阁二十四功臣": {
+  "old": "Twenty-Four Meritorious Ministers of the Lingyan Pavilion",
+  "mod": "Xi'an, Shaanxi",
+  "yt": "2nd month, 643",
+  "note": "Taizong had Yan Liben paint portraits of 24 meritorious ministers in the Lingyan Pavilion, including Zhangsun Wuji, Li Xiaogong, Du Ruhui, Wei Zheng, Fang Xuanling, Yuchi Jingde, Li Jing, Li Ji and Qin Shubao."
+ },
+ "event:参天可汗道": {
+  "old": "Road to the Heavenly Qaghan",
+  "mod": "Wuzhong, Ningxia",
+  "yt": "8th month, 646 – 647",
+  "note": "When Taizong came to Lingzhou, 11 Tiele tribes, including the Huihe (Uyghurs), Pugu and Tongluo, sent envoys asking for Tang officials to be appointed over them and honored Taizong as Heavenly Qaghan. The next year the Road to the Heavenly Qaghan was opened south of the Huihe and north of the Turks, with 68 post stations to serve tribute envoys."
+ },
+ "event:燕然都护府": {
+  "old": "Yanran Protectorate",
+  "mod": "around the Tuul River, Mongolia",
+  "yt": "1st–4th month, 647",
+  "note": "The Huihe (Uyghurs) were made the Hanhai Area Command, the Pugu the Jinwei Area Command, the Duolange the Yanran Area Command, and so on—six area commands and seven prefectures in all—with the chief of each tribe as area commander or prefect; the Yanran Protectorate was set up at the old Chanyu Terrace to govern them."
+ },
+ "event:松漠·饶乐都督府": {
+  "old": "Songmo and Raole Area Commands",
+  "mod": "around Bairin Left Banner, Inner Mongolia",
+  "yt": "11th month, 648",
+  "note": "Kuge, chief of the Dahe clan of the Khitan, and Keduzhe, chief of the Xi, brought their peoples to submit to the empire. Tang set up the Songmo Area Command on Khitan land and the Raole Area Command on Xi land, both under the Yingzhou Area Command."
+ },
+ "event:王玄策平中天竺": {
+  "old": "Wang Xuance subdues Central India",
+  "mod": "Bihar, India",
+  "yt": "5th month, 648",
+  "note": "Wang Xuance went as envoy to India just as Harsha died and Arunasva usurped the throne, and his mission was plundered. Wang Xuance escaped to Tibet and borrowed 1,200 picked Tibetan troops and 7,000 Nepalese cavalry; he crushed the army of Central India at Tirabhukti and captured Arunasva, whom he presented at Chang'an."
+ },
+ "event:太宗崩于翠微宫": {
+  "old": "Taizong dies at the Cuiwei Palace",
+  "mod": "Zhongnan Mountains, Chang'an District, Xi'an, Shaanxi",
+  "yt": "5th month, 649",
+  "note": "Taizong died of illness at the Cuiwei Palace in the Zhongnan Mountains, aged 52 (or 53), and was buried at the Zhao Mausoleum. The crown prince Li Zhi took the throne in the Taiji Hall as Emperor Gaozong, and Zhangsun Wuji and Chu Suiliang received the testamentary edict to assist him in government."
+ },
+ "event:萨珊波斯灭亡": {
+  "old": "Fall of Sasanian Persia",
+  "mod": "Mary, Turkmenistan",
+  "yt": "651",
+  "note": "Pursued by Arab armies, the Persian king Yazdegerd III was killed by a miller at Merv, and the Sasanian dynasty fell. His son Peroz fled east to Tokharistan and repeatedly asked Tang for help."
+ },
+ "event:永徽律疏": {
+  "old": "Yonghui Code with commentary",
+  "mod": "Xi'an, Shaanxi",
+  "yt": "10th month, 653",
+  "note": "By imperial order Zhangsun Wuji and others wrote a commentary on the Yonghui Code (Yonghui lü). Promulgated in 653, it survives today as the Tang Code with Commentary (Tanglü shuyi) and served as the model for the law codes of the East Asian states."
+ },
+ "event:立武则天为后": {
+  "old": "Wu Zetian made empress",
+  "mod": "Xi'an, Shaanxi",
+  "yt": "10th month, 655",
+  "note": "Over the objections of Zhangsun Wuji and Chu Suiliang, Gaozong deposed Empress Wang and made the Lady of Bright Deportment Wu his empress. After 660, when Gaozong suffered from a \"wind\" ailment, Empress Wu gradually took part in government, and the two were called the \"Two Sages\"."
+ },
+ "event:洛阳为东都": {
+  "old": "Luoyang made Eastern Capital",
+  "mod": "Luoyang, Henan",
+  "yt": "12th month, 657",
+  "note": "Gaozong issued an edict making the Luoyang Palace the Eastern Capital. From then on Gaozong and Empress Wu spent long periods in Luoyang, and the political center of gravity gradually shifted east."
+ },
+ "event:安西都护府移龟兹": {
+  "old": "Anxi Protectorate moved to Kucha",
+  "mod": "Kuqa, Xinjiang",
+  "yt": "5th month, 658",
+  "note": "After Ashina Helu was put down, the seat of the Anxi Protectorate was moved back to Kucha and it was raised to a grand protectorate, with Yang Zhou as protector-general; the Four Garrisons were re-established."
+ },
+ "event:置西域十六都督府": {
+  "old": "Sixteen area commands set up in the Western Regions",
+  "mod": "Kunduz, Afghanistan",
+  "yt": "6th month, 661",
+  "note": "Wang Mingyuan, magistrate of Nanyou in Longzhou, went as envoy to the states of Tokharistan and memorialized asking that area commands be set up in 16 states west of Khotan and east of Persia. Warwaliz became the Yuezhi Area Command, Zaranj the Persian Area Command, and so on: 16 area commands, 72 prefectures and 110 counties in all, all under the Anxi Protectorate. A stele was also erected in Tokharistan."
+ },
+ "event:鸡林州都督府": {
+  "old": "Gyerim Area Command",
+  "mod": "Gyeongju, North Gyeongsang, South Korea",
+  "yt": "4th month, 663",
+  "note": "Tang made Silla the Gyerim Grand Area Command, with the Silla king Kim Beop-min as grand area commander."
+ },
+ "event:吐蕃灭吐谷浑": {
+  "old": "Tibet destroys the Tuyuhun",
+  "mod": "Gonghe, Qinghai",
+  "yt": "5th month, 663",
+  "note": "The Tuyuhun minister Suhe Gui defected to Tibet and revealed all the Tuyuhun's strengths and weaknesses. The Tibetan chief minister Gar Tongtsen sent troops and crushed the Tuyuhun; Nuohebo and Princess Honghua fled to Liangzhou with several thousand tents, Tibet took all the land of Qinghai, and from then on Tang and Tibet faced each other directly."
+ },
+ "event:置姚州都督府": {
+  "old": "Yaozhou Area Command founded",
+  "mod": "Yao'an, Yunnan",
+  "yt": "664",
+  "note": "The Yaozhou Area Command was set up at Nongdongchuan to govern the loose-rein prefectures and counties around Erhai Lake and to contest Nanzhong with Tibet."
+ },
+ "event:泰山封禅": {
+  "old": "Feng and shan sacrifices at Mount Tai",
+  "mod": "Mount Tai, Tai'an, Shandong",
+  "yt": "1st month, 666",
+  "note": "Gaozong, with the officials and envoys from the Turks, Khotan, Persia, India, Wa, Silla, Baekje, Goguryeo and other states, performed the feng and shan sacrifices at Mount Tai. Empress Wu took part in the shan rite on Mount Sheshou as second offerant, setting a precedent for women taking part in the feng and shan."
+ },
+ "event:泉男生降唐": {
+  "old": "Yeon Namsaeng submits to Tang",
+  "mod": "Ji'an, Jilin",
+  "yt": "666",
+  "note": "After the death of Yeon Gaesomun his eldest son Yeon Namsaeng succeeded him as Mangniji, but while he was away on a tour of inspection his two younger brothers Yeon Namgeon and Yeon Namsan seized power. Yeon Namsaeng held Gungnae Fortress and asked Tang for help, and so Tang sent troops."
+ },
+ "event:置安东都护府": {
+  "old": "Andong Protectorate founded",
+  "mod": "Pyongyang, North Korea",
+  "yt": "12th month, 668",
+  "note": "The Andong Protectorate was set up at Pyongyang, with Xue Rengui as acting protector-general of Andong, holding it with 20,000 troops. The lands of Goguryeo were divided into nine area commands, 42 prefectures and 100 counties."
+ },
+ "range:终南山（秦岭）": {
+  "old": "Zhongnan Mountains (Qinling)",
+  "mod": "Qinling Mountains",
+  "note": "The southern screen of Guanzhong, called the Southern Mountains (Nanshan) or the Zhongnan Mountains in Sui and Tang times; valley roads such as the Ziwu, Tangluo, Baoye and Chencang crossed them into Hanzhong. Emperor Taizong died at the Cuiwei Palace in these mountains in 649."
+ },
+ "range:巴山": {
+  "old": "Ba Mountains",
+  "mod": "Daba Mountains",
+  "note": "The barrier between Hanzhong and Ba and Shu, crossed by the Micang Road and the Lizhi Road."
+ },
+ "range:太行山": {
+  "old": "Taihang Mountains",
+  "mod": "Taihang Mountains",
+  "note": "The divide between Hedong and Hebei, crossed by the \"Eight Defiles of the Taihang\". In the late Sui and early Tang the Li family's Tang held Hedong and Dou Jiande held Hebei, facing each other across these mountains."
+ },
+ "range:吕梁山": {
+  "old": "Lüliang Mountains",
+  "mod": "Lüliang Mountains",
+  "note": "The uplands of western Hedong, bordered by the Yellow River on the west."
+ },
+ "range:中条山": {
+  "old": "Zhongtiao Mountains",
+  "mod": "Zhongtiao Mountains",
+  "note": "South of Puzhou in Hedong; the salt lake of Xie County lies at its northern foot."
+ },
+ "range:恒山": {
+  "old": "Heng Mountains",
+  "mod": "Heng Mountains (Shanxi)",
+  "note": "The Northern Peak. In Tang times the sacrifices to the Northern Peak were made at Quyang (the Northern Peak Temple); the mountain worshipped was today's Mount Damao, on the border of Fuping and Tang County, Hebei."
+ },
+ "range:五台山": {
+  "old": "Mount Wutai",
+  "mod": "Mount Wutai",
+  "note": "The sacred seat of the bodhisattva Manjushri, a Buddhist holy place in Tang times."
+ },
+ "range:燕山": {
+  "old": "Yan Mountains",
+  "mod": "Yan Mountains",
+  "note": "The northern shield of Youzhou, where Juyong Pass, Gubeikou and Yu Pass stood; Sui and Tang defenses against the Turks, Xi and Khitan all relied on this line."
+ },
+ "range:阴山": {
+  "old": "Yin Mountains",
+  "mod": "Yin Mountains",
+  "note": "The barrier between the steppe south of the Gobi and the Ordos Loop; in 583 Sui defeated the Turks at Baidao, and in 630 Li Jing and Li Ji routed Illig Qaghan in a surprise attack at the northern foot of the Yin Mountains."
+ },
+ "range:贺兰山": {
+  "old": "Helan Mountains",
+  "mod": "Helan Mountains",
+  "note": "The northwestern shield of Lingzhou."
+ },
+ "range:陇山": {
+  "old": "Long Mountains",
+  "mod": "Liupan Mountains",
+  "note": "The barrier between Guanzhong and Longyou; in 618 Xue Ju and Xue Rengao fought two decisive battles against the Tang army at Qianshuiyuan, to its east."
+ },
+ "range:祁连山": {
+  "old": "Qilian Mountains",
+  "mod": "Qilian Mountains",
+  "note": "On the south side of the Hexi Corridor; Tang people also called it the Southern Mountains (Nanshan) or the Snow Mountains (Xueshan)."
+ },
+ "range:阿尔金山": {
+  "old": "Altyn-Tagh",
+  "mod": "Altyn-Tagh",
+  "note": "Between the southern route through the Western Regions and Qinghai; from here the Tuyuhun controlled Shanshan and Qiemo."
+ },
+ "range:昆仑山": {
+  "old": "Kunlun Mountains",
+  "mod": "Kunlun Mountains",
+  "note": "Khotan's southern mountains, a source of jade."
+ },
+ "range:积石山": {
+  "old": "Jishi Mountains",
+  "mod": "Amne Machin",
+  "note": "Called the Great Jishi Mountains in Tang times; the Yellow River curves around them."
+ },
+ "range:唐古拉山": {
+  "old": "Tanggula Mountains",
+  "mod": "Tanggula Mountains",
+  "note": "The Tang–Tibet road crossed these mountains into northern Tibet (modern name)."
+ },
+ "range:冈底斯山": {
+  "old": "Gangdise Mountains",
+  "mod": "Gangdise and Nyenchen Tanglha ranges",
+  "note": "The northern edge of the valleys of southern Tibet (modern name)."
+ },
+ "range:雪山": {
+  "old": "Himalayas",
+  "mod": "Himalayas",
+  "note": "The great snowy range between Tibet on one side and India and Nepal on the other; in 648 Wang Xuance, with troops borrowed from Tibet and Nepal, crossed it and came down to subdue Central India."
+ },
+ "range:葱岭": {
+  "old": "Pamirs",
+  "mod": "Pamirs",
+  "note": "The divide between the Western Regions and Transoxiana and Tokharistan; Xuanzang crossed it twice, going west and returning east. From 658 on, Tang loose-rein area commands and prefectures reached beyond the Pamirs."
+ },
+ "range:天山": {
+  "old": "Tian Shan",
+  "mod": "Tian Shan",
+  "note": "Called the Tian Shan or the White Mountains (Baishan) in Sui and Tang times, with the eastern section also known as the Zheluoman Mountains. To the north lay the grazing lands of the Western Turks, to the south oasis states such as Karasahr and Kucha."
+ },
+ "range:金山": {
+  "old": "Altai Mountains",
+  "mod": "Altai Mountains",
+  "note": "The Turks originated on the southern slopes of these mountains; in 650 the Tang general Gao Kan captured Chebi Qaghan here."
+ },
+ "range:燕然山": {
+  "old": "Yanran Mountains",
+  "mod": "Khangai Mountains",
+  "note": "The Khangai Mountains, in the heart of the land north of the Gobi; Ötüken (Yudujun Mountain), where the Turkic and Xueyantuo royal camps stood, is their eastern section."
+ },
+ "range:大兴安岭": {
+  "old": "Greater Khingan",
+  "mod": "Greater Khingan",
+  "note": "Between the Shiwei and Khitan and the tribes north of the Gobi (modern name)."
+ },
+ "range:太白山": {
+  "old": "Mount Taibai",
+  "mod": "Changbai Mountains",
+  "note": "The Changbai Mountains, called Mount Taibai or Mount Tutai in Tang times; the White Mountain (Baishan) tribe of the Mohe lived to the north."
+ },
+ "range:医巫闾山": {
+  "old": "Yiwulü Mountains",
+  "mod": "Yiwulü Mountains",
+  "note": "A famous mountain range of Liaoxi; the Sui and Tang armies marching east against Goguryeo passed along its southern foot."
+ },
+ "range:泰山": {
+  "old": "Mount Tai",
+  "mod": "Mount Tai",
+  "note": "The Eastern Peak; in the 1st month of 666 Emperor Gaozong of Tang and Empress Wu performed the feng and shan sacrifices here."
+ },
+ "range:华山": {
+  "old": "Mount Hua",
+  "mod": "Mount Hua",
+  "note": "The Western Peak, west of Tong Pass."
+ },
+ "range:嵩山": {
+  "old": "Mount Song",
+  "mod": "Mount Song",
+  "note": "The Central Peak, site of the Shaolin Monastery; in 621 Shaolin monks helped Li Shimin capture Wang Renze."
+ },
+ "range:伏牛山": {
+  "old": "Funiu Mountains",
+  "mod": "Funiu Mountains",
+  "note": "Between Luoyang and the Nanyang Basin."
+ },
+ "range:大别山": {
+  "old": "Dabie Mountains",
+  "mod": "Dabie Mountains",
+  "note": "Between Huainan and Jiangxia."
+ },
+ "range:巫山": {
+  "old": "Wu Mountains",
+  "mod": "Wu Mountains",
+  "note": "Where the Three Gorges of the Yangtze lie."
+ },
+ "range:武陵山": {
+  "old": "Wuling Mountains",
+  "mod": "Wuling Mountains",
+  "note": "Home of the Five Streams tribes."
+ },
+ "range:雪峰山": {
+  "old": "Xuefeng Mountains",
+  "mod": "Xuefeng Mountains",
+  "note": "Between the Zi and Yuan rivers (modern name)."
+ },
+ "range:五岭": {
+  "old": "Five Ridges",
+  "mod": "Nanling Mountains",
+  "note": "The five ridges of Yuecheng, Dupang, Mengzhu, Qitian and Dayu, forming the divide between Lingnan and the Central Plains."
+ },
+ "range:罗霄山": {
+  "old": "Luoxiao Mountains",
+  "mod": "Luoxiao Mountains",
+  "note": "Between Hunan and Jiangxi (modern name)."
+ },
+ "range:武夷山": {
+  "old": "Wuyi Mountains",
+  "mod": "Wuyi Mountains",
+  "note": "Between Fujian and Jiangxi."
+ },
+ "range:仙霞岭": {
+  "old": "Xianxia Range",
+  "mod": "Xianxia Range",
+  "note": "A mountain pass between Zhejiang and Fujian."
+ },
+ "range:庐山": {
+  "old": "Mount Lu",
+  "mod": "Mount Lu",
+  "note": "Also called Kuanglu; south of Jiujiang Commandery, where Huiyuan of the Eastern Jin founded the Donglin Temple."
+ },
+ "range:衡山": {
+  "old": "Mount Heng",
+  "mod": "Mount Heng (Hunan)",
+  "note": "The Southern Peak."
+ },
+ "range:岷山": {
+  "old": "Min Mountains",
+  "mod": "Min Mountains",
+  "note": "Site of Songzhou; in 638 Tibet attacked Songzhou and was driven back by a night raid under the Tang general Niu Jinda."
+ },
+ "range:邛崃山": {
+  "old": "Qionglai Mountains",
+  "mod": "Qionglai Mountains",
+  "note": "The western edge of the Chengdu Plain, bordering the Qiang tribes."
+ },
+ "range:大雪山（川西）": {
+  "old": "Daxue Mountains (western Sichuan)",
+  "mod": "Daxue Mountains",
+  "note": "The eastern edge of the western Sichuan plateau (modern name)."
+ },
+ "range:点苍山": {
+  "old": "Diancang Mountains",
+  "mod": "Cang Mountains",
+  "note": "On the west shore of Erhai Lake, with the Erhai tribes living below it."
+ },
+ "range:哀牢山": {
+  "old": "Ailao Mountains",
+  "mod": "Ailao Mountains",
+  "note": "Southeast of the Erhai tribes (modern name)."
+ },
+ "range:大雪山（兴都库什）": {
+  "old": "Great Snow Mountains (Hindu Kush)",
+  "mod": "Hindu Kush",
+  "note": "Xuanzang called it the Great Snow Mountains: the barrier between Tokharistan and India, with Bamiyan and Kapisa both in its mountains. In 661 Tang set up the Xiefeng, Xiuxian and other area commands there."
+ },
+ "river:丽水": {
+  "old": "Irrawaddy",
+  "mod": "Irrawaddy"
+ },
+ "river:汾水": {
+  "old": "Fen River",
+  "mod": "Fen River",
+  "note": "The central axis of Hedong: Jinyang, Jinzhou and Jiangzhou all stood on the Fen. In 617 Li Yuan marched south along the Fen, and the fighting at Huoyi and Longmen took place in its basin; in 619–620 Li Shimin fought decisive battles against Song Jingang, first at Baibi on its lower course and then at Queshu Valley on its upper course."
+ },
+ "river:胪朐河": {
+  "old": "Kherlen",
+  "mod": "Kherlen River"
+ },
+ "river:中江": {
+  "old": "Zhong River",
+  "mod": "Tuo River"
+ },
+ "river:图们江": {
+  "old": "Tumen River",
+  "mod": "Tumen River"
+ },
+ "river:怒江": {
+  "old": "Nu River",
+  "mod": "Nu River (Salween)"
+ },
+ "river:犁牛河": {
+  "old": "Drichu",
+  "mod": "Tongtian River (upper Yangtze)",
+  "note": "The upper reaches of the Yangtze."
+ },
+ "river:剑河": {
+  "old": "Kem",
+  "mod": "Little Yenisei"
+ },
+ "river:红水河": {
+  "old": "Hongshui River",
+  "mod": "Hongshui River"
+ },
+ "river:郁水": {
+  "old": "Yu River",
+  "mod": "Xun River"
+ },
+ "river:泸水": {
+  "old": "Lu River",
+  "mod": "Jinsha River",
+  "note": "Called the Lu River in Tang times; it is the Jinsha River. In Sui and Tang times it was the boundary between Xizhou and the tribes of Nanzhong."
+ },
+ "river:江": {
+  "old": "Yangtze",
+  "mod": "Yangtze",
+  "note": "The Great River (Dajiang). In 581–589 the Sui and Chen used the Yangtze as their border; in 589 Heruo Bi crossed it from Guangling, and Han Qinhu crossed by night from Hengjiang to take Caishi, destroying Chen. In 621 Li Xiaogong and Li Jing rode the autumn floods downstream from Kuizhou straight to Jiangling."
+ },
+ "river:葱岭河": {
+  "old": "Congling River",
+  "mod": "Yarkand River"
+ },
+ "river:辽水": {
+  "old": "Liao River",
+  "mod": "Liao River"
+ },
+ "river:沅水": {
+  "old": "Yuan River",
+  "mod": "Yuan River"
+ },
+ "river:汉水": {
+  "old": "Han River",
+  "mod": "Han River",
+  "note": "Also called the Mian River; Xiangyang was the key city on its middle course. In the late Sui Wang Shichong's nephew Wang Honglie held Xiangyang, and he surrendered to Tang in 621."
+ },
+ "river:赣水": {
+  "old": "Gan River",
+  "mod": "Gan River"
+ },
+ "river:娑陵水": {
+  "old": "Selenga",
+  "mod": "Selenga River",
+  "note": "Grazing land of Tiele tribes such as the Huihe and Pugu; in 647 Tang set up the Hanhai and other area commands there."
+ },
+ "river:曳咥河": {
+  "old": "Irtysh",
+  "mod": "Irtysh"
+ },
+ "river:富良江": {
+  "old": "Phú Lương River",
+  "mod": "Red River",
+  "note": "The mother river of Jiaozhou, which stood on its right bank."
+ },
+ "river:大渡水": {
+  "old": "Dadu River",
+  "mod": "Dadu River",
+  "note": "A natural boundary between western Sichuan and the Qiang tribes."
+ },
+ "river:潢水": {
+  "old": "Huang River",
+  "mod": "Xar Moron",
+  "note": "Birthplace of the Khitan; the Dahe tribal confederation lived in its basin, and in 648 Tang set up the Songmo Area Command there."
+ },
+ "river:孔雀河": {
+  "old": "Kongque River",
+  "mod": "Kongque River"
+ },
+ "river:计戍水": {
+  "old": "Jishu River",
+  "mod": "Tarim River"
+ },
+ "river:粟末水": {
+  "old": "Sumo River",
+  "mod": "Songhua River",
+  "note": "The Songhua River, along which the Sumo Mohe lived; they later founded the state of Balhae."
+ },
+ "river:汶江": {
+  "old": "Wen River",
+  "mod": "Min River (Sichuan)",
+  "note": "The water source of the Chengdu Plain, with the Dujiangyan irrigation works on it."
+ },
+ "river:兰沧水": {
+  "old": "Lancang River",
+  "mod": "Lancang (upper Mekong)",
+  "note": "The western border of the Erhai tribes."
+ },
+ "river:伊丽水": {
+  "old": "Ili River",
+  "mod": "Ili River"
+ },
+ "river:桑干河": {
+  "old": "Sanggan River",
+  "mod": "Sanggan River",
+  "note": "The great river between Daibei and Youzhou, flowing through the Mayi and Heng'an area; its lower course was called the Lugou River."
+ },
+ "river:臧河": {
+  "old": "Tsangpo",
+  "mod": "Yarlung Tsangpo",
+  "note": "The Yarlung Tsangpo. The Yarlung Valley, cradle of Tibet, lies on its south bank, and Rasa stands beside its tributary the Kyichu."
+ },
+ "river:黔江": {
+  "old": "Qian River",
+  "mod": "Wu River",
+  "note": "Called the Fuling River or the Qian River in Tang times."
+ },
+ "river:湘水": {
+  "old": "Xiang River",
+  "mod": "Xiang River"
+ },
+ "river:淮水": {
+  "old": "Huai River",
+  "mod": "Huai River",
+  "note": "In Sui and Tang times the Huai flowed to the sea by its own channel past Sizhou and Chuzhou. The Tongji Canal entered the Huai north of Xuyi and the Shanyang Canal joined it at Shanyang, making it the hub of north–south grain transport."
+ },
+ "river:湄公河": {
+  "old": "Mekong",
+  "mod": "Mekong"
+ },
+ "river:闽江": {
+  "old": "Min River",
+  "mod": "Min River (Fujian)",
+  "note": "Formed where the Jian and Futun streams meet, it flows past Fuzhou into the sea."
+ },
+ "river:嘉陵江": {
+  "old": "Jialing River",
+  "mod": "Jialing River",
+  "note": "Also called the Xihan River; the Chencang and Jinniu roads followed it, and Xingzhou, Lizhou, Langzhou and Hezhou stood on it."
+ },
+ "river:龙川江": {
+  "old": "Longchuan River",
+  "mod": "Dong River"
+ },
+ "river:若水": {
+  "old": "Ruo River",
+  "mod": "Yalong River"
+ },
+ "river:右江": {
+  "old": "You River",
+  "mod": "You River"
+ },
+ "river:溱水": {
+  "old": "Zhen River",
+  "mod": "Bei River",
+  "note": "The Bei River, flowing south past Shaozhou to Panyu; the river section of the Dayu Pass route."
+ },
+ "river:乌苏里江": {
+  "old": "Ussuri",
+  "mod": "Ussuri"
+ },
+ "river:卢沟水": {
+  "old": "Lugou River",
+  "mod": "Yongding River"
+ },
+ "river:汉江": {
+  "old": "Han River",
+  "mod": "Han River (Korea)"
+ },
+ "river:河": {
+  "old": "Yellow River",
+  "mod": "Yellow River",
+  "note": "In Sui and Tang times the lower Yellow River roughly followed the channel regulated by Wang Jing of the Eastern Han, flowing past Huazhou, east of Weizhou, and on past Dezhou and Dizhou to the sea. The present lower Yellow River (dashed line) took over the bed of the Daqing River to reach the sea after the 1855 course change at Tongwaxiang. In 617 Li Yuan crossed the Yellow River westward at Longmen into Guanzhong; in 621 Dou Jiande advanced west along the Yellow River to relieve Luoyang and was stopped at Hulao."
+ },
+ "river:鸭渌水": {
+  "old": "Yalu River",
+  "mod": "Yalu River",
+  "note": "A route the Sui and Tang campaigns against Goguryeo had to take; Gungnae Fortress and Ogol Fortress both lay near it."
+ },
+ "river:黑水": {
+  "old": "Heishui",
+  "mod": "Amur",
+  "note": "The Amur; the Heishui Mohe lived on its lower course."
+ },
+ "river:沱江": {
+  "old": "Đà River",
+  "mod": "Đà River (Black River), Vietnam"
+ },
+ "river:斡难河": {
+  "old": "Onon River",
+  "mod": "Onon River"
+ },
+ "river:黄山江": {
+  "old": "Hwangsan River",
+  "mod": "Nakdong River"
+ },
+ "river:左江": {
+  "old": "Zuo River",
+  "mod": "Zuo River"
+ },
+ "river:望建河": {
+  "old": "Wangjian River",
+  "mod": "Argun",
+  "note": "The Argun; Shiwei tribes lived on both banks."
+ },
+ "river:渭水": {
+  "old": "Wei River",
+  "mod": "Wei River",
+  "note": "The lifeline of Guanzhong. In 584 Sui cut the Guangtong Canal, drawing on the Wei for grain transport; in 626 Illig Qaghan's army reached the Bian Bridge over the Wei, and Emperor Taizong of Tang spoke with him across the river and sealed a covenant by sacrificing a white horse."
+ },
+ "river:白玉河": {
+  "old": "White Jade River",
+  "mod": "Yurungkash River",
+  "note": "The river of Khotan that yields jade."
+ },
+ "river:泾水": {
+  "old": "Jing River",
+  "mod": "Jing River",
+  "note": "Flowing past Jingzhou and Binzhou into the Wei; the Battle of Qianshuiyuan in 618 was fought on the Changwu tableland on the north bank of the Jing."
+ },
+ "river:沁水": {
+  "old": "Qin River",
+  "mod": "Qin River"
+ },
+ "river:拨换河": {
+  "old": "Bohuan River",
+  "mod": "Toshkan River"
+ },
+ "river:漳水": {
+  "old": "Zhang River",
+  "mod": "Zhang River",
+  "note": "Flowing through the area of Xiangzhou and Weizhou; its lower course runs near Zhangnan County, home of Dou Jiande and Liu Heita."
+ },
+ "river:嗢昆水": {
+  "old": "Orkhon",
+  "mod": "Orkhon River",
+  "note": "The royal camps of the Turks, the Xueyantuo and the Huihe all lay around its upper reaches."
+ },
+ "river:濡水": {
+  "old": "Ru River",
+  "mod": "Luan River"
+ },
+ "river:潭水": {
+  "old": "Tan River",
+  "mod": "Liu River"
+ },
+ "river:融江": {
+  "old": "Rong River",
+  "mod": "Rong River"
+ },
+ "river:那河": {
+  "old": "Na River",
+  "mod": "Nen River"
+ },
+ "river:丹水": {
+  "old": "Dan River",
+  "mod": "Dan River"
+ },
+ "river:济水（清河）": {
+  "old": "Ji River (Qing River)",
+  "mod": "old Ji River (the lower Yellow River now runs mostly in its bed)",
+  "note": "In Sui and Tang times the Ji flowed northeast from the Daye Marsh past Yunzhou, Jizhou, Qizhou, Zizhou and Qingzhou to the sea; it was also called the Qing River. The present Shandong section of the Yellow River has taken over its old bed."
+ },
+ "river:洛水": {
+  "old": "Luo River",
+  "mod": "Luo River",
+  "note": "The Eastern Capital, Luoyang, straddled the Luo; in 617–618 Li Mi and Wang Shichong fought back and forth over both banks."
+ },
+ "river:伊水": {
+  "old": "Yi River",
+  "mod": "Yi River",
+  "note": "Flowing through Yique (Longmen), where the Longmen Grottoes were carved from the Northern Wei to the Tang."
+ },
+ "river:洛水（北）": {
+  "old": "Northern Luo River",
+  "mod": "Beiluo River",
+  "note": "Flowing past Fuzhou, Fangzhou and Tongzhou."
+ },
+ "river:汝水": {
+  "old": "Ru River",
+  "mod": "Ru River"
+ },
+ "river:颍水": {
+  "old": "Ying River",
+  "mod": "Ying River",
+  "note": "Flowing through Xuzhou, Chenzhou and Yingzhou into the Huai."
+ },
+ "river:泗水": {
+  "old": "Si River",
+  "mod": "Si River (the ancient Si)",
+  "note": "Flowing through Yanzhou, Xuzhou and Sizhou into the Huai; Xuzhou lay where the Si and Bian rivers met."
+ },
+ "river:汶水": {
+  "old": "Wen River",
+  "mod": "Dawen River"
+ },
+ "river:滹沱河": {
+  "old": "Hutuo River",
+  "mod": "Hutuo River",
+  "note": "Flowing south of the city of Hengzhou; a major river of central Hebei."
+ },
+ "river:易水": {
+  "old": "Yi River",
+  "mod": "Southern Juma River"
+ },
+ "river:淯水": {
+  "old": "Yu River",
+  "mod": "Bai River",
+  "note": "The main river of the Nanyang Basin, joining the Han at Xiangzhou."
+ },
+ "river:澧水": {
+  "old": "Li River",
+  "mod": "Li River (Hunan)"
+ },
+ "river:资水": {
+  "old": "Zi River",
+  "mod": "Zi River",
+  "note": "Flowing past Shaozhou into Dongting Lake."
+ },
+ "river:浙江": {
+  "old": "Zhe River",
+  "mod": "Qiantang River"
+ },
+ "river:漓水": {
+  "old": "Li River",
+  "mod": "Li River (Guangxi)",
+  "note": "Linked with the Xiang River by the Lingqu Canal."
+ },
+ "river:湟水": {
+  "old": "Huangshui",
+  "mod": "Huangshui",
+  "note": "Shanzhou stood on the Huangshui."
+ },
+ "river:洮水": {
+  "old": "Tao River",
+  "mod": "Tao River"
+ },
+ "river:弱水": {
+  "old": "Ruoshui",
+  "mod": "Hei River (Ejin)",
+  "note": "Flowing past Ganzhou and north into Juyan Lake."
+ },
+ "river:冥水": {
+  "old": "Ming River",
+  "mod": "Shule River"
+ },
+ "river:夷播海": {
+  "old": "Lake Balkhash",
+  "mod": "Lake Balkhash",
+  "note": "The northern edge of the Western Turks' grazing lands; after 658 it belonged to the Kunling Protectorate."
+ },
+ "river:北海": {
+  "old": "Lake Baikal",
+  "mod": "Lake Baikal",
+  "note": "The Kurykans lived on its shores, where \"the days are long and the nights short; if a sheep's shoulder blade is put on to boil at sunset, by the time it is cooked the east is already light\"."
+ },
+ "river:破釜塘": {
+  "old": "Pofu Pond",
+  "mod": "Hongze Lake (today's lake formed later)",
+  "note": "In Tang times there were only small lakes here, such as the Pofu Pond and the Baishui Reservoir on the south bank of the Huai; today's Hongze Lake formed in the Ming and Qing, and the city of Sizhou lies sunk at its bottom."
+ },
+ "river:库苏古尔湖": {
+  "old": "Lake Khövsgöl",
+  "mod": "Lake Khövsgöl"
+ },
+ "river:湄沱湖": {
+  "old": "Lake Meituo",
+  "mod": "Lake Khanka",
+  "note": "Lake Khanka; the Funie, Haoshi and other Mohe tribes lived around it."
+ },
+ "river:俱轮泊": {
+  "old": "Lake Julun",
+  "mod": "Lake Hulun"
+ },
+ "river:太湖": {
+  "old": "Lake Tai",
+  "mod": "Lake Tai",
+  "note": "Anciently called Zhenze or Juqu."
+ },
+ "river:腾格里海": {
+  "old": "Namtso",
+  "mod": "Namtso"
+ },
+ "river:西海": {
+  "old": "Western Sea",
+  "mod": "Bosten Lake",
+  "note": "Bosten Lake; the state of Karasahr had the lake on its eastern side, and in 644 Guo Xiaoke crossed its waters by night to take Karasahr by surprise."
+ },
+ "river:彭蠡湖": {
+  "old": "Lake Pengli",
+  "mod": "Poyang Lake"
+ },
+ "river:色林错": {
+  "old": "Siling Co",
+  "mod": "Siling Co"
+ },
+ "river:哈尔乌苏湖": {
+  "old": "Khar-Us Lake",
+  "mod": "Khar-Us Lake"
+ },
+ "river:柏海@鄂陵湖": {
+  "old": "Baihai",
+  "mod": "Ngoring Lake",
+  "note": "In 641, when Princess Wencheng went to Tibet, Songtsen Gampo came to Baihai in person to meet her."
+ },
+ "river:樊良湖": {
+  "old": "Fanliang Lake",
+  "mod": "Gaoyou Lake"
+ },
+ "river:柏海@扎陵湖": {
+  "old": "Baihai",
+  "mod": "Gyaring Lake",
+  "note": "In 641, when Princess Wencheng went to Tibet, Songtsen Gampo came to Baihai in person to meet her."
+ },
+ "river:阿耨达池": {
+  "old": "Anavatapta Lake",
+  "mod": "Lake Manasarovar"
+ },
+ "river:捕鱼儿海": {
+  "old": "Lake Buir",
+  "mod": "Lake Buir"
+ },
+ "river:羊卓雍错": {
+  "old": "Yamdrok Tso",
+  "mod": "Yamdrok Tso"
+ },
+ "river:巢湖": {
+  "old": "Chao Lake",
+  "mod": "Chao Lake"
+ },
+ "river:乌梁素海": {
+  "old": "Ulansuhai",
+  "mod": "Ulansuhai Lake"
+ },
+ "river:洞庭湖": {
+  "old": "Dongting Lake",
+  "mod": "Dongting Lake"
+ },
+ "river:艾比湖": {
+  "old": "Ebinur Lake",
+  "mod": "Ebinur Lake"
+ },
+ "river:热海": {
+  "old": "Issyk-Kul",
+  "mod": "Issyk-Kul",
+  "note": "Called the \"Great Clear Lake\" by Xuanzang; the winter royal camp of the Western Turkic qaghans was at Suyab, to its northwest."
+ },
+ "river:乌布苏湖": {
+  "old": "Uvs Lake",
+  "mod": "Uvs Lake"
+ },
+ "river:青海": {
+  "old": "Qinghai Lake",
+  "mod": "Qinghai Lake",
+  "note": "The Tuyuhun capital, Fuqi City, stood west of the lake; Sui set up Xihai Commandery in 609, and in 663 Tibet took the whole region."
+ },
+ "river:蒲昌海": {
+  "old": "Puchang Sea",
+  "mod": "Lop Nur"
+ },
+ "river:大野泽": {
+  "old": "Daye Marsh",
+  "mod": "north of Juye, Shandong (silted up)",
+  "note": "Called the Juye Marsh in Tang times, the lake from which the Ji River flowed; after the Yellow River broke its banks at Huazhou in 944, its waters merged here with the Wen and Ji rivers to form the Liangshan Marsh."
+ },
+ "river:居延海": {
+  "old": "Juyan Lake",
+  "mod": "Ejin Banner, Inner Mongolia (today's Juyan Lake)",
+  "note": "The terminal lake of the Ruoshui, part of Ganzhou in Sui and Tang times."
+ },
+ "river:滇池": {
+  "old": "Lake Dian",
+  "mod": "Lake Dian",
+  "note": "A famous lake of Nanzhong, with the Kunming tribes living around it."
+ },
+ "river:洱海": {
+  "old": "Erhai Lake",
+  "mod": "Erhai Lake",
+  "note": "Anciently called the Xi'er River; the Erhai tribes (Six Zhao) lived around it, and in 664 Tang set up the Yaozhou Area Command."
+ },
+ "river:忽汗海": {
+  "old": "Huhan Sea",
+  "mod": "Jingpo Lake",
+  "note": "Jingpo Lake, home of the Mohe; later near the Upper Capital of Balhae."
+ },
+ "river:白水塘": {
+  "old": "Baishui Reservoir",
+  "mod": "west of Hongze, Jiangsu"
+ },
+ "river:乌浒水": {
+  "old": "Oxus",
+  "mod": "Amu Darya",
+  "note": "The border river between Transoxiana and Tokharistan, called the Vakshu by Xuanzang; after 658 both banks were Tang loose-rein area commands and prefectures."
+ },
+ "river:药杀水": {
+  "old": "Jaxartes",
+  "mod": "Syr Darya",
+  "note": "Chach and Ferghana lay on its upper reaches, and the Sogdian states (Zhaowu) were spread to its south."
+ },
+ "river:那密水": {
+  "old": "Zarafshan",
+  "mod": "Zarafshan",
+  "note": "Samarkand and Bukhara both depended on this river."
+ },
+ "river:碎叶水": {
+  "old": "Suyab River",
+  "mod": "Chu River",
+  "note": "The winter royal camp of the Western Turkic qaghans, Suyab, stood on its bank; in 658 the Kunling and Mengchi protectorates were set up with the Suyab River as their dividing line."
+ },
+ "river:怛逻斯水": {
+  "old": "Talas River",
+  "mod": "Talas River",
+  "note": "Grazing land of the Western Turks; Talas City stood on it."
+ },
+ "river:萨水": {
+  "old": "Salsu River",
+  "mod": "Chongchon River",
+  "note": "In the 7th month of 612 Eulji Mundeok attacked the Sui army here as it was halfway across; of an army of 300,000, only 2,700 men got back alive."
+ },
+ "river:浿水": {
+  "old": "Paesu River",
+  "mod": "Taedong River",
+  "note": "Pyongyang stood on its right bank; Sui and Tang fleets repeatedly advanced up this river to threaten Pyongyang."
+ },
+ "river:白江（熊津江）": {
+  "old": "Baek River (Ungjin River)",
+  "mod": "Geum River",
+  "note": "The Baekje capitals Sabi and Ungjin both stood on this river; the Battle of Baekgang in 663 was fought at its mouth."
+ },
+ "river:信度河": {
+  "old": "Indus",
+  "mod": "Indus",
+  "note": "The western border of the Five Indias; Xuanzang lost scriptures here while crossing the river."
+ },
+ "river:雷翥海": {
+  "old": "Aral Sea",
+  "mod": "Aral Sea",
+  "note": "The terminal lake of the Jaxartes and the Oxus, with Khwarazm to its south."
+ },
+ "canal:通济渠（汴河）": {
+  "old": "Tongji Canal (Bian River)",
+  "mod": "Tongji Canal section of the Sui–Tang Grand Canal",
+  "note": "In the 3rd month of 605 Emperor Yang called up over a million people from the commanderies of Henan and Huaibei to dig it. From the Western Park at Luoyang it led the waters of the Gu and Luo Rivers into the Yellow River, then from Banzhu led the Yellow River's water past Bianzhou and Songzhou to Xuyi, where it entered the Huai River. An imperial road was built and willows were planted along its banks. It was the lifeline of Sui and Tang grain transport."
+ },
+ "canal:永济渠（御河）": {
+  "old": "Yongji Canal (Imperial River)",
+  "mod": "Wei River – South Canal",
+  "note": "Dug in 608 by over a million people called up from the commanderies of Hebei, it drew on the Qin River to reach the Yellow River in the south and Zhuo Commandery in the north, and was built to carry troops and grain for the Goguryeo campaigns. In 611 Emperor Yang traveled by dragon boat from Jiangdu straight to Zhuo Commandery."
+ },
+ "canal:山阳渎（邗沟）": {
+  "old": "Shanyang Canal (Han Canal)",
+  "mod": "Liyun Canal",
+  "note": "In 587 Emperor Wen of Sui cut the Shanyang Canal for the attack on Chen; in 605 Emperor Yang called up over 100,000 people from Huainan to reopen the Han Canal, running from Shanyang to Yangzi, where it entered the Yangtze."
+ },
+ "canal:江南河": {
+  "old": "Jiangnan Canal",
+  "mod": "Jiangnan Canal",
+  "note": "Dug in 610, it ran from Jingkou (Runzhou) to Yuhang, over 800 li long and more than ten zhang wide; the wealth and taxes of Jiangnan were carried north along it."
+ },
+ "canal:广通渠（漕渠）": {
+  "old": "Guangtong Canal (Grain Canal)",
+  "mod": "south bank of the Wei between Xi'an and Tongguan",
+  "note": "The Guangtong Canal, dug in 584 under Yuwen Kai's direction, drew water from the Wei River at Daxing City east to Tong Pass, over 300 li long, opening up grain transport for Guanzhong. In the Tang it was called the Grain Canal."
+ },
+ "canal:灵渠": {
+  "old": "Lingqu Canal",
+  "mod": "Lingqu Canal",
+  "note": "Dug under the Qin, it links the Xiang River and the Li River, and was a waterway between Lingnan and the Central Plains."
+ },
+ "desert:大流沙": {
+  "old": "Great Flowing Sands",
+  "mod": "Taklamakan Desert",
+  "note": "The great desert between the southern and northern routes through the Western Regions; Xuanzang passed along its southern edge on his return east and called it the \"Flowing Sands\"."
+ },
+ "desert:大碛": {
+  "old": "Great Gobi",
+  "mod": "Gobi Desert",
+  "note": "The desert between the southern and northern steppes, called the Great Gobi (Daqi) or the Sandy Gobi (Shaqi) by Sui and Tang people; in 647 Tang opened the Road to the Heavenly Qaghan across it."
+ },
+ "desert:普纳沙": {
+  "old": "Puna Sands",
+  "mod": "Mu Us Desert",
+  "note": "Around Xiazhou (Tongwan City); desertification was already under way here in Sui and Tang times."
+ },
+ "route:秦王李世民征战路线": {
+  "old": "Campaign route of Li Shimin, Prince of Qin",
+  "mod": "617–649",
+  "p": {
+   "晋阳": "Jinyang",
+   "西河": "Xihe",
+   "贾胡堡": "Guhu Fort",
+   "霍邑": "Huoyi",
+   "临汾": "Linfen",
+   "绛郡": "Jiang Commandery",
+   "龙门": "Longmen",
+   "朝邑": "Chaoyi",
+   "泾阳": "Jingyang",
+   "长安": "Chang'an",
+   "扶风": "Fufeng",
+   "东都城下": "before the Eastern Capital",
+   "浅水原": "Qianshuiyuan",
+   "折墌城": "Zhezhi City",
+   "柏壁": "Baibi",
+   "雀鼠谷": "Queshu Valley",
+   "介休": "Jiexiu",
+   "洛阳城下": "before Luoyang",
+   "虎牢": "Hulao",
+   "洛阳": "Luoyang",
+   "获嘉": "Huojia",
+   "洺水": "Ming River",
+   "豳州": "Binzhou",
+   "玄武门": "Xuanwu Gate",
+   "渭水便桥": "Bian Bridge over the Wei",
+   "幽州": "Youzhou",
+   "营州": "Yingzhou",
+   "辽东城": "Yodong Fortress",
+   "白岩城": "Baegam Fortress",
+   "安市城": "Ansi Fortress",
+   "并州": "Bingzhou",
+   "灵州": "Lingzhou",
+   "翠微宫": "Cuiwei Palace"
+  },
+  "note": "After rising in arms with his father in 617, Li Shimin (598–649) fought in almost every hard battle of the Tang founding: Song Laosheng beheaded at Huoyi, Chang'an taken after entering Guanzhong, and Xue Rengao routed at Fufeng; Western Qin destroyed at Qianshuiyuan in 618; the stand at Baibi and the eight battles in one day at Queshu Valley that drove out Liu Wuzhou in 619–620; the siege of Luoyang in 620–621 and the single battle at Hulao that captured Dou Jiande and brought Wang Shichong's surrender; and Liu Heita defeated on the Ming River in 622. He took the throne after the Xuanwu Gate incident in 626 and led the Goguryeo campaign in person in 645. Solid lines are marches in the current period and dashed lines earlier routes; the routes join the places recorded in the sources and are only schematic."
+ },
+ "people:铁勒诸部": {
+  "old": "Tiele tribes",
+  "mod": "northern Mongolia to the Selenga",
+  "note": "Over ten tribes, including the Xueyantuo, Huihe, Pugu, Tongluo and Bayegu, who roamed north of the Gobi as subjects of the Turks and broke away together in 627."
+ },
+ "people:回纥": {
+  "old": "Huihe (Uyghurs)",
+  "mod": "Selenga and Orkhon rivers, Mongolia",
+  "note": "One of the Tiele; in 646 it joined Tang in a pincer attack on the Xueyantuo, in 647 it became the Hanhai Area Command, and it later became the dominant power north of the Gobi (as the Huihu)."
+ },
+ "people:黠戛斯": {
+  "old": "Kyrgyz",
+  "mod": "upper Yenisei, Russia",
+  "note": "Also Jiankun; \"the people are all tall, with red hair, fair faces and green eyes\". They came to court in 648, and the Jiankun Area Command was set up."
+ },
+ "people:骨利干": {
+  "old": "Kurykans",
+  "mod": "west shore of Lake Baikal",
+  "note": "The northernmost of the Tiele tribes; they sent envoys with horses in 647, and Tang made their land Xuanque Zhou."
+ },
+ "people:处月": {
+  "old": "Chuyue",
+  "mod": "around Barkol to Jimsar, Xinjiang",
+  "note": "A separate branch of the Western Turks, from which the later Shatuo came."
+ },
+ "people:葛逻禄": {
+  "old": "Karluks",
+  "mod": "southwest of the Altai",
+  "note": "A separate branch of the Turks, living southwest of the Altai; under Tang from 657."
+ },
+ "people:契苾": {
+  "old": "Qibi",
+  "mod": "north of Yiwu, Xinjiang",
+  "note": "One of the Tiele, living north of Mount Tanhan; in 632 their chief Qibi Heli led his people to submit to the empire, and they were moved to lands between Ganzhou and Liangzhou."
+ },
+ "people:党项": {
+  "old": "Tanguts",
+  "mod": "around Zoigê, Sichuan",
+  "note": "The Tangut tribes, including the Tuoba; after 635 most of them submitted to the empire as Tang loose-rein prefectures, while the western ones were absorbed by Tibet."
+ },
+ "people:吐谷浑余部": {
+  "old": "Tuyuhun remnants",
+  "mod": "south of Wuwei, Gansu",
+  "note": "After the state fell in 663, Nuohebo fled to Liangzhou with a remnant of several thousand tents; Tang set up Anle Zhou at Lingzhou to resettle them."
+ },
+ "people:獠": {
+  "old": "Lao",
+  "mod": "southern Sichuan to northern Guizhou",
+  "note": "The Lao people of the mountains of southern Ba and Shu, who repeatedly resisted in Sui and Tang times."
+ },
+ "people:俚": {
+  "old": "Li",
+  "mod": "western Guangdong to southeastern Guangxi",
+  "note": "Natives of Lingnan, led by the family of Lady Xian and Feng Ang."
+ },
+ "people:五溪蛮": {
+  "old": "Five Streams tribes",
+  "mod": "western Hunan to eastern Guizhou",
+  "note": "Tribes of the Wuling mountain region, scattered among the Five Streams."
+ },
+ "people:乌蛮": {
+  "old": "Wuman",
+  "mod": "northeast Yunnan to western Guizhou",
+  "note": "Peoples of Nanzhong living intermixed with the Baiman, under the rule of the Cuan clan."
+ },
+ "people:流求": {
+  "old": "Liuqiu",
+  "mod": "Taiwan (some say the Ryukyus)",
+  "note": "The Book of Sui has an \"Account of Liuqiu\"; in 610 Chen Leng led an army across the sea to attack it."
+ },
+ "people:苏毗": {
+  "old": "Sumpa",
+  "mod": "around Nagqu, Tibet",
+  "note": "Sumpa, the Women's Kingdom, was conquered by Tibet in the early 7th century and became an important part of Tibet."
+ },
+ "people:嚈哒余众": {
+  "old": "Hephthalite remnants",
+  "mod": "northern Afghanistan",
+  "note": "The Hephthalites (White Huns) were destroyed in the 560s by a pincer attack from the Turks and Persia; their remnants scattered across the lands of Tokharistan."
+ }
+}
